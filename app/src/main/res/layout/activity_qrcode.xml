@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/qr_code_bg"
+    android:orientation="vertical">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:scrollbars="none">
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="350dp"
+            android:layout_centerInParent="true"
+            android:layout_marginTop="40dp"
+            android:layout_marginLeft="13dp"
+            android:layout_marginRight="13dp"
+            android:background="@drawable/qr_bg"
+            android:layout_marginEnd="13dp"
+            android:layout_marginStart="13dp">
+
+
+            <LinearLayout
+                android:id="@+id/qr_hint"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginTop="16dp"
+                    android:text="@string/a90"
+                    android:gravity="center"
+                    android:textColor="@color/qr_code_hint"
+                    android:textSize="32sp"
+                    android:textStyle="bold" />
+            </LinearLayout>
+
+            <ImageView
+                android:id="@+id/qrcode_iv"
+                android:layout_width="224dp"
+                android:layout_height="224dp"
+                android:layout_below="@id/qr_hint"
+                android:layout_centerInParent="true"
+                android:layout_marginTop="16dp" />
+
+            <ImageView
+                android:id="@+id/qrcode_line"
+                android:layout_width="wrap_content"
+                android:layout_marginTop="20dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/qrcode_iv"
+                android:layout_centerInParent="true"
+                android:src="@drawable/dotted_line" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/qrcode_line"
+                android:layout_centerHorizontal="true"
+                android:layout_marginLeft="16dp"
+                android:layout_marginTop="26dp"
+                android:layout_marginRight="16dp"
+                android:text="@string/qrcode_text"
+                android:textColor="@color/qr_code_text"
+                android:textSize="@dimen/textSize12"
+                android:layout_marginEnd="16dp"
+                android:layout_marginStart="16dp" />
+        </RelativeLayout>
+    </ScrollView>
+
+
+</RelativeLayout>

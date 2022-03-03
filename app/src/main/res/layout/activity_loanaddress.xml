@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <com.u1.gocashm.view.LoanInfoView
+                android:id="@+id/ll_info"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="16dp"
+                android:layout_marginTop="16dp"
+                android:layout_marginRight="16dp"
+                android:orientation="vertical"
+                android:layout_marginEnd="16dp"
+                android:layout_marginStart="16dp">
+
+                <com.u1.gocashm.view.InputView
+                    android:id="@+id/input_province"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="12dp"
+                    app:controlNo="P03_S_Province"
+                    app:hint="@string/address_province_hint"
+                    app:title="@string/address_province"
+                    app:type="1" />
+
+                <com.u1.gocashm.view.InputView
+                    android:id="@+id/input_city"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="12dp"
+                    app:controlNo="P03_S_District"
+                    app:hint="@string/address_city_hint"
+                    app:title="@string/address_city"
+                    app:type="1" />
+
+                <com.u1.gocashm.view.InputView
+                    android:visibility="gone"
+                    android:id="@+id/input_county"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="12dp"
+                    app:controlNo="P03_S_Community"
+                    app:hint="@string/address_county_hint"
+                    app:title="@string/address_county"
+                    app:type="1" />
+
+                <com.u1.gocashm.view.InputView
+                    android:id="@+id/input_detail"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="12dp"
+                    app:controlNo="P03_I_Street"
+                    app:hint="@string/address_detail_input"
+                    app:title="@string/address_detail" />
+
+                <com.u1.gocashm.view.InputView
+                    android:id="@+id/input_duration"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="12dp"
+                    app:controlNo="P03_S_LengthofResidence"
+                    app:hint="@string/address_duration_hint"
+                    app:title="@string/address_duration"
+                    app:type="1" />
+
+                <Button
+                    android:id="@+id/bt_continue"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginBottom="32dp"
+                    android:background="@drawable/shape_blue"
+                    android:text="@string/btn_continue"
+                    android:textColor="@color/white" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:visibility="gone"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:layout_marginBottom="10dp"
+                android:gravity="center_horizontal"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="@string/a77"
+                    android:textColor="@color/blue_1"
+                    android:textSize="@dimen/textSize10" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="8dp"
+                    android:gravity="center"
+                    android:text="@string/a78"
+                    android:textColor="@color/blue_1"
+                    android:textSize="@dimen/textSize10" />
+            </LinearLayout>
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>

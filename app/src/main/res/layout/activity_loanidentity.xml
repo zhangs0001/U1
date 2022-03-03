@@ -1,0 +1,361 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scrollbars="none">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <com.u1.gocashm.view.LoanInfoView
+                android:id="@+id/ll_info"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:layout_marginLeft="16dp"
+                android:layout_marginTop="16dp"
+                android:layout_marginEnd="16dp"
+                android:layout_marginRight="16dp"
+                android:orientation="vertical">
+
+                <com.u1.gocashm.view.InputView
+                    android:id="@+id/input_idcard_type"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:visibility="gone"
+                    app:hint="SSS"
+                    app:title="@string/id_card_type_title"
+                    app:type="1" />
+
+                <com.u1.gocashm.view.InputView
+                    android:id="@+id/input_idcard"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:visibility="gone"
+                    app:hint="@string/input_idcard"
+                    app:maxLength="12"
+                    app:title="@string/idcard" />
+
+                <com.u1.gocashm.view.InputView
+                    android:id="@+id/input_first_name"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="12dp"
+                    app:controlNo="P02_I_FirstName"
+                    app:hint="@string/hint_name1"
+                    app:title="@string/a282" />
+
+                <!--                todo-->
+                <com.u1.gocashm.view.InputView
+                    android:id="@+id/input_middle_name"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="12dp"
+                    android:visibility="gone"
+                    app:controlNo="P02_I_MiddleName"
+                    app:english="true"
+                    app:hint="@string/hint_name2"
+                    app:must="false"
+                    app:title="Middle Name" />
+
+                <!--                todo-->
+                <com.u1.gocashm.view.InputView
+                    android:id="@+id/input_last_name"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="12dp"
+                    android:visibility="gone"
+                    app:controlNo="P02_I_LastName"
+                    app:hint="@string/hint_name3"
+                    app:title="Last Name" />
+
+                <com.u1.gocashm.view.InputView
+                    android:id="@+id/input_birthday"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="12dp"
+                    app:controlNo="P02_S_BirthDate"
+                    app:english="true"
+                    app:hint="@string/birthday_hint"
+                    app:title="@string/birthday"
+                    app:type="1" />
+
+                <TextView
+                    android:id="@+id/tv_id_sex"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:text="@string/sex"
+                    android:textColor="@color/black_1"
+                    android:textSize="@dimen/textSize16" />
+
+                <RadioGroup
+                    android:id="@+id/rg_sex"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="10dp"
+                    android:orientation="horizontal">
+
+                    <RadioButton
+                        android:id="@+id/rb_male"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginEnd="40dp"
+                        android:layout_marginRight="40dp"
+                        android:button="@null"
+                        android:drawableStart="@drawable/selector_rb"
+                        android:drawableLeft="@drawable/selector_rb"
+                        android:drawablePadding="10dp"
+                        android:text="@string/sex_male"
+                        android:textColor="@color/blue"
+                        android:textSize="18sp" />
+
+                    <RadioButton
+                        android:id="@+id/rb_female"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:button="@null"
+                        android:drawableStart="@drawable/selector_rb"
+                        android:drawableLeft="@drawable/selector_rb"
+                        android:drawablePadding="10dp"
+                        android:text="@string/sex_female"
+                        android:textColor="@color/blue"
+                        android:textSize="18sp" />
+                </RadioGroup>
+
+                <TextView
+                    android:id="@+id/tv_sex_tip"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/red" />
+
+                <com.u1.gocashm.view.InputView
+                    android:id="@+id/input_education"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    app:controlNo="P02_S_Education"
+                    app:hint="@string/education_status_hint"
+                    app:title="@string/education_status"
+                    app:type="1" />
+
+
+                <com.u1.gocashm.view.InputView
+                    android:id="@+id/input_marital"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    app:controlNo="P02_S_Marital"
+                    app:hint="@string/marital_status_hint"
+                    app:title="@string/marital_status"
+                    app:type="1" />
+
+                <com.u1.gocashm.view.InputView
+                    android:id="@+id/input_bank_count"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    app:controlNo="P02_S_BankAccounts"
+                    app:hint="@string/please_select"
+                    app:inputType="number"
+                    app:title="How many bank accounts do you have?"
+                    app:type="1" />
+
+                <com.u1.gocashm.view.InputView
+                    android:id="@+id/input_religion"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:visibility="gone"
+                    app:hint="@string/please_select"
+                    app:title="Religion"
+                    app:type="1" />
+
+                <com.u1.gocashm.view.InputView
+                    android:id="@+id/input_email"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    app:controlNo="P02_I_Mail"
+                    app:title="@string/email" />
+
+
+                <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <LinearLayout
+                        android:id="@+id/ll_input_title"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="6dp"
+                        android:layout_marginBottom="5dp"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:id="@+id/tv_input_title"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/a79"
+                            android:textColor="@color/black_1" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:id="@+id/ll_input"
+                        android:layout_width="match_parent"
+                        android:layout_height="36dp"
+                        android:layout_marginBottom="6dp"
+                        android:background="@drawable/bg_tv_grey"
+                        android:gravity="center_vertical"
+                        android:orientation="horizontal">
+
+                        <com.u1.gocashm.view.BehaviorRecordTextView
+                            android:id="@+id/tv_input_content"
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:layout_gravity="center_vertical"
+                            android:gravity="center_vertical"
+                            android:hint="@string/please_select"
+                            android:paddingStart="12dp"
+                            android:paddingLeft="12dp"
+                            android:singleLine="true"
+                            android:text="@string/a80"
+                            android:textColor="@color/black_1"
+                            android:textSize="@dimen/textSize16" />
+
+                        <com.u1.gocashm.view.BehaviorRecordEditText
+                            android:id="@+id/et_input_facebook_link"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_gravity="center_vertical"
+                            android:layout_marginBottom="-3dp"
+                            android:includeFontPadding="false"
+                            android:singleLine="true"
+                            android:textColor="@color/black_1"
+                            android:textSize="@dimen/textSize16" />
+
+
+                        <ImageView
+                            android:id="@+id/iv_input"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center_vertical"
+                            android:gravity="center_vertical"
+                            android:paddingEnd="10dp"
+                            android:paddingRight="10dp"
+                            android:src="@drawable/ic_down"
+                            android:visibility="gone" />
+
+                    </LinearLayout>
+
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="24dp"
+                    android:layout_marginEnd="10dp"
+                    android:layout_marginRight="10dp"
+                    android:background="@drawable/shape_white"
+                    android:gravity="center_horizontal"
+                    android:orientation="vertical"
+                    android:paddingBottom="12dp"
+                    android:visibility="gone">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="16dp"
+                        android:gravity="center_horizontal"
+                        android:orientation="horizontal">
+
+                        <ImageView
+                            android:id="@+id/iv_fb_login_success"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center_vertical"
+                            android:layout_marginEnd="20dp"
+                            android:layout_marginRight="20dp"
+                            android:src="@drawable/fb_login_success_img"
+                            android:visibility="gone" />
+
+
+                        <ImageView
+                            android:id="@+id/iv_fb_login"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:src="@drawable/facebook_login_img" />
+
+                    </LinearLayout>
+
+                    <TextView
+                        android:id="@+id/tv_fb_login_success"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="32dp"
+                        android:layout_marginLeft="32dp"
+                        android:layout_marginTop="16dp"
+                        android:layout_marginEnd="32dp"
+                        android:layout_marginRight="32dp"
+                        android:gravity="center"
+                        android:text="@string/a81"
+                        android:textColor="#16A85B"
+                        android:textSize="@dimen/textSize13"
+                        android:visibility="gone" />
+
+                </LinearLayout>
+
+                <Button
+                    android:id="@+id/bt_id_continue"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginBottom="24dp"
+                    android:background="@drawable/shape_blue"
+                    android:text="@string/btn_continue"
+                    android:textColor="@color/white" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:layout_marginBottom="10dp"
+                android:gravity="center_horizontal"
+                android:orientation="vertical"
+                android:visibility="gone">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="@string/a77"
+                    android:textColor="@color/blue_1"
+                    android:textSize="@dimen/textSize10" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="8dp"
+                    android:gravity="center"
+                    android:text="@string/a78"
+                    android:textColor="@color/blue_1"
+                    android:textSize="@dimen/textSize10" />
+            </LinearLayout>
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>

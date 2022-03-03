@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingLeft="48dp"
+    android:background="@color/white"
+    android:paddingRight="48dp"
+    android:paddingStart="48dp"
+    android:paddingEnd="48dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="100dp"
+            android:gravity="center"
+            android:text="@string/a38"
+            android:textColor="@color/black_1"
+            android:textSize="@dimen/textSize19"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="36dp"
+            android:lineSpacingMultiplier="1.2"
+            android:text="@string/a39"
+            android:textColor="@color/black_1"
+            android:textSize="@dimen/textSize15" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="16dp"
+            android:lineSpacingMultiplier="1.2"
+            android:text="@string/a40"
+            android:textColor="@color/black_1"
+            android:textSize="@dimen/textSize15" />
+
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/tv_back"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:background="@drawable/shape_blue"
+        android:gravity="center"
+        android:text="@string/a41"
+        android:textColor="@color/white"
+        android:layout_marginBottom="72dp"
+        android:textSize="@dimen/textSize17"
+        android:textStyle="bold" />
+
+</LinearLayout>

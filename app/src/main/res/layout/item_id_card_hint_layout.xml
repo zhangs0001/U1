@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="8dp"
+    android:layout_marginTop="8dp"
+    android:orientation="vertical"
+    android:layout_marginStart="8dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:drawableStart="@drawable/red_exclamation_mark"
+        android:drawableLeft="@drawable/red_exclamation_mark"
+        android:drawablePadding="5dp"
+        android:text="@string/id_card_hint1"
+        android:textColor="#D91B16"
+        android:textSize="@dimen/textSize15"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="@string/id_card_hint2"
+        android:textColor="#322929" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:text="@string/id_card_hint3"
+        android:textColor="#322929" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:text="@string/id_card_hint4"
+        android:textColor="#322929" />
+
+</LinearLayout>

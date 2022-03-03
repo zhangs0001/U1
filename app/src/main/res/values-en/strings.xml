@@ -1,0 +1,1203 @@
+<resources xmlns:tools="http://schemas.android.com/tools" tools:ignore="MissingTranslation,StringEscaping,ExtraTranslation">
+
+    <string name="facebook_app_id">167199308469032</string>
+
+    <string name="fb_login_protocol_scheme">fb167199308469032</string>
+
+    <string name="app_name">GoCash</string>
+
+    <string name="main">Homepage</string>
+
+    <string name="mine">My Account</string>
+
+    <string name="loan">Loan</string>
+
+    <string name="phone">Mobile Number</string>
+
+    <string name="input_phone">Please input mobile number</string>
+
+    <string name="input_pwd">Input the login password</string>
+
+    <string name="immediately_register">Register Now</string>
+
+    <string name="forget_pwd">Forget Password?</string>
+
+    <string name="next">Next</string>
+
+    <string name="reset_pwd">Change Password</string>
+
+    <string name="input_new_pwd">Please set a new 6–16 password</string>
+
+    <string name="input_anew_pwd">Input Again</string>
+
+    <string name="input_old_pwd">please input old password</string>
+
+    <string name="complete">OK</string>
+
+    <string name="register">Register</string>
+
+    <string name="save">Save</string>
+
+    <string name="about_us">About Us</string>
+
+    <string name="feed_back">Feedback</string>
+
+    <string name="order_list">Loan History</string>
+
+    <string name="btn_continue">CONTINUE</string>
+
+    <string name="message_list">Notification List</string>
+
+    <string name="new_version_hint">New version available, please click Confirm to update through Google play</string>
+
+    <string name="new_version_title">Update to a new Version</string>
+
+    <string name="exit_notice">Press The Back Button to Exit</string>
+
+    <string name="error_phone_no">Format of Phone number is incorrect, Re-input</string>
+
+    <string name="error_phone_no_9">Should start with "9" and contain 10 numbers</string>
+
+    <string name="error_network_disable">Network is not available, please check it</string>
+
+    <string name="error_request_fail">Please check your network</string>
+
+    <string name="error_url_invalid">The Web links is not available</string>
+
+    <string name="error_sms_code">Error, please re-enter</string>
+
+    <string name="error_has_not_login">Please login first</string>
+
+    <string name="error_request_fail_reload">Request failed，reload?</string>
+
+    <string name="error_upload_image_fail">Failed to upload pictures, please re-upload</string>
+
+    <string name="error_permission">Please manually authorize for the app</string>
+
+    <string name="error_password_not_same">The two times of input is different，please re-input</string>
+
+    <string name="error_password_invalid">The format of the password is incorrect, you need the combination of numbers and letters. Please re-input</string>
+
+    <string name="set_new_password_hint">Please set a new 6–16 password</string>
+
+    <string name="register_success">Successful Registration</string>
+
+    <string name="tip_mobilePhone">Please enter the mobile number in the correct format!</string>
+
+    <string name="password_set_ok2">Password set successfully</string>
+
+    <string name="action_settings">Set</string>
+
+    <string name="password">Password</string>
+
+    <string name="submit">Submit</string>
+
+    <string name="confirm">OK</string>
+
+    <string name="dialog_cancel">Cancel</string>
+
+    <string name="logout">Sign Out</string>
+
+    <string name="go_login">Log In Now</string>
+
+    <string name="prompt">Prompt</string>
+
+    <string name="required">Information here is required</string>
+
+    <string name="agreement_loan_contract">Click Submit to agree with the 《Loan Agreement》</string>
+
+    <string name="click_agreement">I agreed on the</string>
+
+    <string name="click_agreement_contract">Loan Agreement</string>
+
+    <string name="loan_amount_message">Amount over %s is only for VIP customers</string>
+
+    <string name="loan_term_message">Loan term of more than %s only for VIP customers</string>
+
+    <!-- application result page-->
+
+
+    <string name="loan_apply_date">Applying Date</string>
+
+    <string name="loan_apply_amount">Applying Loan Amount</string>
+
+    <string name="loan_actual_amount">Loan Amount</string>
+
+    <string name="loan_apply_terms">Loan Period</string>
+
+    <string name="loan_repay_amount">Due Amount</string>
+
+    <string name="loan_disbursed_amount">Disbursed Amount</string>
+
+    <string name="loan_repay_date">Due Date</string>
+
+    <string name="loan_apply_status">Application Status</string>
+
+    <string name="loan_apply_hint">Your loan is processing, will contact you within 1–2banking days, please be reachable!Your final loan amount might be adjusted based on your personal information. Reach us via official Facebook page if needed!</string>
+
+    <string name="loan_success_hint">*Your loan application is approved, will be disbursed with 1–2 banking days</string>
+
+    <string name="loan_success_hint2">*If you have any concern, please give feedback through email: cs@upeso.ph or Facebook: Upeso Philippines.</string>
+
+    <string name="loan_failed_hint">Your loan application is failed, please apply after %s days!</string>
+
+    <string name="loan_failed_hint2">Please re-upload your ID image or correct other personal information!</string>
+
+    <string name="loan_repay_hint">Advanced repayment can help get higher amount for longer term!</string>
+
+    <string name="loan_status_review_title">Loan information(Approving)</string>
+
+    <string name="loan_status_review">Approving</string>
+
+    <string name="loan_status_apply_success_title">Approved(Disbursing )</string>
+
+    <string name="loan_status_apply_success">Loan is granting</string>
+
+    <string name="loan_status_apply_failed">Application Failed</string>
+
+    <string name="loan_status_in_payment">Waiting for repayment</string>
+
+    <string name="loan_status_settle">Cleared</string>
+
+    <string name="reapply">Reapply</string>
+
+    <string name="modify">Correct Now</string>
+
+    <string name="delay">Extension</string>
+
+    <string name="repay">Repayment</string>
+
+    <string name="loan_how_long">%1$dday</string>
+
+    <string name="loan_how_much">EGP </string>
+
+    <string name="php_logo">₱ </string>
+
+    <string name="loan_status_cancel">Application Failed(Cancelled)</string>
+
+    <string name="loan_status_re_upload">Your valid ID needs to be uploaded</string>
+
+    <string name="loan_hint_re_upload">In our validation, your uploaded photo of valid ID did not meet our requirements. Please upload again a clear photo of your effective valid ID. After you do it, we will validate it soon. Thank you!</string>
+
+    <string name="re_upload">Upload Now</string>
+
+    <!--payment information-->
+
+
+    <string name="select_bank_error">Please select bank and branch</string>
+
+    <string name="get_code_hint">Get verification code</string>
+
+    <string name="reacquire_code">Send again</string>
+
+    <string name="get_code">Get verification code</string>
+
+    <string name="your_user_phone">Your mobile number：</string>
+
+    <string name="update_user_phone">If mobile number is wrong,please correct in Homepage</string>
+
+    <string name="agreement_title">Service Agreement</string>
+
+    <string name="pay_info_title">Payment Information</string>
+
+    <string name="name">Name</string>
+
+    <string name="bank_name">Bank name(The account name must be your own name)</string>
+
+    <string name="bank_name_hint">Select Bank</string>
+
+    <string name="bank_city">Account Issuing City</string>
+
+    <string name="bank_city_hint">Please choose account issuing city</string>
+
+    <string name="branch_name">Bank Branch</string>
+
+    <string name="branch_name_hint">Please select branch </string>
+
+    <string name="bank_num">Bank Account No.</string>
+
+    <string name="register_title">Register Upeso Account</string>
+
+    <string name="your_phone_num_hint">Your mobile number</string>
+
+    <string name="btn_submit_apply">Application Submit</string>
+
+    <string name="verify_bankname">Must input the bank name</string>
+
+    <string name="verify_bankcity">Must input bank issuing city</string>
+
+    <string name="verify_branchname">Must input branch</string>
+
+    <string name="verify_bankcardnum">Please input correct bank account</string>
+
+    <string name="verify_smscode">SMS verifiction code must be valid</string>
+
+    <string name="verify_password">Password is 6–16digits，should contain letter and number</string>
+
+    <string name="bank_num_hint">Please input account number</string>
+
+    <string name="no_receive_code">If you don’t receive verification code, please check if your mobile number is correct!</string>
+
+    <string name="pay_choice_title">Payment Method</string>
+
+    <string name="pay_choice_bank">Bank Transfer</string>
+
+    <string name="pay_choice_cash">Cash Pickup</string>
+
+    <string name="pay_agency_name">Institution Name</string>
+
+    <string name="pay_agency_fee">Disbursement Handling Fee</string>
+
+    <string name="pay_agency_hint">Choose offline cash pickup,handling fee will be deducted from your disbursement amount!</string>
+
+    <string name="verify_bankcardnum_china_bank">China Bank Saving is not supported, pls select another bank or offline cash pickup.</string>
+
+    <!--work information-->
+
+
+    <string name="job_info_title">Work Info</string>
+
+    <string name="loan_intent">Loan Purpose</string>
+
+    <string name="loan_intent_hint">Please select loan purpose</string>
+
+    <string name="profession">Social Status</string>
+
+    <string name="profession_hint">Please select social status</string>
+
+    <string name="working_industry">Industry</string>
+
+    <string name="working_industry_hint">Please select industry</string>
+
+    <string name="company_name">Company Name</string>
+
+    <string name="company_name_hint">Please input company name</string>
+
+    <string name="job_position">Position</string>
+
+    <string name="job_position_hint">Please input position</string>
+
+    <string name="monthly_income">Monthly Income</string>
+
+    <string name="monthly_income_hint">Please select monthly income</string>
+
+    <string name="income_frequency">Income Frequency</string>
+
+    <string name="income_frequency_hint">Please select income frequency</string>
+
+    <string name="next_income_date">Next Payday</string>
+
+    <string name="next_income_date_hint">Please select next payday</string>
+
+    <string name="work_length">Working Years</string>
+
+    <string name="work_length_hint">Please select working years</string>
+
+    <string name="company_phone">Company Telephone Number</string>
+
+    <string name="company_phone_hint">Please input company telephone number</string>
+
+    <string name="relative_name">Name of Relative</string>
+
+    <string name="relative">Relative Contact Person</string>
+
+    <string name="relative_name_hint">Please select name of relative</string>
+
+    <string name="relative_phone">Mobile number of relative</string>
+
+    <string name="relative_phone_hint">Please select mobile number of relative</string>
+
+    <string name="relationship">Relationship</string>
+
+    <string name="relationship_hint">Please select relationship</string>
+
+    <string name="permission_hint1">Hello！Upeso needs to safely process your data so that you are qualified for loan.
+        please authorize for every step to continue your loan application.</string>
+
+    <string name="permission_title_dialog">REMINDING</string>
+
+    <string name="permission_hint2">Upeso should be authorized for contact person and text message.
+        We will process information for build your network with your financial record.
+        Without your permission, we won\t reach any of your contact.</string>
+
+    <string name="verify_intent">Must input loan purpose</string>
+
+    <string name="verify_profession">Must input work information</string>
+
+    <string name="verify_workindustry">Must input industry information</string>
+
+    <string name="verify_companyname">Must input company name</string>
+
+    <string name="verify_jobposition">Must input position</string>
+
+    <string name="verify_monthlyincome">Must input monthly income</string>
+
+    <string name="verify_incomefrequency">Must input income frequency</string>
+
+    <string name="verify_nextincomedate">Must input next payday</string>
+
+    <string name="verify_worktime">Must input working years</string>
+
+    <string name="verify_officephone">Must input company telephone number</string>
+
+    <string name="verify_relativesname">Must input name of relative</string>
+
+    <string name="verify_relativesphone">Must input mobile number of relative</string>
+
+    <string name="verify_relationship">Must input relationship</string>
+
+    <string name="verify_officephoneerror">Company telephone number is wrong, please input the valid one</string>
+
+    <!--ID Image-->
+
+
+    <string name="id_card_title">ID Card Image</string>
+
+    <string name="understood">Understood</string>
+
+    <string name="upload_front">Upload ID front image</string>
+
+    <string name="id_card_hint">Please take a clear, colored photo.</string>
+
+    <string name="id_card_attention">Upeso treat user information and privacy to great importance, we still strictly follow the privacy protection policy to make sure your information is safe</string>
+
+    <string name="id_card_type_title">Document Type</string>
+
+    <string name="id_card_title2">Take a selfie</string>
+
+    <string name="ump_title">Unified Multi-Purpose ID</string>
+
+    <string name="sss_title">Social Security System</string>
+
+    <string name="driver_title">Driver\s License</string>
+
+    <string name="id_card_hint1">Make sure above mentioned ID images are provided, otherwise application will be rejected:</string>
+
+    <string name="id_card_hint2">1.Make sure the ID document submitted is original document;</string>
+
+    <string name="id_card_hint3">2.Make sure the image taken is complete and clear;</string>
+
+    <string name="id_card_hint4">3.If image is not clear or not complete, will be rejected.</string>
+
+    <string name="id_card_hint5">Please make sure your selfie is provided, otherwise the application will be rejected.</string>
+
+    <string name="id_card_hint6">1.Put ID in front of you, don\t cover your face;</string>
+
+    <string name="id_card_hint7">Make sure selfie provided is of yourself and is clear.</string>
+
+    <string name="id_card_hint8">2.Make sure your face image is clear and complete.</string>
+
+    <string name="id_card_hint9">Must provide above mentioned images, otherwise application will be rejected.</string>
+
+    <string name="id_card_hint10">You only have two times for ID information verification,please take it seriously.</string>
+
+    <string name="id_card_hint11">Like this ，image must be clear</string>
+
+    <string name="id_card_hint12">1. Please make sure it is done by yourself, and it will be compared with your picture on your ID, meanwhile, you only have two times for this verification</string>
+
+    <string name="id_card_hint13">2. Please make sure during the recognition, your face is complete and clear with the capture area.</string>
+
+    <string name="id_card_hint14">Click for live face identification, please move your face like the sample demostrated, this process will be compared with ID, so ensure your image is clear and movement is smooth.</string>
+
+    <!--login in-->
+
+
+    <string name="login">Login</string>
+
+    <string name="login_title_hint">Please login in if you are regular user already</string>
+
+    <string name="login_phone_hint">Please input your cellphone number</string>
+
+    <string name="login_password_hint">Please input login password</string>
+
+    <string name="login_check_code_hint">Please input SMS verification code</string>
+
+    <string name="login_left_hint">First login?</string>
+
+    <string name="login_right_hint">Register First</string>
+
+    <string name="date_picker_hint">Please select date</string>
+
+    <string name="repayment_account">Repayment Account</string>
+
+    <!--forgot password-->
+
+
+    <string name="forget_password">Forgot Password</string>
+
+    <string name="code">*Verification Code</string>
+
+    <string name="input_code">Please input verification code</string>
+
+    <string name="set_password">Set Password</string>
+
+    <string name="confirm_password">Confirm Password</string>
+
+    <string name="input_confirm_password">Please input new password again</string>
+
+    <!--application details-->
+
+
+    <string name="username">Customer Name</string>
+
+    <string name="idcard">Government ID Number</string>
+
+    <string name="contract_no">The Contract NO.</string>
+
+    <string name="loan_amount">Disbursement Amount</string>
+
+    <string name="loan_term">Loan Term</string>
+
+    <string name="loan_date">Disbursement Date</string>
+
+    <string name="loan_repaydate">Due Date</string>
+
+    <string name="loan_dueamount">Unsettled Amount</string>
+
+    <string name="contract_status">Contract Status</string>
+
+    <string name="order_status">Application Status</string>
+
+    <string name="order_message">Please make in time repayment!late repayment will cause high penalty！</string>
+
+    <string name="delay_message">Please make payment and then apply for extension</string>
+
+    <string name="loan_detail">Loan Details</string>
+
+    <string name="get_contract_download">PDF contract has been downloaded into the Download Folder in your phone!</string>
+
+    <string name="repay_code">Reference NO.</string>
+
+    <!--personal information-->
+
+
+    <string name="info_title">Personal Information</string>
+
+    <string name="info_idcard">Identity Info</string>
+
+    <string name="info_address">Residence information</string>
+
+    <string name="info_job">Work Info</string>
+
+    <string name="info_idcardimage">ID Card Image</string>
+
+    <string name="info_pay">Payment Information</string>
+
+    <!--ID information-->
+
+
+    <string name="input_idcard">Please enter ID NO.</string>
+
+    <string name="birthday">Birth Date</string>
+
+    <string name="birthday_hint">Please select birth date</string>
+
+    <string name="sex">*Gender</string>
+
+    <string name="select_birthday">Please select the date of birth</string>
+
+    <string name="sex_male">Male</string>
+
+    <string name="sex_female">Female</string>
+
+    <string name="marital_status">Marital Status</string>
+
+    <string name="marital_status_hint">Please select marital status</string>
+
+    <string name="education_status">Education Level</string>
+
+    <string name="education_status_hint">Please select education level</string>
+
+    <string name="please_select">Please select</string>
+
+    <string name="email">Email</string>
+
+    <string name="email_hint">abc123@gmail.com</string>
+
+    <string name="check_app">What social networking app are you using？</string>
+
+    <string name="is_app_phone">This mobile number is your social networking app registration number</string>
+
+    <string name="app_phone">Registered mobile number of social networking app</string>
+
+    <string name="otherapp">Please input name of social networking app</string>
+
+    <string name="app_phone_hint">Please input registered number of social networking app</string>
+
+    <string name="verify_idcard_type">This field is required.</string>
+
+    <!-- jason 2018/09/27-->
+
+
+    <string name="driver_card_type_hint">Driver\s License Number 11 digits start with English letter</string>
+
+    <string name="sss_card_type_hint">SSS Card Number is pure 10 digits only</string>
+
+    <string name="umid_type_hint">UMID Number is pure 12 digits only</string>
+
+    <string name="verify_sex_tip">Please select gender</string>
+
+    <string name="verify_birthday">Must input birth date</string>
+
+    <string name="verify_marital">Please input marital situation</string>
+
+    <string name="verify_email">Please input email address</string>
+
+    <string name="verify_emailaddress">Please input valid email address</string>
+
+    <string name="verify_otherapp">Please input name of other social networking app</string>
+
+    <string name="verify_appphone">Must input registered mobile number of social networking app</string>
+
+    <string name="verify_appphoneerror">Social networking app registered number is wrong, please input the valid mobile number</string>
+
+    <!--contact information-->
+
+
+    <string name="address_province">Province/City</string>
+
+    <string name="address_province_hint">Please select province/city</string>
+
+    <string name="address_city">District</string>
+
+    <string name="address_city_hint">Please select district</string>
+
+    <string name="address_county">Community</string>
+
+    <string name="address_county_hint">Please select community</string>
+
+    <string name="address_detail">Street, Building Number, Room Number</string>
+
+    <string name="address_detail_input">No.7 of the Seventh street</string>
+
+    <string name="address_duration">Residential Time</string>
+
+    <string name="address_duration_hint">Please select residential time</string>
+
+    <string name="verify_province">Must input province/city</string>
+
+    <string name="verify_city">Must input district</string>
+
+    <string name="verify_county">Must input community</string>
+
+    <string name="verify_detail">Must input building number</string>
+
+    <string name="verify_duration">Must input the residential time</string>
+
+    <string name="verify_city_empty">Please select province/city</string>
+
+    <string name="verify_county_empty">Please select province/city</string>
+
+    <!--homepage-->
+
+
+    <string name="phoneorname_message">Must input name and mobile number</string>
+
+    <string name="input_amount">Please select amount</string>
+
+    <string name="click_loan_agreement">Click get cash now to agree the</string>
+
+    <!-- jason 2018/09/28-->
+
+
+    <string name="home_loan_amount">Loan Amount</string>
+
+    <string name="repay_date">Due Date</string>
+
+    <string name="repay_amount">Total Amount Due</string>
+
+    <string name="service_agreement">Service Agreement</string>
+
+    <string name="click_apply_loan">Get Cash Now</string>
+
+    <string name="input_name">Please input full name</string>
+
+    <string name="phone_default">0990 000 000</string>
+
+    <string name="verify_name">Only letters are allowed for name</string>
+
+    <string name="verify_namesize">At least two letters for name</string>
+
+    <string name="verify_phone">Wrong mobile number, please input 10 digits mobile number</string>
+
+    <!-- jason 2018/09/27-->
+
+
+    <!--Repayment page-->
+
+
+    <string name="repay_method">Repayment Way</string>
+
+    <string name="repay1">You can settle the loan in any branches of the following DragonPay Payment Partners:</string>
+
+    <string name="repay_title_711">7-Eleven (Dragonloans)</string>
+
+    <string name="repay_title_bc">Bayad Center</string>
+
+    <string name="repay_title_sm">SM Department Store and Supermarket, SM Payment Counters and Savemore</string>
+
+    <string name="repay_title_rd">Robinsons Department Store and Supermarket</string>
+
+    <string name="repay_title_lbc">LBC</string>
+
+    <string name="repay_title_cl">Cebuana Lhuillier</string>
+
+    <string name="repay_2">Paying via 7-Eleven c/o DRAGON LOANS.</string>
+
+    <string name="repay_step1">Step1:</string>
+
+    <string name="repay_step1_content">Use the 7-Eleven Cliqq kios.</string>
+
+    <string name="repay_step2">Step2:</string>
+
+    <string name="repay_step2_content">Bills Payment > MORE BILLERS > Loans > DRAGON LOANS > Enter the following required details.</string>
+
+    <string name="repay_step3">Step3:</string>
+
+    <string name="repay_step3_content">Go to cashier with slip for payment and keep your receipt.</string>
+
+    <string name="repay3">Paying via Bayad Center, LBC, Cebuana Lhuillier, SM Payment Counters or Robinson’s Payment Center.</string>
+
+    <string name="repay_step1_content2">Get a payment form and write DRAGONPAY as Receiver/Biller Name.</string>
+
+    <string name="repay_step2_content2">Fill up the form provided from payment centers including reference No.(Lifetime ID) and Amount.</string>
+
+    <string name="repay_step3_content2">Go to cashier for payment and keep your receipt.</string>
+
+    <string name="repay4">Settle your Account on or before 7pm of your DUE DATE, After repayment, Your repayment record will be upgraded within 1–2 working days.</string>
+
+    <string name="repay_other_help">Other Help</string>
+
+    <!--reloan information-->
+
+
+    <string name="emergency_contact_title">Emergency Contact Person</string>
+
+    <string name="emergency_contact_name">Full name of emergency contact</string>
+
+    <string name="emergency_contact_phone">Mobile number of emergency contact</string>
+
+    <string name="contract_no_title">Contract Number:</string>
+
+    <string name="contract_amount_title">Loan Amount:</string>
+
+    <string name="apply_date_title">Application Date:</string>
+
+    <string name="loan_term_title">Loan Term:</string>
+
+    <string name="order_status_title">Application Status:</string>
+
+    <!--reloan information-->
+
+
+    <!--    <string name="about_us_content">Need cash？ Find your online mobile wallet Upeso to get worriless loan. Upeso is a fast and convenient mobile loan tool, which only requires ID and installation of the app, then you can enjoy fast approved loan, provided by Fin-tech, repeatedly just at home, to satisfy the consuming needs whenever and wherever you want and to improve the life quality.</string>
+
+        <string name="contact_us">contact us</string>
+
+        <string name="contact_us_content">If you have any concern during your usage, please contact our customer service.\nCS email：cs@upeso.ph</string>-->
+
+    <!--关于我们-->
+    <string name="about_us_content">Gocash is an online product providing petty loans without mortgages. It focuses on helping young white-collar and blue-collar workers to meet their urgent needs in their daily life by providing a small loan of 1000 EGP to 20,000 EGP.Gocash is an online processed app, which eliminates the tedious manual applications and processes of traditional financial services. It hopes to provide a new mode of borrowing which is more convenient, flexible, simpler and faster.</string>
+    <string name="contact_us">contact_us</string>
+    <string name="contact_us_content">We want to continuously accomodateevery concerns , good commendation \nand inquiries, kindly emails us at : hr@gocashleg.com</string>
+    <string name="join_us">Join Us</string>
+    <string name="join_us_content">If you want to join us, please send us your resume and we will contact you ASAP.\n recruitment email：hr@upeso.ph</string>
+    <!--homepage explanation-->
+    <string name="get_loan_title">Simple procedure for getting and repaying the loan</string>
+
+    <string name="get_loan_step1_content1">Convenient Operation</string>
+
+    <string name="get_loan_step1_content2">Information input within 5 minutes</string>
+
+    <string name="get_loan_step2_content1">Fast Approval</string>
+
+    <string name="get_loan_step2_content2">Approval done within 2hours</string>
+
+    <string name="get_loan_step3_content1">Get the cash</string>
+
+    <string name="get_loan_step3_content2">Disbursement within 24 hours</string>
+
+    <string name="get_loan_step4_content1">Loan Repayment</string>
+
+    <string name="get_loan_step4_content2">Repay through payment partners on the due date</string>
+
+    <string name="get_loan_title2">Loan Condition</string>
+
+    <string name="age">Age</string>
+
+    <string name="age_condition">22–60 years old</string>
+
+    <string name="profession_condition">People with stable income</string>
+
+    <string name="id_card">ID Document</string>
+
+    <string name="id_card_condition">Valid ID</string>
+
+    <string name="bank_card">Bank Account</string>
+
+    <string name="bank_card_condition">Local valid bank account</string>
+
+    <string name="loantop_title">Apply 24/7 Online to Get \nFast Disbursement</string>
+
+    <string name="loantop_amount">Loan Amount</string>
+
+    <string name="loantop_term">Term</string>
+
+    <string name="hint_name1">Legal Full Name (As seen on your ID)</string>
+
+    <string name="hint_name2">Legal Middle Name (Optional, if listed on ID)</string>
+
+    <string name="hint_name3">Legal Last Name (As seen on your ID)</string>
+
+    <string name="apply_contact_name_hint1">Input the Full Name</string>
+
+    <string name="apply_contact_name_hint3">Input the Last Name</string>
+
+    <string name="white_list_title">How much can I loan</string>
+
+    <string name="white_list_et_text">Input Mobile Number</string>
+
+    <string name="white_list_btn_text">Find Out Now</string>
+
+    <string name="invite_url">Exclusive link for invitation</string>
+
+    <string name="copy">Copy</string>
+
+    <string name="invite_qr_icon">Exclusive QR code for invitation</string>
+
+    <string name="three_step">Get bonus by three simple steps</string>
+
+    <string name="activity_time">Time for activity</string>
+
+    <string name="activity_rules">Rules for activity</string>
+
+    <string name="invite_friend_register">Invite friends for registration</string>
+
+    <string name="friend_loan_success">Friend registered successfully</string>
+
+    <string name="receive_cash_voucher">Get cash coupon</string>
+
+    <string name="activity_times">January 18, 2019---December 31, 2021</string>
+
+    <string name="copy_success">Successful copy</string>
+
+    <string name="qrcode">QR code</string>
+
+    <string name="qrcode_hint1">Cash coupon</string>
+
+    <string name="qrcode_hint2">Bonus available after invitation</string>
+
+    <string name="qrcode_text">Once a valid user is invited, inviter can get 100 EGP cash coupon after successful disbursement,(valid user：Real existed user never registered before)</string>
+
+    <string name="invite_friend">Invite friends now</string>
+
+    <string name="no_promotion">Not yet invited friend</string>
+
+    <string name="new_user_time">Time for becoming new user: </string>
+
+    <string name="interest_wait_exchange">Pending for redemption</string>
+
+    <string name="interest_already_exchange">Redemption finished</string>
+
+    <string name="interest_expired">Expired</string>
+
+    <string name="interest_validity_period">Remains valid till </string>
+
+    <string name="interest_validity_period_hint">Bonus for inviting new user</string>
+
+    <string name="exchange">Convert now</string>
+
+    <string name="exchange_dialog_text">Confirm to convert the coupon now?</string>
+
+    <string name="exchange_dialog_confirm">Confirm for receipt</string>
+
+    <string name="mine_help">Help</string>
+
+    <string name="mine_invite">Invite friends</string>
+
+    <string name="mine_offer">Coupon</string>
+
+    <string name="mine_promotion">My promotion</string>
+
+    <string name="no_redeemed_coupon">No Redeemed Coupon</string>
+
+    <string name="no_expired_coupon">No Expired Coupon</string>
+
+    <!--预览页面-->
+
+
+    <string name="preview_title">You can borrow</string>
+
+    <string name="preview_amount">2000 ₱ — 12000 ₱</string>
+
+    <string name="preview_btn_text">Check My Amount Now</string>
+
+    <string name="white_list_hint">As evaluated, your are good client,a higher amount is available for you.</string>
+
+    <string name="white_list_confirm">Select higher amount</string>
+
+    <string name="white_list_next">Continue</string>
+
+    <!-- AccountKit-->
+
+
+    <string name="account_kit_success">Verified successfully</string>
+
+    <string name="account_kit_failed">Verification failed due to verified cellphone number is different from registered mobile number.Pls verify again!</string>
+
+    <string name="account_kit_cancel">Verification failed,Pls verify again!</string>
+
+    <string name="loan_activity_hint1">Good news! 10% discount is available for client who has more than 2 times of loan with us!</string>
+
+    <string name="loan_activity_hint2">Apply for loan now to enjoy the 5% up to 10% discount immediately!</string>
+
+    <string name="loan_activity_hint3">Apply for loan again to enjoy the 5% up t o 10% discount one more time!</string>
+
+    <string name="loan_activity_hint4">Settle and re-loan again to enjoy the 5% up to 10% discount immediately! Go apply now!</string>
+
+    <string name="loan_first_due_date">First due date</string>
+
+    <string name="loan_first_due_amount">First due amount</string>
+
+    <string name="loan_second_due_date">Second due date</string>
+
+    <string name="loan_second_due_amount">Second due amount</string>
+    <string name="upload_back_front">Upload a photo on the back of your ID card</string>
+
+    <string name="a1"> The Name you input is different from previous application </string>
+    <string name="a2"> Please select </string>
+    <string name="a3"> _Enter </string>
+    <string name="a4"> _Leave </string>
+    <string name="a5"> _C_Back </string>
+    <string name="a6"> Male </string>
+    <string name="a7"> Female </string>
+    <string name="a8"> Please select bank account! </string>
+    <string name="a9"> Please take company ID </string>
+    <string name="a10"> Please enter the phone number </string>
+    <string name="a11"> Format of phone number is incorrect </string>
+    <string name="a12"> activity has not started </string>
+    <string name="a13"> Add Contact </string>
+    <string name="a14"> Reset Password </string>
+    <string name="a15"> Confirm Phone Number </string>
+    <string name="a16"> Government ID NO. Error </string>
+    <string name="a17"> Notice </string>
+    <string name="a18"> You have not reached the repayment stage! </string>
+    <string name="a19"> Final Step </string>
+    <string name="a20"> Upgrade Strategy </string>
+    <string name="a21"> Lucky draw </string>
+    <string name="a22"> download file error </string>
+    <string name="a23"> Left </string>
+    <string name="a24"> spin </string>
+    <string name="a25"> Please checked </string>
+    <string name="a26"> SSL certificate verification failed </string>
+    <string name="a27"> You have not reached the repayment stage! </string>
+    <string name="a28"> Congratulations!\nYou win the raffling! </string>
+    <string name="a29"> Thanks for your Participation </string>
+    <string name="a30"> You do not have the chance of draws,please wait for the next event </string>
+    <string name="a31"> Congrats to get your amount/date offer, you can select higher amount now! </string>
+    <string name="a32"> In view of your credit score, please re-select amount. </string>
+    <string name="a33"> You get  coupon,go use it now! </string>
+    <string name="a34"> Copied to clipboard </string>
+    <string name="a35"> *Emergency Contact </string>
+    <string name="a36"> *General Contact </string>
+    <string name="a37"> At least one contact information shall be provided for each contact </string>
+    <string name="a38"> For processing your loan Application,please provide the required permissions </string>
+    <string name="a39"> Please go back and agree to provide the permissions as requested after clicking I agree. </string>
+    <string name="a40"> WIf you deny any of the permissions and select ‘Never Ask Again’,then you will need to go to your Phone Settings to provide permissions. </string>
+    <string name="a41"> Back </string>
+    <string name="a42"> In view of your credit score, please re-select amount. </string>
+    <string name="a43"> Loan Amount </string>
+    <string name="a44"> You will repay in two installments,please confirm the first repayment period </string>
+    <string name="a45"> Dalily Cost </string>
+    <string name="a46"> Service fee </string>
+    <string name="a47"> Withdrawal service fee </string>
+    <string name="a48"> Disbursment Amount </string>
+    <string name="a49"> Use Coupon </string>
+    <string name="a50"> Initial amount due </string>
+    <string name="a51"> Discount amount </string>
+    <string name="a52"> Actual Repayable Amount </string>
+    <string name="a53"> First Due Amount </string>
+    <string name="a54"> First Due Date </string>
+    <string name="a55"> Second Due Amount </string>
+    <string name="a56"> Second Due Date </string>
+    <string name="a57"> Enter confirmation code </string>
+    <string name="a58"> *Name </string>
+    <string name="a59"> First Name </string>
+    <string name="a60"> Middle Name </string>
+    <string name="a61"> Last Name </string>
+    <string name="a62"> GoCash is owned/operated/utilized by GoCash.PH LENDING CORPORATION. </string>
+    <string name="a63"> Company Registration No.:CS201814908 Certificate of Authority No.2718 </string>
+    <string name="a64"> Example </string>
+    <string name="a65"> Live Face Identification </string>
+    <string name="a66"> GoCash is owned/operated/utilized by GoCash.PH LENDING CORPORATION. </string>
+    <string name="a67"> Company Registration No.:CS201814908 Certificate of Authority No.2718 </string>
+    <string name="a68"> Step complete </string>
+    <string name="a69"> Coupon amounts </string>
+    <string name="a70"> Register </string>
+    <string name="a71"> Apply a loan </string>
+    <string name="a72"> Disbursement </string>
+    <string name="a73"> On-time repayment </string>
+    <string name="a74"> Relative Contact Person 1 </string>
+    <string name="a75"> Relative Contact Person 2 </string>
+    <string name="a76"> Relative Contact Person 3 </string>
+    <string name="a77"> GoCash is owned/operated/utilized by GoCash.PH LENDING CORPORATION. </string>
+    <string name="a78"> Company Registration No.:CS201814908 Certificate of Authority No.2718 </string>
+    <string name="a79"> Facebook link </string>
+    <string name="a80"> https://www.facebook.com/ </string>
+    <string name="a81"> Obtained your Facebook Account </string>
+    <string name="a82"> Left 0 spin </string>
+    <string name="a83"> 1.Both regular and new customers can enjoy this event.\n\n2. Bonus is limited, first come, first claimed.\n\n3.Complete registration to get 1 spin chance, not late settlement to get 1 spin chance.\n\n4.All interpretation rights of the draw results reverse to GoCash. </string>
+    <string name="a84"> Image of company ID </string>
+    <string name="a85"> Example </string>
+    <string name="a86"> Request For Permission </string>
+    <string name="a87"> While using certain features in GoCash, you are required to enable the following permissions: </string>
+    <string name="a88"> Disagree </string>
+    <string name="a89"> Agree </string>
+    <string name="a90"> Invite Friends\nGet Coupons </string>
+    <string name="a91"> Input invitation code </string>
+    <string name="a92"> With invitation code? </string>
+    <string name="a93"> Please set your loan password for the security of your loan </string>
+    <string name="a94"> Confirm </string>
+    <string name="a95"> Levels </string>
+    <string name="a96"> BRONZE </string>
+    <string name="a97"> EGP 1000-4000 </string>
+    <string name="a98"> SILVER </string>
+    <string name="a99"> EGP 4001-6000 </string>
+    <string name="a100"> GOLD </string>
+    <string name="a101"> EGP 6001-12000 </string>
+    <string name="a102"> DIAMOND </string>
+    <string name="a103"> EGP 12001+ </string>
+    <string name="a104"> Broze Level </string>
+    <string name="a105"> Silver Level </string>
+    <string name="a106"> Gold Level </string>
+    <string name="a107"> Diamond Level </string>
+    <string name="a108"> No discount </string>
+    <string name="a109"> 3% discount on service fee </string>
+    <string name="a110"> 6% discount on service fee </string>
+    <string name="a111"> 8%-10% discount on service fee </string>
+    <string name="a112"> How to advance </string>
+    <string name="a113"> GoCash reserves the right of final interpretation. </string>
+    <string name="a114"> Loan amount </string>
+    <string name="a115"> Payment date </string>
+    <string name="a116"> Payment amount </string>
+    <string name="a117"> 返回 </string>
+    <string name="a118"> TitleBar </string>
+    <string name="a119"> 右侧 </string>
+    <string name="a120"> Congratulations </string>
+    <string name="a121"> You get an interest-fee coupon,go use it now! </string>
+    <string name="a122"> Emergency Contact </string>
+    <string name="a123"> Confirm </string>
+    <string name="a124"> Congratulations! </string>
+    <string name="a125"> Go to assess </string>
+    <string name="a126"> Minimum repayment for extension： </string>
+    <string name="a127"> EGP 100 </string>
+    <string name="a128"> Repayment </string>
+    <string name="a129"> You have a coupon to use for repayment, sure you don’t want to use it? </string>
+    <string name="a130"> Cancel </string>
+    <string name="a131"> Confirm </string>
+    <string name="a132"> Example </string>
+    <string name="a133"> LOAN AGREEMENT </string>
+    <string name="a134"> Disagree </string>
+    <string name="a135"> Congratulations!\nYou win the raffling! </string>
+    <string name="a136"> OK </string>
+    <string name="a137"> In view of your credit score, please re-select amount. </string>
+    <string name="a138"> Loan Term </string>
+    <string name="a139"> Date of Application </string>
+    <string name="a140"> Loan Amount </string>
+    <string name="a141"> First Repayment Date </string>
+    <string name="a142"> First Repayment </string>
+    <string name="a143"> Second Repayment Date </string>
+    <string name="a144"> Second Repayment </string>
+    <string name="a145"> I have read and agreed the </string>
+    <string name="a146"> No, Thanks </string>
+    <string name="a147"> Please enter the repayment amount </string>
+    <string name="a148"> EGP </string>
+    <string name="a149"> Minimal EGP 100 </string>
+    <string name="a150"> The minimal amount is Rs.50 </string>
+    <string name="a151"> * Repayment amount should be more than EGP100 </string>
+    <string name="a152"> ACKNOWLEDGED </string>
+    <string name="a153"> Disagree </string>
+    <string name="a154"> New Version Update </string>
+    <string name="a155"> Repayment amount should be more than 100 </string>
+    <string name="a156"> Browser opens </string>
+    <string name="a157"> 1. Copy the GP download link\n2. Open the brower,paste the link address and enter the GP download page\n3.Click Update </string>
+    <string name="a158"> Repayment amount should be more than 100 EGP </string>
+    <string name="a159"> copy </string>
+    <string name="a160"> Cancel </string>
+    <string name="a161"> Yes </string>
+    <string name="a162"> Only 3 steps to go to get credit! please consider to continue or leave </string>
+    <string name="a163"> To provide better service, Shall we have your feedback on why you leave? </string>
+    <string name="a164"> Leave </string>
+    <string name="a165"> Continue Apply </string>
+    <string name="a166"> NOTICE </string>
+    <string name="a167"> Make sure the company name, your name and your picture are all in the camera capture area, thank you! </string>
+    <string name="a168"> You can borrow </string>
+    <string name="a169"> 2,000 EGP </string>
+    <string name="a170"> 50,000 EGP </string>
+    <string name="a171"> Maximum \n Loanable Amount </string>
+    <string name="a172"> EGP 50,000 </string>
+    <string name="a173"> Repayment \n Term </string>
+    <string name="a174"> Up to 120Days </string>
+    <string name="a175"> Example: </string>
+    <string name="a176"> Loan Amount : </string>
+    <string name="a177"> 2000 EGP </string>
+    <string name="a178"> Interest Rate : </string>
+    <string name="a179"> per Day </string>
+    <string name="a180"> Service Charge : </string>
+    <string name="a181"> 200 EGP </string>
+    <string name="a182"> Interest : </string>
+    <string name="a183"> 0 EGP </string>
+    <string name="a184"> Payment Amount : </string>
+    <string name="a185"> 2000 EGP </string>
+    <string name="a186"> Reminder: The calculated repayment above is only for reference. </string>
+    <string name="a187"> Date of Application </string>
+    <string name="a188"> Loan Amount </string>
+    <string name="a189"> First Repayment Date </string>
+    <string name="a190"> First Repayment </string>
+    <string name="a191"> Second Repayment Date </string>
+    <string name="a192"> Second Repayment </string>
+    <string name="a193"> Withdrawal Number </string>
+    <string name="a194"> Details and fees for extension are as followed: </string>
+    <string name="a195"> Loan Amount </string>
+    <string name="a196"> Extension period </string>
+    <string name="a197"> Interest </string>
+    <string name="a198"> Total repayment amount </string>
+    <string name="a199"> Starting time of extension </string>
+    <string name="a200"> Ending time of extension </string>
+    <string name="a201"> Minimum repayment for extension </string>
+    <string name="a202"> EGP 100 </string>
+    <string name="a203"> * Note:If you have no objection to the minimum repayment amount of extention and sure to make an extension, please click on the Extention submit button to confirm your extension application. </string>
+    <string name="a204"> Extention submit </string>
+    <string name="a205"> If extension is needed for financial emergency, kindly check computation details below with terms  </string>
+    <string name="a206"> Calculate Now </string>
+    <string name="a207"> Date of Application </string>
+    <string name="a208"> Loan Amount </string>
+    <string name="a209"> First Repayment Date </string>
+    <string name="a210"> First Repayment </string>
+    <string name="a211"> Second Repayment Date </string>
+    <string name="a212"> Second Repayment </string>
+    <string name="a213"> GoCash is owned/operated/utilized by GoCash.PH LENDING CORPORATION. </string>
+    <string name="a214"> Company Registration No.:CS201814908 Certificate of Authority No.2718 </string>
+    <string name="a215"> Upgrade Strategy </string>
+    <string name="a216"> Add Contact </string>
+    <string name="a217"> example </string>
+    <string name="a218"> Unified Multi-Purpose ID </string>
+    <string name="a219"> Social Security System </string>
+    <string name="a220"> Driver’s License </string>
+    <string name="a221"> Passport </string>
+    <string name="a222"> Jack Co </string>
+    <string name="a223"> 9123 1234 123 </string>
+    <string name="a224"> Father </string>
+    <string name="a225"> 500 EGP </string>
+    <string name="a226"> 02-12-2020 14:55 </string>
+    <string name="a227"> 关于系统优化通知 </string>
+    <string name="a228"> 尊敬的客户： 您好！为了进一步提升您的业务体验和增强系统安全性，我司将在2019年2月26日（星期二）22:00-2月27日（星期三）9:00期间进行系统升级，届时系统将无法为您提供服务，系统升级结束后将恢复正常。 感谢您一直以来对我们的支持，如给您带来不便，敬请谅解，谢谢！ </string>
+    <string name="a229"> Unfold </string>
+    <string name="a230"> bank name： </string>
+    <string name="a231"> Bank Branch Name： </string>
+    <string name="a232"> credit card numbers： </string>
+    <string name="a233"> *Note: Please repay to the bank accounts above </string>
+    <string name="a234"> 最低还款额： </string>
+    <string name="a235"> 本次申请延期（天） </string>
+    <string name="a236"> I dont want the money </string>
+    <string name="a237"> Reference No.: </string>
+    <string name="a238"> PH000035 </string>
+    <string name="a239"> Payment Method </string>
+    <string name="a240"> 7-Eleven </string>
+    <string name="a241"> (Using Dragonloans) </string>
+    <string name="a242"> Robinsons </string>
+    <string name="a243"> Department Store and Supermarket </string>
+    <string name="a244"> Bayad Center </string>
+    <string name="a245"> Cebuana Lhuillier </string>
+    <string name="a246"> SM Payment Counters </string>
+    <string name="a247"> Department Store, Supermarket, Savemore, Hypermarket </string>
+    <string name="a248"> LBC </string>
+    <string name="a249"> DRAGONPAY PAYMENT GUIDE </string>
+    <string name="a250"> CEBUANA LHUILLIER </string>
+    <string name="a251"> MLHUILLIER </string>
+    <string name="a252"> RD PAWNSHOP </string>
+    <string name="a253"> 7/11 ClIQQ/KIOSK/ECPAY </string>
+    <string name="a254"> SM PAYMENT COUNTERS (SM Department Store, SM Supermarket, SM Hypermarket, Savemore, and many more) </string>
+    <string name="a255"> ROBINSONS DEPARTMENT STORES </string>
+    <string name="a256"> PAYMAYA </string>
+    <string name="a257"> TRUEMONEY </string>
+    <string name="a258"> ONLINE BANKING PAYMENTS </string>
+    <string name="a259"> LIST OF ONLINE BANKING FACILITIES </string>
+    <string name="a260"> If you complete the repayment through the business account, please upload your repayment certificate; if you repay the loan via DragonPay, you dont need to upload anything. </string>
+    <string name="a261"> GoCash.PH LENDING CORPORATION COMPANY REGISTRATION NO. \nCS201814908 &amp; Certificate of Authority No.2718 GRANTED BY THE SECURITIES AND EXCHANGE </string>
+    <string name="a262"> Date of Application </string>
+    <string name="a263"> Loan Amount </string>
+    <string name="a264"> First Repayment Date </string>
+    <string name="a265"> First Repayment </string>
+    <string name="a266"> Second Repayment Date </string>
+    <string name="a267"> Second Repayment </string>
+    <string name="a268"> YOUR POTENTIAL TO GET A LOAN </string>
+    <string name="a269"> Congratulations on getting </string>
+    <string name="a270"> a lucky draw, </string>
+    <string name="a271"> Get Rewards Now </string>
+    <string name="a272"> Reference NO.(Lifetime ID) </string>
+    <string name="a273"> 7-Eleven Barcode </string>
+    <string name="a274"> Get Barcode </string>
+    <string name="a275"> 7/11 Barcode Payment </string>
+    <string name="a276"> 7/11 CLIQQ App Payment </string>
+    <string name="a277"> M Lhuillier Payment </string>
+    <string name="a278"> RD PAWNSHOP Payment </string>
+    <string name="a279"> GCash payment </string>
+    <string name="a280"> PayMaya Payment </string>
+    <string name="a281"> Truemoney Payment </string>
+    <string name="a282"> FullName </string>
+    <string name="a283"> Bank Card Repayment </string>
+    <string name="a284"> Card Number </string>
+    <string name="a285"> Card Holder Name </string>
+    <string name="a286"> ExpiryMonth </string>
+    <string name="a287"> ExpiryYear </string>
+    <string name="a288"> CVV </string>
+    <string name="a289"> PAY </string>
+    <string name="a290"> يدفع </string>
+    <string name="a291"> the content can not be blank </string>
+    <string name="a292">  </string>
+    <string name="a293">  </string>
+    <string name="a294">  </string>
+    <string name="a295">  </string>
+    <string name="a296">  </string>
+    <string name="a297">  </string>
+    <string name="a298">  </string>
+    <string name="a299">  </string>
+    <string name="a300">  </string>
+
+    <string name="phone_info_title">Device</string>
+    <string name="phone_info_content">Access your device information permission to get mobile network information and help us prevent fraud. </string>
+    <string name="contacts_info_title">Contacts</string>
+    <string name="contacts_info_content"> GoCash wants to access your phone book and contacts data to replace your input and speed up your app. The data will be encrypted and uploaded to our server. We will keep your data strictly confidential, and will only use it to help us prevent fraud and determine your eligibility for credit. We will only contact your chosen contact person to confirm your information when necessary. </string>
+    <string name="camera_info_title">Camera</string>
+    <string name="camera_info_content"> Access devices used to take photos and record videos. </string>
+    <string name="location_info_title">Location</string>
+    <string name="location_info_content"> We use your location, device, and usage data for research purposes and to help us prevent fraud </string>
+    <string name="phone_number_info_title"> phone number</string>
+    <string name="phone_number_info_content"> Please allow GoCash to store your phone number and installed app information on our servers to prevent fraud and verify the purpose of your identity. The security of your private information will be strictly protected and will not be disclosed to any third party </string>
+    <string name="policy_text"> The information we collect will be uploaded to the server and used for loan review, please provide real information. By granting the permissions, you acknowledge that you have read and agree to the Privacy Policy and amp; Terms of Services</string>
+    <string name="checking_payment_status">Checking Payment Status >></string>
+
+    <string name="dialog_tv28">Please enter repayment amount</string>
+    <string name="dialog_tv29">EGP</string>
+    <string name="dialog_tv30">Repayment amount should be more than 100 EGP</string>
+    <string name="dialog_tv31">Pay with Bank Card               >></string>
+    <string name="dialog_tv32">Pay with E-wallet                >></string>
+    <string name="dialog_tv33">Pay with Reference Number        >></string>
+
+    <string name="item_tv7">Reference Number：</string>
+    <string name="item_tv8">Expiry date：</string>
+    <string name="item_tv9">*Note:Please complete your repayment before the expiry date</string>
+    <string name="item_tv10">eWallet</string>
+    <string name="item_tv11">Reference Number</string>
+
+
+    <string name="payment_date">Payment Date：</string>
+    <string name="reference_number">Reference Number：</string>
+    <string name="amount">Amount：</string>
+    <string name="refresh">Refresh</string>
+    <string name="repayment">pay</string>
+    <string name="pleaserepaymentpage">The amount entered cannot be empty</string>
+    <string name="addbankcard">Add a bank card</string>
+
+</resources>

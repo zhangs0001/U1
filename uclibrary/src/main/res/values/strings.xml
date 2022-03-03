@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">uclibrary</string>
+    <string name="touch_to_focus">Touch the screen for Focusing</string>
+    <string name="crop_fail">Image crop failed</string>
+</resources>

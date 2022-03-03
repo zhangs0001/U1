@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginRight="16dp"
+        android:scrollbars="none"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+
+            <com.u1.gocashm.view.InputView
+                android:id="@+id/input_user_phone"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:controlNo="P01_I_Telephone"
+                app:digits="0123456789"
+                app:hint="@string/login_phone_hint"
+                app:inputType="phone"
+                app:leftStr="+2"
+                app:maxLength="13"
+                app:title="@string/phone" />
+
+            <com.u1.gocashm.view.InputView
+                android:id="@+id/input_password"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:visibility="gone"
+                app:controlNo="P01_I_Password"
+                app:hint="@string/set_new_password_hint"
+                app:inputType="password"
+                app:maxLength="16"
+                app:title="@string/set_password" />
+
+            <com.u1.gocashm.view.InputView
+                android:id="@+id/input_confirm_password"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:visibility="gone"
+                app:controlNo="P01_I_ConfirmPassword"
+                app:hint="@string/input_confirm_password"
+                app:inputType="password"
+                app:maxLength="16"
+                app:title="@string/confirm_password" />
+
+
+            <TextView
+                android:id="@+id/tv_sms_code_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:layout_marginBottom="5dp"
+                android:text="@string/code"
+                android:textColor="@color/black_1"
+                android:textSize="@dimen/textSize16" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:background="#EEEEEE"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+
+                    <EditText
+                        android:id="@+id/et_get_code"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginRight="10dp"
+                        android:background="@null"
+                        android:hint="@string/input_code"
+                        android:inputType="number"
+                        android:maxLength="6"
+                        android:paddingLeft="12dp"
+                        android:textColor="@color/black_1"
+                        android:textSize="@dimen/textSize16"
+                        android:layout_marginEnd="10dp"
+                        android:paddingStart="12dp" />
+                </LinearLayout>
+
+
+                <Button
+                    android:id="@+id/bt_get_code"
+                    android:layout_width="120dp"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/shape_blue2"
+                    android:text="@string/get_code"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/textSize12" />
+
+            </LinearLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="42dp"
+                android:layout_marginTop="27dp"
+                android:visibility="gone">
+
+                <EditText
+                    android:id="@+id/edit_invite_code"
+                    android:layout_width="251dp"
+                    android:layout_height="match_parent"
+                    android:layout_centerHorizontal="true"
+                    android:layout_centerVertical="true"
+                    android:background="@drawable/bg_tv_grey"
+                    android:hint="@string/a91"
+                    android:maxLength="16"
+                    android:paddingLeft="9dp"
+                    android:textColor="@color/color_111111"
+                    android:textColorHint="@color/color_757575"
+                    android:textSize="15dp"
+                    android:visibility="gone"
+                    android:paddingStart="9dp" />
+
+                <TextView
+                    android:id="@+id/tv_get_invite_code"
+                    android:layout_width="201dp"
+                    android:layout_height="44dp"
+                    android:layout_centerInParent="true"
+                    android:gravity="center"
+                    android:paddingLeft="12dp"
+                    android:paddingRight="12dp"
+                    android:text="@string/a92"
+                    android:textColor="#FF8010"
+                    android:textSize="16sp"
+                    android:textStyle="bold"
+                    android:paddingStart="12dp"
+                    android:paddingEnd="12dp" />
+
+            </RelativeLayout>
+
+
+            <TextView
+                android:id="@+id/tv_register"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginTop="32dp"
+                android:background="@drawable/shape_blue"
+                android:gravity="center"
+                android:text="@string/register"
+                android:textColor="@color/white"
+                android:textSize="@dimen/textSize18" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="32dp"
+                android:gravity="center_horizontal"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/have_account"
+                    android:textColor="@android:color/black"
+                    android:textSize="@dimen/textSize16" />
+
+                <TextView
+                    android:id="@+id/tv_to_login"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/go_login"
+                    android:textColor="@color/blue"
+                    android:textSize="@dimen/textSize16" />
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

@@ -1,0 +1,302 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:scrollbars="none">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <com.u1.gocashm.view.LoanInfoView
+                android:id="@+id/ll_info"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="16dp"
+                android:layout_marginTop="16dp"
+                android:layout_marginRight="16dp"
+                android:orientation="vertical"
+                android:layout_marginEnd="16dp"
+                android:layout_marginStart="16dp">
+
+                <com.u1.gocashm.view.InputView
+                    android:id="@+id/input_intent"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    app:hint="@string/loan_intent_hint"
+                    app:title="@string/loan_intent"
+                    app:type="1" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="16dp"
+                    android:text="@string/job_info_title"
+                    android:textColor="@color/blue"
+                    android:textSize="@dimen/textSize20" />
+
+                <com.u1.gocashm.view.InputView
+                    android:id="@+id/input_profession"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    app:hint="@string/profession_hint"
+                    app:title="@string/profession"
+                    app:type="1" />
+
+                <LinearLayout
+                    android:id="@+id/job_layout"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:visibility="gone"
+                    android:orientation="vertical">
+
+
+                    <com.u1.gocashm.view.InputView
+                        android:id="@+id/input_working_industry"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginTop="12dp"
+                        app:controlNo="P04_S_Industry"
+                        app:hint="@string/working_industry_hint"
+                        app:title="@string/working_industry"
+                        app:type="1" />
+
+                    <com.u1.gocashm.view.InputView
+                        android:id="@+id/input_company_name"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginTop="12dp"
+                        app:controlNo="P04_I_Company"
+                        app:hint="@string/company_name_hint"
+                        app:title="@string/company_name" />
+
+                    <com.u1.gocashm.view.InputView
+                        android:id="@+id/input_job_position"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginTop="12dp"
+                        app:controlNo="P04_S_Occupation"
+                        app:hint="@string/job_position_hint"
+                        app:title="@string/job_position" />
+
+                    <com.u1.gocashm.view.InputView
+                        android:id="@+id/input_monthly_income"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginTop="12dp"
+                        app:hint="@string/monthly_income_hint"
+                        app:controlNo="P04_I_Income"
+                        app:inputType="number"
+                        app:maxLength="11"
+                        app:type="1"
+                        app:title="@string/monthly_income" />
+
+                    <com.u1.gocashm.view.InputView
+                        android:id="@+id/input_working_time"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginTop="12dp"
+                        app:controlNo="P04_S_WorkingYears"
+                        app:hint="@string/work_length_hint"
+                        app:title="@string/work_length"
+                        app:type="1" />
+
+                    <com.u1.gocashm.view.InputView
+                        android:id="@+id/input_office_phone"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginTop="12dp"
+                        app:digits="0123456789"
+                        app:hint="@string/company_phone_hint"
+                        app:inputType="phone"
+                        app:controlNo="P04_I_CompanyPhone"
+                        app:maxLength="13"
+                        app:title="@string/company_phone" />
+
+                </LinearLayout>
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="16dp"
+                    android:text="@string/relative"
+                    android:textColor="@color/blue"
+                    android:textSize="@dimen/textSize20"
+                    android:visibility="gone" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="16dp"
+                    android:text="@string/a74"
+                    android:textColor="@color/black_1"
+                    android:textSize="@dimen/textSize18" />
+
+                <com.u1.gocashm.view.InputView
+                    android:id="@+id/input_relatives_name"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="12dp"
+                    app:controlNo="P03_I_ContactsName"
+                    app:hint="@string/relative_name_hint"
+                    app:maxLength="30"
+                    app:title="@string/relative_name" />
+
+                <com.u1.gocashm.view.InputView
+                    android:id="@+id/input_relatives_phone"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="12dp"
+                    app:controlNo="P03_I_ContactsPhone"
+                    app:hint="@string/relative_phone_hint"
+                    app:maxLength="11"
+                    app:title="@string/relative_phone"
+                    app:type="1" />
+
+                <com.u1.gocashm.view.InputView
+                    android:id="@+id/input_relationship"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="12dp"
+                    app:controlNo="P03_S_ContactsRelationship"
+                    app:hint="@string/relationship_hint"
+                    app:maxLength="11"
+                    app:title="@string/relationship"
+                    app:type="1" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="16dp"
+                    android:text="@string/a75"
+                    android:textColor="@color/black_1"
+                    android:textSize="@dimen/textSize18" />
+
+                <com.u1.gocashm.view.InputView
+                    android:id="@+id/input_relatives_name2"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="12dp"
+                    app:controlNo="P03_I_ContactsName"
+                    app:hint="@string/relative_name_hint"
+                    app:maxLength="30"
+                    app:title="@string/relative_name" />
+
+                <com.u1.gocashm.view.InputView
+                    android:id="@+id/input_relatives_phone2"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="12dp"
+                    app:controlNo="P03_I_ContactsPhone"
+                    app:hint="@string/relative_phone_hint"
+                    app:maxLength="11"
+                    app:title="@string/relative_phone"
+                    app:type="1" />
+
+                <com.u1.gocashm.view.InputView
+                    android:id="@+id/input_relationship2"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="12dp"
+                    app:controlNo="P03_S_ContactsRelationship"
+                    app:hint="@string/relationship_hint"
+                    app:maxLength="11"
+                    app:title="@string/relationship"
+                    app:type="1" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="16dp"
+                    android:text="@string/a76"
+                    android:textColor="@color/black_1"
+                    android:textSize="@dimen/textSize18" />
+
+                <com.u1.gocashm.view.InputView
+                    android:id="@+id/input_relatives_name3"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="12dp"
+                    app:controlNo="P03_I_ContactsName"
+                    app:hint="@string/relative_name_hint"
+                    app:maxLength="30"
+                    app:title="@string/relative_name" />
+
+                <com.u1.gocashm.view.InputView
+                    android:id="@+id/input_relatives_phone3"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="12dp"
+                    app:controlNo="P03_I_ContactsPhone"
+                    app:hint="@string/relative_phone_hint"
+                    app:maxLength="11"
+                    app:title="@string/relative_phone"
+                    app:type="1" />
+
+                <com.u1.gocashm.view.InputView
+                    android:id="@+id/input_relationship3"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="12dp"
+                    app:controlNo="P03_S_ContactsRelationship"
+                    app:hint="@string/relationship_hint"
+                    app:maxLength="11"
+                    app:title="@string/relationship"
+                    app:type="1" />
+
+                <TextView
+                    android:id="@+id/tv_next"
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:layout_marginTop="16dp"
+                    android:layout_marginBottom="32dp"
+                    android:background="@drawable/btn_bg"
+                    android:gravity="center"
+                    android:text="@string/btn_continue"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/textSize18" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:visibility="gone"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:layout_marginBottom="10dp"
+                android:gravity="center_horizontal"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="@string/a77"
+                    android:textColor="@color/blue_1"
+                    android:textSize="@dimen/textSize10" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="8dp"
+                    android:gravity="center"
+                    android:text="@string/a78"
+                    android:textColor="@color/blue_1"
+                    android:textSize="@dimen/textSize10" />
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

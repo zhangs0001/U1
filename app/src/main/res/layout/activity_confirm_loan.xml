@@ -1,0 +1,695 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F1F1F1"
+    android:orientation="vertical">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:scrollbars="none">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="24dp"
+            android:layout_marginRight="10dp"
+            android:background="@drawable/shape_white"
+            android:orientation="vertical"
+            android:paddingBottom="24dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="10dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:paddingLeft="16dp"
+                android:paddingRight="16dp"
+                android:visibility="visible"
+                android:paddingStart="16dp"
+                android:paddingEnd="16dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginTop="16dp"
+                    android:gravity="center"
+                    android:text="@string/a42"
+                    android:textColor="@color/black_1"
+                    android:textSize="@dimen/textSize16" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <LinearLayout
+                        android:id="@+id/ll_loan_amount"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="15dp"
+                            android:gravity="center_vertical"
+                            android:orientation="horizontal">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginRight="20dp"
+                                android:text="@string/a43"
+                                android:textColor="@color/blue"
+                                android:textSize="@dimen/textSize17"
+                                android:layout_marginEnd="20dp" />
+
+                            <TextView
+                                android:id="@+id/tv_loan_amount"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center_horizontal"
+                                android:textColor="@color/orange"
+                                android:layout_marginLeft="16dp"
+                                android:textSize="@dimen/textSize22"
+                                android:textStyle="bold"
+                                android:layout_marginStart="16dp" />
+                        </LinearLayout>
+
+
+                        <com.xw.repo.BubbleSeekBar
+                            android:id="@+id/bs_loan_amount"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="8dp"
+                            app:bsb_auto_adjust_section_mark="true"
+                            app:bsb_track_size="3dp" />
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal">
+
+                            <TextView
+                                android:id="@+id/tv_loan_amount_min"
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1"
+                                android:textColor="@color/text_main" />
+
+                            <TextView
+                                android:id="@+id/tv_loan_amount_max"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="end"
+                                android:textColor="#FF757575" />
+
+                        </LinearLayout>
+
+                        <TextView
+                            android:id="@+id/tv_loan_messages"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center_horizontal"
+                            android:background="@drawable/shape_amount_tip"
+                            android:paddingLeft="10dp"
+                            android:paddingTop="2dp"
+                            android:paddingRight="10dp"
+                            android:paddingBottom="2dp"
+                            android:textColor="@color/white"
+                            android:textSize="@dimen/textSize12"
+                            android:visibility="gone"
+                            android:paddingEnd="10dp"
+                            android:paddingStart="10dp" />
+
+                    </LinearLayout>
+
+
+                    <LinearLayout
+                        android:id="@+id/ll_loan_term"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="16dp"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginRight="20dp"
+                            android:text="@string/a44"
+                            android:textColor="#424242"
+                            android:textSize="@dimen/textSize17"
+                            android:layout_marginEnd="20dp" />
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="12dp"
+                            android:gravity="center_vertical"
+                            android:orientation="horizontal">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="@string/loan_term"
+                                android:textColor="@color/blue"
+                                android:textSize="@dimen/textSize17" />
+                        </LinearLayout>
+
+                        <androidx.recyclerview.widget.RecyclerView
+                            android:id="@+id/loan_term_recyclerView"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="12dp"
+                            android:layout_marginBottom="16dp" />
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+                <androidx.constraintlayout.widget.ConstraintLayout
+                    android:id="@+id/id_dalily_cost_layout"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:visibility="gone"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginRight="12dp"
+                    android:layout_below="@+id/layout_term"
+                    android:layout_marginEnd="12dp">
+
+                    <TextView
+                        android:id="@+id/tv_dalily_cost_title"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/a45"
+                        android:textColor="@color/blue"
+                        android:textSize="@dimen/textSize17"
+                        android:layout_marginLeft="12dp"
+                        app:layout_constraintTop_toTopOf="parent"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        android:layout_marginStart="12dp" />
+
+                    <TextView
+                        android:id="@+id/tv_dalily_cost_amount"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:layout_marginLeft="15dp"
+                        app:layout_constraintTop_toTopOf="@+id/tv_dalily_cost_title"
+                        app:layout_constraintBottom_toBottomOf="@+id/tv_dalily_cost_title"
+                        app:layout_constraintStart_toEndOf="@+id/tv_dalily_cost_title"
+                        android:text="00"
+                        android:textColor="#334B6B"
+                        android:textSize="20sp"
+                        android:textStyle="bold"
+                        android:layout_marginStart="15dp" />
+
+
+                </androidx.constraintlayout.widget.ConstraintLayout>
+
+                <androidx.constraintlayout.widget.ConstraintLayout
+                    android:id="@+id/id_loan_calc_layout"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/layout_term"
+                    android:layout_marginTop="20dp"
+                    android:background="@drawable/bg_loan_calc">
+
+                    <TextView
+                        android:id="@+id/id_loan_calc_sf_help"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="23.5dp"
+                        android:layout_marginTop="18.5dp"
+                        android:includeFontPadding="false"
+                        android:text="@string/a46"
+                        android:textColor="#484848"
+                        android:textSize="12dp"
+                        android:textStyle="bold"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent"
+                        android:layout_marginStart="23.5dp" />
+
+                    <TextView
+                        android:id="@+id/id_loan_calc_wsf_help"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="20dp"
+                        android:includeFontPadding="false"
+                        android:text="@string/a47"
+                        android:textColor="#484848"
+                        android:textSize="12dp"
+                        android:textStyle="bold"
+                        app:layout_constraintStart_toStartOf="@+id/id_loan_calc_sf_help"
+                        app:layout_constraintTop_toBottomOf="@+id/id_loan_calc_sf_help" />
+
+                    <TextView
+                        android:id="@+id/id_loan_calc_da_help"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="20dp"
+                        android:layout_marginBottom="19dp"
+                        android:includeFontPadding="false"
+                        android:text="@string/a48"
+                        android:textColor="#484848"
+                        android:textSize="11dp"
+                        android:textStyle="bold"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintStart_toStartOf="@+id/id_loan_calc_wsf_help"
+                        app:layout_constraintTop_toBottomOf="@+id/id_loan_calc_wsf_help" />
+
+                    <TextView
+                        android:id="@+id/id_loan_calc_sf"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="33dp"
+                        android:gravity="center"
+                        android:text="00"
+                        android:textColor="#334B6B"
+                        android:textSize="20sp"
+                        android:textStyle="bold"
+                        app:layout_constraintBottom_toBottomOf="@+id/id_loan_calc_sf_help"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintTop_toTopOf="@+id/id_loan_calc_sf_help"
+                        android:layout_marginEnd="33dp" />
+
+                    <TextView
+                        android:id="@+id/id_loan_calc_wsf"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="33dp"
+                        android:gravity="center"
+                        android:text="00"
+                        android:textColor="#334B6B"
+                        android:textSize="20sp"
+                        android:textStyle="bold"
+                        app:layout_constraintBottom_toBottomOf="@+id/id_loan_calc_wsf_help"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintTop_toTopOf="@+id/id_loan_calc_wsf_help"
+                        android:layout_marginEnd="33dp" />
+
+                    <TextView
+                        android:id="@+id/id_loan_calc_da"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="33dp"
+                        android:gravity="center"
+                        android:text="00"
+                        android:textColor="#334B6B"
+                        android:textSize="20sp"
+                        android:textStyle="bold"
+                        app:layout_constraintBottom_toBottomOf="@+id/id_loan_calc_da_help"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintTop_toTopOf="@+id/id_loan_calc_da_help"
+                        android:layout_marginEnd="33dp" />
+
+                </androidx.constraintlayout.widget.ConstraintLayout>
+
+                <com.u1.gocashm.view.InputView
+                    android:id="@+id/input_phone_time"
+                    android:layout_width="match_parent"
+                    android:layout_marginTop="5dp"
+                    android:layout_height="wrap_content"
+                    app:controlNo="P07_S_ConvenientTime"
+                    app:hint="@string/get_phone_time_hint"
+                    app:title="@string/get_phone_time"
+                    app:type="1" />
+
+                <TextView
+                    android:id="@+id/tv_use_coupon_title"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="15dp"
+                    android:layout_below="@+id/layout_select_period"
+                    android:text="@string/a49"
+                    android:textColor="#424242"
+                    android:textSize="15sp"
+                    android:textStyle="bold" />
+
+                <com.u1.gocashm.view.InputView
+                    android:id="@+id/input_coupon"
+                    android:layout_width="match_parent"
+                    android:layout_marginTop="15dp"
+                    android:layout_height="wrap_content"
+                    app:controlNo="P07_S_Coupon"
+                    app:hint="Please select a coupon"
+                    app:must="false"
+                    app:showtitle="false"
+                    app:type="1" />
+
+                <androidx.constraintlayout.widget.ConstraintLayout
+                    android:id="@+id/id_loan_calc_layout_2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/layout_select_coupon"
+                    android:layout_marginTop="20dp"
+                    android:background="@drawable/bg_loan_calc">
+
+                    <TextView
+                        android:id="@+id/id_inltial_amount_due_help"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:visibility="gone"
+                        android:layout_marginLeft="23.5dp"
+                        android:layout_marginTop="18.5dp"
+                        android:includeFontPadding="false"
+                        android:text="@string/a50"
+                        android:textColor="@color/color_4f4f4f"
+                        android:textSize="12dp"
+                        android:textStyle="bold"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent"
+                        android:layout_marginStart="23.5dp" />
+
+                    <TextView
+                        android:id="@+id/id_discount_amount_help"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="20dp"
+                        android:includeFontPadding="false"
+                        android:text="@string/a51"
+                        android:layout_marginBottom="19dp"
+                        android:textColor="@color/color_4f4f4f"
+                        android:textSize="12dp"
+                        android:textStyle="bold"
+                        android:layout_marginLeft="23.5dp"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toBottomOf="@+id/id_inltial_amount_due_help"
+                        android:layout_marginStart="23.5dp" />
+
+                    <TextView
+                        android:id="@+id/id_inltial_amount_due"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="25dp"
+                        android:gravity="center"
+                        android:text="00"
+                        android:textColor="#334B6B"
+                        android:visibility="gone"
+                        android:textSize="20sp"
+                        android:textStyle="bold"
+                        app:layout_constraintBottom_toBottomOf="@+id/id_inltial_amount_due_help"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintTop_toTopOf="@+id/id_inltial_amount_due_help"
+                        android:layout_marginEnd="25dp" />
+
+                    <TextView
+                        android:id="@+id/id_discount_amount"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="25dp"
+                        android:gravity="center"
+                        android:text="00"
+                        android:textColor="#334B6B"
+                        android:textSize="20sp"
+                        android:textStyle="bold"
+                        app:layout_constraintBottom_toBottomOf="@+id/id_discount_amount_help"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintTop_toTopOf="@+id/id_discount_amount_help"
+                        android:layout_marginEnd="25dp" />
+
+                </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:background="#ECF4FD"
+                    android:orientation="horizontal"
+                    android:paddingBottom="16dp"
+                    android:visibility="gone">
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="16dp"
+                            android:gravity="center_horizontal"
+                            android:text="@string/a52"
+                            android:textColor="#4F4F4F"
+                            android:textSize="@dimen/textSize13" />
+
+                        <TextView
+                            android:id="@+id/tv_loan_totalamount"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center_horizontal"
+                            android:layout_marginTop="16dp"
+                            android:textColor="@color/black_1"
+                            android:textSize="@dimen/textSize18"
+                            android:textStyle="bold" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="16dp"
+                            android:gravity="center_horizontal"
+                            android:text="@string/repay_date"
+                            android:textColor="#4F4F4F"
+                            android:textSize="@dimen/textSize13" />
+
+                        <TextView
+                            android:id="@+id/tv_loan_duedate"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center_horizontal"
+                            android:layout_marginTop="16dp"
+                            android:textColor="@color/black_1"
+                            android:textSize="@dimen/textSize18"
+                            android:textStyle="bold" />
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="15dp"
+                    android:background="#ECF4FD"
+                    android:orientation="horizontal"
+                    android:paddingBottom="16dp"
+                    android:visibility="visible">
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="16dp"
+                            android:gravity="center_horizontal"
+                            android:text="@string/a53"
+                            android:textColor="#4F4F4F"
+                            android:textSize="@dimen/textSize13" />
+
+                        <TextView
+                            android:id="@+id/tv_loan_first_due_amount"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center_horizontal"
+                            android:layout_marginTop="16dp"
+                            android:textColor="@color/black_1"
+                            android:textSize="@dimen/textSize18"
+                            android:textStyle="bold" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="16dp"
+                            android:gravity="center_horizontal"
+                            android:text="@string/a54"
+                            android:textColor="#4F4F4F"
+                            android:textSize="@dimen/textSize13" />
+
+                        <TextView
+                            android:id="@+id/tv_loan_first_due_date"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center_horizontal"
+                            android:layout_marginTop="16dp"
+                            android:textColor="@color/black_1"
+                            android:textSize="@dimen/textSize18"
+                            android:textStyle="bold" />
+
+                    </LinearLayout>
+
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="15dp"
+                    android:background="#ECF4FD"
+                    android:orientation="horizontal"
+                    android:paddingBottom="16dp"
+                    android:visibility="visible">
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="16dp"
+                            android:gravity="center_horizontal"
+                            android:text="@string/a55"
+                            android:textColor="#4F4F4F"
+                            android:textSize="@dimen/textSize13" />
+
+                        <TextView
+                            android:id="@+id/tv_loan_second_due_amount"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center_horizontal"
+                            android:layout_marginTop="16dp"
+                            android:textColor="@color/black_1"
+                            android:textSize="@dimen/textSize18"
+                            android:textStyle="bold" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="16dp"
+                            android:gravity="center_horizontal"
+                            android:text="@string/a56"
+                            android:textColor="#4F4F4F"
+                            android:textSize="@dimen/textSize13" />
+
+                        <TextView
+                            android:id="@+id/tv_loan_second_due_date"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center_horizontal"
+                            android:layout_marginTop="16dp"
+                            android:textColor="@color/black_1"
+                            android:textSize="@dimen/textSize18"
+                            android:textStyle="bold" />
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/agreement_layout"
+                    android:layout_width="match_parent"
+                    android:layout_height="30dp"
+                    android:layout_marginTop="8dp"
+                    android:visibility="visible"
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal">
+
+
+                    <CheckBox
+                        android:id="@+id/checkbox_agreement"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:button="@drawable/selector_check2"
+                        android:clickable="false" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="8dp"
+                        android:layout_marginRight="5dp"
+                        android:singleLine="true"
+                        android:text="@string/click_agreement"
+                        android:textColor="@color/black"
+                        android:textSize="@dimen/textSize14"
+                        android:layout_marginEnd="5dp"
+                        android:layout_marginStart="8dp" />
+
+                    <TextView
+                        android:id="@+id/tv_agreement"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="@string/click_agreement_contract"
+                        android:textColor="@color/blue"
+                        android:textSize="@dimen/textSize14" />
+
+                </LinearLayout>
+
+                <TextView
+                    android:id="@+id/tv_agreement_hint"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="30dp"
+                    android:text="@string/click_agreement_hint"
+                    android:textColor="#FFFF4949"
+                    android:textSize="@dimen/textSize12"
+                    android:visibility="gone"
+                    android:layout_marginStart="30dp" />
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_marginTop="16dp"
+                    android:layout_marginBottom="24dp"
+                    android:gravity="center_horizontal"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/tv_loan_confirm"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_marginLeft="8dp"
+                        android:layout_weight="1"
+                        android:background="@drawable/shape_blue_stroke"
+                        android:gravity="center"
+                        android:text="@string/confirm"
+                        android:textColor="@color/blue"
+                        android:textSize="@dimen/textSize20"
+                        android:layout_marginStart="8dp" />
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

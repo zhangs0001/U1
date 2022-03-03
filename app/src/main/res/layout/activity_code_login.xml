@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:scrollbars="none"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <com.u1.gocashm.view.InputView
+                android:id="@+id/input_user_phone"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="32dp"
+                app:digits="0123456789"
+                app:hint="@string/login_phone_hint"
+                app:inputType="phone"
+                app:leftStr="+2"
+                app:maxLength="13"
+                app:title="@string/phone" />
+
+            <com.u1.gocashm.view.InputView
+                android:id="@+id/input_forget_pwd"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="20dp"
+                app:hint="@string/set_new_password_hint"
+                app:inputType="password"
+                app:title="Enter new password" />
+
+            <com.u1.gocashm.view.InputView
+                android:id="@+id/input_forget_pwdconfirm"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                app:hint="@string/input_confirm_password"
+                app:inputType="password"
+                app:title="Repeat the new password" />
+
+            <TextView
+                android:id="@+id/tv_sms_code_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:layout_marginBottom="5dp"
+                android:text="@string/code"
+                android:textColor="@color/black_1"
+                android:textSize="@dimen/textSize16" />
+
+            <LinearLayout
+                android:id="@+id/sms_code_layout"
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:background="#EEEEEE"
+                android:orientation="horizontal">
+
+                <EditText
+                    android:id="@+id/et_forget_code"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginRight="10dp"
+                    android:layout_weight="1"
+                    android:background="@null"
+                    android:hint="@string/input_code"
+                    android:inputType="number"
+                    android:maxLength="6"
+                    android:paddingLeft="12dp"
+                    android:textColor="@color/black_1"
+                    android:textSize="@dimen/textSize16"
+                    android:paddingStart="12dp"
+                    android:layout_marginEnd="10dp" />
+
+                <Button
+                    android:id="@+id/bt_forget_code"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/shape_blue2"
+                    android:paddingLeft="6dp"
+                    android:paddingRight="6dp"
+                    android:text="@string/reacquire_code"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/textSize10"
+                    android:paddingEnd="6dp"
+                    android:paddingStart="6dp" />
+
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/tv_confirm"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginTop="32dp"
+                android:background="@drawable/shape_blue"
+                android:gravity="center"
+                android:text="@string/confirm"
+                android:textColor="@color/white"
+                android:textSize="@dimen/textSize18" />
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

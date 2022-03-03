@@ -1,0 +1,523 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:scrollbars="none">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <com.u1.gocashm.view.LoanInfoView
+                android:id="@+id/ll_info"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="16dp"
+                android:layout_marginTop="16dp"
+                android:layout_marginRight="16dp"
+                android:orientation="vertical"
+                android:layout_marginEnd="16dp"
+                android:layout_marginStart="16dp">
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="16dp"
+                    android:text="@string/pay_choice_title"
+                    android:textColor="@color/blue"
+                    android:textSize="@dimen/textSize20"
+                    android:visibility="visible" />
+
+                <RadioGroup
+                    android:id="@+id/rg_select_pay"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="10dp"
+                    android:orientation="horizontal"
+                    android:gravity="center_vertical"
+                    android:visibility="visible">
+
+                    <RadioButton
+                        android:id="@+id/rb_bank"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:button="@null"
+                        android:drawableLeft="@drawable/selector_pay"
+                        android:drawablePadding="10dp"
+                        android:text="@string/pay_choice_bank"
+                        android:textColor="@color/black_1"
+                        android:textSize="@dimen/textSize16"
+                        android:drawableStart="@drawable/selector_pay" />
+
+<!--                    <RadioButton-->
+<!--                        android:id="@+id/rb_cash"-->
+<!--                        android:layout_width="0dp"-->
+<!--                        android:layout_height="wrap_content"-->
+<!--                        android:layout_weight="1"-->
+<!--                        android:button="@null"-->
+<!--                        android:drawableLeft="@drawable/selector_pay"-->
+<!--                        android:drawablePadding="10dp"-->
+<!--                        android:text="@string/pay_choice_cash"-->
+<!--                        android:textColor="@color/black_1"-->
+<!--                        android:textSize="@dimen/textSize16" />-->
+
+<!--                    <RadioButton-->
+<!--                        android:id="@+id/rb_other"-->
+<!--                        android:layout_width="0dp"-->
+<!--                        android:layout_height="wrap_content"-->
+<!--                        android:layout_weight="1"-->
+<!--                        android:button="@null"-->
+<!--                        android:drawableLeft="@drawable/selector_pay"-->
+<!--                        android:drawablePadding="10dp"-->
+<!--                        android:text="Other"-->
+<!--                        android:textColor="@color/black_1"-->
+<!--                        android:textSize="@dimen/textSize16" />-->
+                </RadioGroup>
+
+                <LinearLayout
+                    android:id="@+id/user_name_layout"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="12dp"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/name"
+                        android:textColor="@android:color/black" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp"
+                        android:layout_marginTop="8dp"
+                        android:background="@drawable/bg_tv_grey"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:id="@+id/tv_user_name"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center_vertical"
+                            android:layout_marginLeft="8dp"
+                            android:layout_weight="1"
+                            android:textColor="@color/black_1"
+                            android:layout_marginStart="8dp" />
+
+                    </LinearLayout>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/user_bank_info_layout"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <com.u1.gocashm.view.InputView
+                        android:id="@+id/input_bank_name"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginTop="12dp"
+                        app:hint="@string/please_select"
+                        app:title="@string/bank_name"
+                        app:type="1" />
+
+<!--                    todo-->
+                    <com.u1.gocashm.view.InputView
+                        android:id="@+id/input_bank_num"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginTop="12dp"
+                        app:controlNo="P06_I_CardNumber"
+                        app:hint="@string/bank_num_hint"
+                        app:inputType="number"
+                        app:title="@string/bank_num" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/user_agency_info_layout"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:visibility="gone">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="16dp"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="@string/a84"
+                            android:textColor="@color/black_1"
+                            android:textSize="@dimen/textSize18" />
+
+                        <TextView
+                            android:id="@+id/tv_example"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:autoLink="all"
+                            android:text="@string/a85"
+                            android:textColor="@color/blue" />
+
+                    </LinearLayout>
+
+
+                    <RelativeLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
+                        android:layout_marginLeft="16dp"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginRight="16dp"
+                        android:layout_marginEnd="16dp"
+                        android:layout_marginStart="16dp">
+
+                        <ImageView
+                            android:id="@+id/iv_work_preview"
+                            android:layout_width="180dp"
+                            android:layout_height="120dp"
+                            android:layout_centerHorizontal="true"
+                            android:background="@drawable/bg_camera"
+                            android:scaleType="centerInside" />
+
+                        <ImageView
+                            android:id="@+id/iv_take_photo"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_centerInParent="true"
+                            android:paddingBottom="16dp"
+                            android:src="@drawable/ic_camera" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@id/iv_work_preview"
+                            android:layout_centerHorizontal="true"
+                            android:layout_marginTop="10dp"
+                            android:text="@string/id_card_hint"
+                            android:textSize="@dimen/textSize16" />
+                    </RelativeLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="6dp"
+                        android:background="@drawable/shape_gray_solid"
+                        android:orientation="horizontal"
+                        android:paddingLeft="12dp"
+                        android:paddingTop="10dp"
+                        android:paddingRight="12dp"
+                        android:paddingBottom="10dp"
+                        android:paddingEnd="12dp"
+                        android:paddingStart="12dp">
+
+                        <ImageView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:src="@drawable/work_card_img" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="8dp"
+                            android:lineSpacingMultiplier="1.2"
+                            android:text="@string/work_card_hint"
+                            android:textColor="@color/black_3"
+                            android:textSize="@dimen/textSize12"
+                            android:layout_marginStart="8dp" />
+
+                    </LinearLayout>
+
+                    <com.u1.gocashm.view.InputView
+                        android:id="@+id/input_agency_name"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginTop="12dp"
+                        app:controlNo="P06_Cash"
+                        app:hint="@string/please_select"
+                        app:title="@string/pay_agency_name"
+                        app:type="1" />
+
+
+                    <com.u1.gocashm.view.InputView
+                        android:id="@+id/input_agency_fee"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginTop="12dp"
+                        app:inputType="number"
+                        app:maxLength="16"
+                        app:title="@string/pay_agency_fee"
+                        app:type="0" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/other_info_layout"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:visibility="gone"
+                    android:orientation="vertical">
+
+                    <com.u1.gocashm.view.InputView
+                        android:id="@+id/input_channel"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginTop="12dp"
+                        app:controlNo="P06_Other"
+                        app:hint="@string/please_select"
+                        app:title="Channel"
+                        app:type="1" />
+
+                    <com.u1.gocashm.view.InputView
+                        android:id="@+id/input_channel_name"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginTop="12dp"
+                        app:title="@string/name" />
+
+                    <com.u1.gocashm.view.InputView
+                        android:id="@+id/input_channel_email"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginTop="12dp"
+                        app:title="@string/email"
+                        android:visibility="gone" />
+
+                    <com.u1.gocashm.view.InputView
+                        android:id="@+id/input_channel_phone"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginTop="12dp"
+                        app:controlNo="P06_I_CardNumber"
+                        app:maxLength="11"
+                        app:digits="0123456789"
+                        app:title="@string/phone" />
+
+                    <TextView
+                        android:id="@+id/phone_change_tips_tv"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="12dp"
+                        android:layout_marginBottom="20dp"
+                        android:text="@string/phone_change_tips"/>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/register_info_layout"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:visibility="gone"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="16dp"
+                        android:text="@string/register_title"
+                        android:textColor="@color/blue"
+                        android:textSize="@dimen/textSize20" />
+
+                    <TextView
+                        android:id="@+id/tv_user_phone"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="24dp"
+                        android:text="@string/your_phone_num_hint"
+                        android:textColor="@android:color/black"
+                        android:textSize="@dimen/textSize16" />
+
+                    <TextView
+                        android:id="@+id/tv_update_phone"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="8dp"
+                        android:text="@string/update_user_phone"
+                        android:textColor="@color/blue"
+                        android:textSize="@dimen/textSize14" />
+
+                    <com.u1.gocashm.view.InputView
+                        android:id="@+id/input_password"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginTop="12dp"
+                        app:hint="@string/set_new_password_hint"
+                        app:inputType="password"
+                        app:maxLength="16"
+                        app:title="@string/set_password" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="12dp"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:id="@+id/tv_sms_code_title"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/code"
+                            android:textColor="@android:color/black" />
+
+                        <LinearLayout
+                            android:id="@+id/sms_code_layout"
+                            android:layout_width="match_parent"
+                            android:layout_height="40dp"
+                            android:layout_marginTop="8dp"
+                            android:orientation="horizontal">
+
+                            <EditText
+                                android:id="@+id/et_sms_code"
+                                android:layout_width="0dp"
+                                android:layout_height="match_parent"
+                                android:layout_marginRight="16dp"
+                                android:layout_weight="1"
+                                android:background="@drawable/bg_tv_grey"
+                                android:gravity="center_vertical"
+                                android:hint="112334"
+                                android:inputType="number"
+                                android:maxLength="6"
+                                android:paddingLeft="8dp"
+                                android:textColor="@color/black_1"
+                                android:textSize="@dimen/textSize14"
+                                android:layout_marginEnd="16dp"
+                                android:paddingStart="8dp" />
+
+                            <TextView
+                                android:id="@+id/tv_get_code"
+                                android:layout_width="120dp"
+                                android:layout_height="match_parent"
+                                android:layout_gravity="center_vertical"
+                                android:background="@color/blue"
+                                android:gravity="center"
+                                android:text="@string/get_code"
+                                android:textColor="@color/white" />
+
+
+                        </LinearLayout>
+                    </LinearLayout>
+
+                    <TextView
+                        android:id="@+id/tv_payinfo_code"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="16dp"
+                        android:text="@string/no_receive_code"
+                        android:textColor="@color/red"
+                        android:visibility="gone" />
+
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/agreement_layout"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="8dp"
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal"
+                    android:visibility="gone">
+
+                    <CheckBox
+                        android:id="@+id/checkbox_agreement"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
+                        android:button="@drawable/selector_check2"
+                        android:clickable="false" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="8dp"
+                        android:layout_marginRight="5dp"
+                        android:singleLine="true"
+                        android:text="@string/click_agreement"
+                        android:textColor="@color/black"
+                        android:textSize="@dimen/textSize14"
+                        android:layout_marginStart="8dp"
+                        android:layout_marginEnd="5dp" />
+
+                    <TextView
+                        android:id="@+id/tv_agreement"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="@string/click_agreement_contract"
+                        android:textColor="@color/blue"
+                        android:textSize="@dimen/textSize14" />
+
+                </LinearLayout>
+
+                <TextView
+                    android:id="@+id/tv_agreement_hint"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="30dp"
+                    android:text="@string/click_agreement_hint"
+                    android:textColor="#FFFF4949"
+                    android:textSize="@dimen/textSize12"
+                    android:visibility="gone"
+                    android:layout_marginStart="30dp" />
+
+                <TextView
+                    android:id="@+id/tv_submit"
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:layout_marginTop="16dp"
+                    android:layout_marginBottom="32dp"
+                    android:background="@drawable/shape_blue"
+                    android:gravity="center"
+                    android:text="@string/btn_submit_apply"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/textSize18" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:visibility="gone"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:layout_marginBottom="10dp"
+                android:gravity="center_horizontal"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="@string/a77"
+                    android:textColor="@color/blue_1"
+                    android:textSize="@dimen/textSize10" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="8dp"
+                    android:gravity="center"
+                    android:text="@string/a78"
+                    android:textColor="@color/blue_1"
+                    android:textSize="@dimen/textSize10" />
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

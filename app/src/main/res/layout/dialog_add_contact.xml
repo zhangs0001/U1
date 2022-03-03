@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/shape_white"
+        android:gravity="center_horizontal"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tv_dialog_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:text="@string/a122"
+            android:textColor="#757575"
+            android:textSize="@dimen/textSize16" />
+
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginTop="16dp"
+            android:background="#EEEEEE" />
+
+        <com.u1.gocashm.view.InputView
+            android:id="@+id/input_contact_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="12dp"
+            android:layout_marginTop="12dp"
+            android:layout_marginRight="12dp"
+            app:hint="@string/input_name"
+            app:title="Full Name"
+            android:layout_marginStart="12dp"
+            android:layout_marginEnd="12dp" />
+
+        <com.u1.gocashm.view.InputView
+            android:id="@+id/input_contact_phone"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="12dp"
+            android:layout_marginTop="12dp"
+            android:layout_marginRight="12dp"
+            app:hint="@string/please_select"
+            app:title="Mobile Number"
+            app:type="1"
+            android:layout_marginStart="12dp"
+            android:layout_marginEnd="12dp" />
+
+        <com.u1.gocashm.view.InputView
+            android:id="@+id/input_contact_relation"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="12dp"
+            android:layout_marginTop="12dp"
+            android:layout_marginRight="12dp"
+            app:hint="@string/please_select"
+            app:title="Relation"
+            app:type="1"
+            android:layout_marginEnd="12dp"
+            android:layout_marginStart="12dp" />
+
+        <TextView
+            android:id="@+id/tv_add_confirm"
+            android:layout_width="146dp"
+            android:layout_height="50dp"
+            android:layout_margin="24dp"
+            android:background="@drawable/shape_blue"
+            android:gravity="center"
+            android:text="@string/a123"
+            android:textColor="@color/white"
+            android:textSize="@dimen/textSize18" />
+
+    </LinearLayout>
+
+</LinearLayout>

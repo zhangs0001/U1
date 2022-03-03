@@ -1,0 +1,1204 @@
+<resources xmlns:tools="http://schemas.android.com/tools" tools:ignore="ExtraTranslation,DuplicateDefinition">
+
+    <string name="facebook_app_id"> 167199308469032 </string>
+
+    <string name="fb_login_protocol_scheme"> fb167199308469032 </string>
+
+    <string name="app_name"> GoCash </string>
+
+    <string name="main"> الصفحة الرئيسية </string>
+
+    <string name="mine"> حسابي </string>
+
+    <string name="loan"> قرض </string>
+
+    <string name="phone"> رقم الجوال </string>
+
+    <string name="input_phone"> الرجاء إدخال رقم الجوال </string>
+
+    <string name="input_pwd"> أدخل كلمة مرور تسجيل الدخول </string>
+
+    <string name="definitely_register"> سجل الآن </string>
+
+    <string name="forget_pwd"> هل نسيت كلمة المرور؟ </string>
+
+    <string name="next"> التالي </string>
+
+    <string name="reset_pwd"> تغيير كلمة المرور </string>
+
+    <string name="input_new_pwd"> يرجى تعيين كلمة مرور جديدة 6–16 </string>
+
+    <string name="input_anew_pwd"> الإدخال مرة أخرى </string>
+
+    <string name="input_old_pwd"> الرجاء إدخال كلمة المرور القديمة </string>
+
+    <string name="complete"> موافق </string>
+
+    <string name="register"> تسجيل </string>
+
+    <string name="save"> حفظ </string>
+
+    <string name="about_us"> نبذة عنا </string>
+
+    <string name="feed_back"> ملاحظات </string>
+
+    <string name="order_list"> سجل القرض </string>
+
+    <string name="btn_continue"> متابعة </string>
+
+    <string name="message_list"> قائمة الإشعارات </string>
+
+    <string name="new_version_hint"> يتوفر إصدار جديد ، يرجى النقر فوق "تأكيد" للتحديث من خلال Google play </string>
+
+    <string name="new_version_title"> التحديث إلى إصدار جديد </string>
+
+    <string name="exit_notice"> اضغط على زر الرجوع للخروج </string>
+
+    <string name="error_phone_no"> تنسيق رقم الهاتف غير صحيح ، إعادة الإدخال </string>
+
+    <string name="error_phone_no_9"> يجب أن يبدأ بـ "9" ويحتوي على 10 أرقام </string>
+
+    <string name="error_network_disable"> الشبكة غير متاحة ، يرجى التحقق منها </string>
+
+    <string name="error_request_fail"> يرجى التحقق من شبكتك </string>
+
+    <string name="error_url_invalid"> روابط الويب غير متوفرة </string>
+
+    <string name="error_sms_code"> خطأ ، الرجاء إعادة الإدخال </string>
+
+    <string name="error_has_not_login"> الرجاء تسجيل الدخول أولاً </string>
+
+    <string name="error_request_fail_reload"> فشل الطلب ، هل تريد إعادة التحميل؟ </string>
+
+    <string name="error_upload_image_fail"> فشل تحميل الصور ، يرجى إعادة التحميل </string>
+
+    <string name="error_permission"> يرجى تفويض التطبيق يدويًا </string>
+
+    <string name="error_password_not_same"> مرتي الإدخال مختلفتان ， يرجى إعادة الإدخال </string>
+
+    <string name="error_password_invalid"> تنسيق كلمة المرور غير صحيح ، فأنت بحاجة إلى مجموعة من الأرقام والحروف. الرجاء إعادة الإدخال </string>
+
+    <string name="set_new_password_hint"> يرجى تعيين كلمة مرور جديدة 6–16 </string>
+
+    <string name="register_success"> تسجيل ناجح </string>
+
+    <string name="tip_mobilePhone"> الرجاء إدخال رقم الهاتف المحمول بالتنسيق الصحيح! </string>
+
+    <string name="password_set_ok2"> تم تعيين كلمة المرور بنجاح </string>
+
+    <string name="action_settings"> تعيين </string>
+
+    <string name="password"> كلمة المرور </string>
+
+    <string name="submit"> إرسال </string>
+
+    <string name="confirm"> موافق </string>
+
+    <string name="dialog_cancel"> إلغاء </string>
+
+    <string name="logout"> تسجيل الخروج </string>
+
+    <string name="go_login"> تسجيل الدخول الآن </string>
+
+    <string name="موجه"> موجه </string>
+
+    <string name="required"> المعلومات هنا مطلوبة </string>
+
+    <string name="Agreement_loan_contract"> انقر فوق إرسال للموافقة على 《اتفاقية القرض》 </string>
+
+    <string name="click_agreement"> وافقت على </string>
+
+    <string name="click_agreement_contract"> اتفاقية القرض </string>
+
+    <string name="loan_amount_message"> المبلغ الذي يزيد عن٪ s مخصص لعملاء VIP فقط </string>
+
+    <string name="loan_term_message"> مدة قرض تزيد عن٪ s لعملاء VIP فقط </string>
+    <!-- application result page-->
+
+    <string name="loan_apply_date"> تاريخ التقديم </string>
+
+    <string name="loan_apply_amount"> تطبيق مبلغ القرض </string>
+
+    <string name="loan_actual_amount"> مبلغ القرض </string>
+
+    <string name="loan_apply_terms"> فترة القرض </string>
+
+    <string name="loan_repay_amount"> المبلغ المستحق </string>
+
+    <string name="loan_disbursed_amount"> المبلغ المصروف </string>
+
+    <string name="loan_repay_date"> تاريخ الاستحقاق </string>
+
+    <string name="loan_apply_status"> حالة التطبيق </string>
+
+    <string name="loan_apply_hint"> تتم معالجة قرضك ، وسيتم الاتصال بك في غضون 1–2 يوم بنكي ، ويرجى الوصول إليك! قد يتم تعديل مبلغ القرض النهائي بناءً على معلوماتك الشخصية. تواصل معنا عبر صفحة الفيسبوك الرسمية إذا لزم الأمر! </string>
+
+    <string name="loan_success_hint"> * تمت الموافقة على طلب القرض الخاص بك ، وسيتم الصرف في غضون يوم إلى يومين من أيام البنوك </string>
+
+    <string name="loan_success_hint2"> * إذا كانت لديك أية مخاوف ، فيرجى تقديم ملاحظاتك عبر البريد الإلكتروني: cs@gocash.ph أو Facebook: GoCash Philippines. </string>
+
+    <string name="loan_failed_hint"> فشل طلب القرض الخاص بك ، يرجى التقديم بعد٪ s يوم! </string>
+
+    <string name="loan_failed_hint2"> يرجى إعادة تحميل صورة الهوية الخاصة بك أو تصحيح المعلومات الشخصية الأخرى! </string>
+
+    <string name="loan_repay_hint"> السداد المتقدم يمكن أن يساعد في الحصول على مبلغ أكبر على المدى الطويل! </string>
+
+    <string name="loan_status_review_title"> معلومات القرض (الموافقة) </string>
+
+    <string name="loan_status_review"> الموافقة </string>
+
+    <string name="loan_status_apply_success_title"> موافق عليه (الصرف) </string>
+
+    <string name="loan_status_apply_success"> يتم منح القرض </string>
+
+    <string name="loan_status_apply_failed"> فشل التطبيق </string>
+
+    <string name="loan_status_in_payment"> في انتظار السداد </string>
+
+    <string name="loan_status_settle"> مسح </string>
+
+    <string name="reapply"> إعادة التقديم </string>
+
+    <string name="edit"> تصحيح الآن </string>
+
+    <string name="delay"> امتداد </string>
+
+    <string name="repay"> السداد </string>
+
+    <string name="loan_how_long">day </string>
+
+    <string name="loan_how_much"> EGP </string>
+
+    <string name="php_logo"> ₱ </string>
+
+    <string name="loan_status_cancel"> فشل التطبيق (تم إلغاؤه) </string>
+
+    <string name="loan_status_re_upload"> يجب تحميل معرّفك الصالح </string>
+
+    <string name="loan_hint_re_upload"> في عملية التحقق من الصحة الخاصة بك ، فإن صورة الهوية التي تم تحميلها لم تفي بمتطلباتنا. يرجى تحميل صورة واضحة مرة أخرى لبطاقة هوية سارية المفعول الخاصة بك. بعد القيام بذلك ، سوف نتحقق من صحته قريبًا. شكرا لك! </string>
+
+    <string name="re_upload"> تحميل الآن </string>
+
+    <!--payment information-->
+
+
+    <string name="select_bank_error"> يرجى تحديد البنك والفرع </string>
+
+    <string name="get_code_hint"> احصل على رمز التحقق  </string>
+
+    <string name="reacquire_code"> الإرسال مرة أخرى </string>
+
+    <string name="get_code"> احصل على رمز التحقق </string>
+
+    <string name="your_user_phone"> رقم هاتفك المحمول ： </string>
+
+    <string name="update_user_phone"> إذا كان رقم الجوال خاطئ ، يرجى التصحيح في الصفحة الرئيسية </string>
+
+    <string name="Agreement_title"> اتفاقية الخدمة </string>
+
+    <string name="pay_info_title"> معلومات الدفع </string>
+
+    <string name="name"> الاسم </string>
+
+    <string name="bank_name"> اسم البنك (يجب أن يكون اسم الحساب هو اسمك الخاص) </string>
+
+    <string name="bank_name_hint"> حدد البنك </string>
+
+    <string name="bank_city"> مدينة إصدار الحساب </string>
+
+    <string name="bank_city_hint"> يُرجى اختيار مدينة إصدار الحساب </string>
+
+    <string name="Branch_name"> فرع البنك </string>
+
+    <string name="Branch_name_hint"> الرجاء تحديد الفرع </string>
+
+    <string name="bank_num"> رقم الحساب المصرفي </string>
+
+    <string name="register_title"> تسجيل حساب GoCash </string>
+
+    <string name="your_phone_num_hint"> رقم هاتفك المحمول </string>
+
+    <string name="btn_submit_apply"> إرسال التطبيق </string>
+
+    <string name="verify_bankname"> يجب إدخال اسم البنك </string>
+
+    <string name="check_bankcity"> يجب إدخال مدينة إصدار البنك </string>
+
+    <string name="check_branchname"> يجب إدخال الفرع </string>
+
+    <string name="verify_bankcardnum"> الرجاء إدخال حساب مصرفي صحيح </string>
+
+    <string name="verify_smscode"> يجب أن يكون رمز التحقق من الرسائل القصيرة صالحًا </string>
+
+    <string name="check_password"> تتكون كلمة المرور من 6 إلى 16 رقمًا ， يجب أن تحتوي على حرف ورقم </string>
+
+    <string name="bank_num_hint"> الرجاء إدخال رقم الحساب </string>
+
+    <string name="no_receive_code"> إذا لم تتلق رمز التحقق ، فالرجاء التحقق مما إذا كان رقم هاتفك المحمول صحيحًا! </string>
+
+    <string name="pay_choice_title"> طريقة الدفع </string>
+
+    <string name="pay_choice_bank"> التحويل المصرفي </string>
+
+    <string name="pay_choice_cash"> تحصيل النقود </string>
+
+    <string name="pay_agency_name"> اسم المؤسسة </string>
+
+    <string name="pay_agency_fee"> رسوم معالجة الصرف </string>
+
+    <string name="pay_agency_hint"> اختر الاستلام النقدي دون اتصال بالإنترنت ، وسيتم خصم رسوم المناولة من مبلغ المدفوعات! </string>
+
+    <string name="verify_bankcardnum_china_bank"> لا يتم دعم توفير بنك الصين ، الرجاء تحديد بنك آخر أو تحصيل نقدي بلا اتصال. </string>
+
+    <!--work information-->
+
+    <string name="job_info_title"> معلومات العمل </string>
+
+    <string name="loan_intent"> الغرض من القرض </string>
+
+    <string name="loan_intent_hint"> الرجاء تحديد الغرض من القرض </string>
+
+    <string name="profession"> الحالة الاجتماعية </string>
+
+    <string name="profession_hint"> الرجاء تحديد الحالة الاجتماعية </string>
+
+    <string name="working_industry"> الصناعة </string>
+
+    <string name="working_industry_hint"> يرجى تحديد الصناعة </string>
+
+    <string name="company_name"> اسم الشركة </string>
+
+    <string name="company_name_hint"> الرجاء إدخال اسم الشركة </string>
+
+    <string name="job_position"> الوظيفة </string>
+
+    <string name="job_position_hint"> الرجاء إدخال الموضع </string>
+
+    <string name="monthly_income"> الدخل الشهري </string>
+
+    <string name="monthly_income_hint"> الرجاء تحديد الدخل الشهري </string>
+
+    <string name="الدخل_frequency"> تكرار الدخل </string>
+
+    <string name="الدخل_frequency_hint"> الرجاء تحديد تردد الدخل </string>
+
+    <string name="next_income_date"> يوم الدفع التالي </string>
+
+    <string name="next_income_date_hint"> يرجى تحديد يوم الدفع التالي </string>
+
+    <string name="work_length"> سنوات العمل </string>
+
+    <string name="work_length_hint"> يرجى تحديد سنوات العمل </string>
+
+    <string name="company_phone"> رقم هاتف الشركة </string>
+
+    <string name="company_phone_hint"> الرجاء إدخال رقم هاتف الشركة </string>
+
+    <string name="relative_name"> اسم القريب </string>
+
+    <string name="relative"> جهة الاتصال النسبية </string>
+
+    <string name="relative_name_hint"> يرجى تحديد اسم النسبي </string>
+
+    <string name="relative_phone"> رقم الجوال النسبي </string>
+
+    <string name="relative_phone_hint"> يرجى تحديد رقم الهاتف المحمول الخاص بالأقارب </string>
+
+    <string name="relationship"> العلاقة </string>
+
+    <string name="relationship_hint"> يرجى تحديد العلاقة </string>
+
+    <string name="allow_hint1"> مرحبًا！ تحتاج GoCash إلى معالجة بياناتك بأمان حتى تكون مؤهلاً للحصول على قرض. يرجى السماح لكل خطوة لمتابعة طلب القرض الخاص بك. </string>
+
+    <string name="allow_title_dialog"> تذكير </string>
+
+    <string name="allow_hint2"> يجب تفويض GoCash لشخص الاتصال والرسالة النصية. سنقوم بمعالجة المعلومات لبناء شبكتك مع سجلك المالي. بدون إذنك ، لن نصل إلى أي من جهات الاتصال الخاصة بك. </string>
+
+    <string name="verify_intent"> يجب إدخال غرض القرض </string>
+
+    <string name="verify_profession"> يجب إدخال معلومات العمل </string>
+
+    <string name="verify_workindustry"> يجب إدخال معلومات الصناعة </string>
+
+    <string name="verify_companyname"> يجب إدخال اسم الشركة </string>
+
+    <string name="verify_jobposition"> يجب إدخال الموضع </string>
+
+    <string name="verify_monthlyincome"> يجب إدخال الدخل الشهري </string>
+
+    <string name="verify_incomefrequency"> يجب إدخال تردد الدخل </string>
+
+    <string name="verify_nextincomedate"> يجب إدخال يوم الدفع التالي </string>
+
+    <string name="verify_worktime"> يجب إدخال سنوات العمل </string>
+
+    <string name="verify_officephone"> يجب إدخال رقم هاتف الشركة </string>
+
+    <string name="verify_relativesname"> يجب إدخال اسم قريب </string>
+
+    <string name="verify_relativesphone"> يجب إدخال رقم الجوال الخاص بالأقارب </string>
+
+    <string name="verify_relationship"> يجب إدخال العلاقة </string>
+
+    <string name="verify_officephoneerror"> رقم هاتف الشركة خطأ ، الرجاء إدخال رقم صالح </string>
+
+    <!--ID Image-->
+
+
+    <string name="id_card_title"> صورة بطاقة الهوية </string>
+
+    <string name="understand"> مفهوم </string>
+
+    <string name="upload_front"> تحميل الصورة الأمامية للمعرف </string>
+
+    <string name="id_card_hint"> يرجى التقاط صورة ملونة واضحة. </string>
+
+    <string name="id_card_attention"> تعامل GoCash معلومات المستخدم والخصوصية بأهمية كبيرة ، وما زلنا نتبع سياسة حماية الخصوصية بدقة للتأكد من أن معلوماتك آمنة </string>
+
+    <string name="id_card_type_title"> نوع المستند </string>
+
+    <string name="id_card_title2"> التقاط صورة ذاتية </string>
+
+    <string name="ump_title"> معرف متعدد الأغراض موحد </string>
+
+    <string name="sss_title"> نظام الضمان الاجتماعي </string>
+
+    <string name="driver_title"> رخصة القيادة </string>
+
+    <string name="id_card_hint1"> تأكد من توفير صور الهوية المذكورة أعلاه ، وإلا فسيتم رفض الطلب: </string>
+
+    <string name="id_card_hint2"> 1. تأكد من أن مستند الهوية المقدم هو المستند الأصلي ؛ </string>
+
+    <string name="id_card_hint3"> 2. تأكد من أن الصورة الملتقطة كاملة وواضحة ؛ </string>
+
+    <string name="id_card_hint4"> 3. إذا كانت الصورة غير واضحة أو غير كاملة ، فسيتم رفضها. </string>
+
+    <string name="id_card_hint5"> يرجى التأكد من توفير صورتك الذاتية ، وإلا فسيتم رفض الطلب. </string>
+
+    <string name="id_card_hint6"> 1. ضع المعرف أمامك ، لا تغطي وجهك ؛ </string>
+
+    <string name="id_card_hint7"> تأكد من أن الصورة الذاتية المقدمة تخصك وأن تكون واضحة. </string>
+
+    <string name="id_card_hint8"> 2. تأكد من أن صورة وجهك واضحة وكاملة. </string>
+
+    <string name="id_card_hint9"> يجب تقديم الصور المذكورة أعلاه ، وإلا فسيتم رفض الطلب. </string>
+
+    <string name="id_card_hint10"> لديك مرتين فقط للتحقق من معلومات الهوية ، يرجى التعامل معها بجدية. </string>
+
+    <string name="id_card_hint11"> مثل هذه ， الصورة يجب أن تكون واضحة </string>
+
+    <string name="id_card_hint12"> 1. يرجى التأكد من قيامك بذلك بنفسك ، وستتم مقارنتها بصورتك على بطاقة الهوية الخاصة بك ، وفي الوقت نفسه ، لديك مرتين فقط لهذا التحقق </string>
+
+    <string name="id_card_hint13"> 2. يرجى التأكد أثناء التعرف ، وجهك كامل وواضح مع منطقة الالتقاط. </string>
+
+    <string name="id_card_hint14"> انقر للحصول على تعريف مباشر للوجه ، يرجى تحريك وجهك مثل العينة التي تمت إزالتها ، وستتم مقارنة هذه العملية بالمعرف ، لذا تأكد من أن صورتك واضحة والحركة سلسة. </string>
+    <!--login in-->
+
+
+    <string name="login"> تسجيل الدخول </string>
+
+    <string name="login_title_hint"> الرجاء تسجيل الدخول إذا كنت مستخدمًا عاديًا بالفعل </string>
+
+    <string name="login_phone_hint"> الرجاء إدخال رقم هاتفك المحمول </string>
+
+    <string name="login_password_hint"> الرجاء إدخال كلمة مرور تسجيل الدخول </string>
+
+    <string name="login_check_code_hint"> الرجاء إدخال رمز التحقق SMS </string>
+
+    <string name="login_left_hint"> أول تسجيل دخول؟ </string>
+
+    <string name="login_right_hint"> التسجيل أولاً </string>
+
+    <string name="date_picker_hint"> يرجى تحديد التاريخ </string>
+
+    <string name="repayment_account"> حساب السداد </string>
+
+    <!--forgot password-->
+
+
+    <string name="forget_password"> نسيت كلمة المرور </string>
+
+    <string name="code"> * رمز التحقق </string>
+
+    <string name="input_code"> الرجاء إدخال رمز التحقق </string>
+
+    <string name="set_password"> تعيين كلمة المرور </string>
+
+    <string name="confirm_password"> تأكيد كلمة المرور </string>
+
+    <string name="input_confirm_password"> الرجاء إدخال كلمة المرور الجديدة مرة أخرى </string>
+
+    <!--application details-->
+
+
+    <string name="username"> اسم العميل </string>
+
+    <string name="idcard"> رقم معرف الحكومة </string>
+
+    <string name="contract_no"> رقم العقد </string>
+
+    <string name="loan_amount"> مبلغ الصرف </string>
+
+    <string name="loan_term"> مدة القرض </string>
+
+    <string name="loan_date"> تاريخ الصرف </string>
+
+    <string name="loan_repaydate"> تاريخ الاستحقاق </string>
+
+    <string name="loan_dueamount"> مبلغ غير مستقر </string>
+
+    <string name="contract_status"> حالة العقد </string>
+
+    <string name="order_status"> حالة التطبيق </string>
+
+    <string name="order_message"> يرجى السداد في الوقت المناسب! سيؤدي السداد المتأخر إلى عقوبة عالية！ </string>
+
+    <string name="delay_message"> يرجى إجراء الدفع ثم التقدم بطلب للحصول على التمديد </string>
+
+    <string name="loan_detail"> تفاصيل القرض </string>
+
+    <string name="get_contract_download"> تم تنزيل عقد PDF في مجلد التنزيل بهاتفك! </string>
+
+    <string name="repay_code"> رقم المرجع </string>
+    <!--personal information-->
+
+
+    <string name="info_title"> المعلومات الشخصية </string>
+
+    <string name="info_idcard"> معلومات الهوية </string>
+
+    <string name="info_address"> معلومات الإقامة </string>
+
+    <string name="info_job"> معلومات العمل </string>
+
+    <string name="info_idcardimage"> صورة بطاقة الهوية </string>
+
+    <string name="info_pay"> معلومات الدفع </string>
+
+    <!--ID information-->
+
+
+    <string name="input_idcard"> الرجاء إدخال رقم المعرف </string>
+
+    <string name="birthday"> تاريخ الميلاد </string>
+
+    <string name="birthday_hint"> الرجاء تحديد تاريخ الميلاد </string>
+
+    <string name="sex"> * الجنس </string>
+
+    <string name="select_birthday"> الرجاء تحديد تاريخ الميلاد </string>
+
+    <string name="sex_male"> ذكر </string>
+
+    <string name="sex_female"> أنثى </string>
+
+    <string name="marital_status"> الحالة الاجتماعية </string>
+
+    <string name="marital_status_hint"> الرجاء تحديد الحالة الاجتماعية </string>
+
+    <string name="education_status"> المستوى التعليمي </string>
+
+    <string name="education_status_hint"> الرجاء تحديد المستوى التعليمي </string>
+
+    <string name="please_select"> الرجاء تحديد </string>
+
+    <string name="email"> البريد الإلكتروني </string>
+
+    <string name="email_hint"> abc123@gmail.com </string>
+
+    <string name="check_app"> ما هو تطبيق الشبكات الاجتماعية الذي تستخدمه？ </string>
+
+    <string name="is_app_phone"> رقم الهاتف المحمول هذا هو رقم تسجيل تطبيق الشبكات الاجتماعية </string>
+
+    <string name="app_phone"> رقم الجوال المسجل لتطبيق الشبكات الاجتماعية </string>
+
+    <string name="otherapp"> الرجاء إدخال اسم تطبيق الشبكات الاجتماعية </string>
+
+    <string name="app_phone_hint"> الرجاء إدخال الرقم المسجل في تطبيق الشبكات الاجتماعية </string>
+
+    <string name="verify_idcard_type"> هذا الحقل مطلوب. </string>
+
+    <!-- jason 2018/09/27-->
+
+
+    <string name="driver_card_type_hint"> يبدأ رقم رخصة القيادة المكون من 11 رقمًا بالحرف الإنجليزي </string>
+
+    <string name="sss_card_type_hint"> يتكون رقم بطاقة SSS من 10 أرقام فقط </string>
+
+    <string name="umid_type_hint"> رقم UMID هو 12 رقمًا خالصًا فقط </string>
+
+    <string name="verify_sex_tip"> يرجى تحديد الجنس </string>
+
+    <string name="verify_birthday"> يجب إدخال تاريخ الميلاد </string>
+
+    <string name="verify_marital"> الرجاء إدخال الحالة الزوجية </string>
+
+    <string name="verify_email"> الرجاء إدخال عنوان البريد الإلكتروني </string>
+
+    <string name="verify_emailaddress"> الرجاء إدخال عنوان بريد إلكتروني صالح </string>
+
+    <string name="verify_otherapp"> الرجاء إدخال اسم تطبيق آخر للشبكات الاجتماعية </string>
+
+    <string name="verify_appphone"> يجب إدخال رقم الجوال المسجل لتطبيق الشبكات الاجتماعية </string>
+
+    <string name="verify_appphoneerror"> الرقم المسجل في تطبيق الشبكات الاجتماعية غير صحيح ، يرجى إدخال رقم الهاتف المحمول الصحيح </string>
+
+    <!--contact information-->
+
+
+    <string name="address_province"> المقاطعة / المدينة </string>
+
+    <string name="address_province_hint"> يرجى تحديد المقاطعة / المدينة </string>
+
+    <string name="address_city"> المنطقة </string>
+
+    <string name="address_city_hint"> يرجى تحديد الحي </string>
+
+    <string name="address_county"> المجتمع </string>
+
+    <string name="address_county_hint"> الرجاء تحديد المجتمع </string>
+
+    <string name="address_detail"> الشارع ، رقم المبنى ، رقم الغرفة </string>
+
+    <string name="address_detail_input"> رقم 7 للشارع السابع </string>
+
+    <string name="address_duration"> وقت الإقامة </string>
+
+    <string name="address_duration_hint"> يرجى تحديد الوقت السكني </string>
+
+    <string name="verify_province"> يجب إدخال المقاطعة / المدينة </string>
+
+    <string name="verify_city"> يجب إدخال المنطقة </string>
+
+    <string name="verify_county"> يجب إدخال المجتمع </string>
+
+    <string name="verify_detail"> يجب إدخال رقم المبنى </string>
+
+    <string name="verify_duration"> يجب إدخال الوقت السكني </string>
+
+    <string name="verify_city_empty"> يرجى تحديد المقاطعة / المدينة </string>
+
+    <string name="verify_county_empty"> يرجى تحديد المقاطعة / المدينة </string>
+
+    <!--homepage-->
+
+
+    <string name="phoneorname_message"> يجب إدخال الاسم ورقم الجوال </string>
+
+    <string name="input_amount"> يرجى تحديد المبلغ </string>
+
+    <string name="click_loan_agreement"> انقر فوق الحصول على النقود الآن للموافقة على </string>
+
+    <!-- jason 2018/09/28-->
+
+
+    <string name="home_loan_amount"> مبلغ القرض </string>
+
+    <string name="repay_date"> تاريخ الاستحقاق </string>
+
+    <string name="repay_amount"> إجمالي المبلغ المستحق </string>
+
+    <string name="service_agreement"> اتفاقية الخدمة </string>
+
+    <string name="click_apply_loan"> احصل على النقود الآن </string>
+
+    <string name="input_name"> الرجاء إدخال الاسم الكامل </string>
+
+    <string name="phone_default"> 0990 000 000 </string>
+
+    <string name="verify_name"> مسموح فقط باستخدام أحرف الاسم </string>
+
+    <string name="check_namesize"> ما لا يقل عن حرفين للاسم </string>
+
+    <string name="verify_phone"> رقم الجوال خاطئ ، الرجاء إدخال 10 أرقام لرقم الجوال </string>
+
+    <!-- jason 2018/09/27-->
+
+
+    <!--Repayment page-->
+
+
+    <string name="repay_method"> طريقة السداد </string>
+
+    <string name="repay1"> يمكنك تسوية القرض في أي فرع من فروع DragonPay Payment Partners التالية: </string>
+
+    <string name="repay_title_711"> 7-Eleven (Dragonloans) </string>
+
+    <string name="repay_title_bc"> مركز بياض </string>
+
+    <string name="repay_title_sm"> متجر SM وسوبر ماركت وعدادات الدفع SM و Savemore </string>
+
+    <string name="repay_title_rd"> متجر Robinsons متعدد الأقسام والسوبر ماركت </string>
+
+    <string name="repay_title_lbc"> LBC </string>
+
+    <string name="repay_title_cl"> Cebuana Lhuillier </string>
+
+    <string name="repay_2"> الدفع عبر 7-Eleven c / o DRAGON LOANS. </string>
+
+    <string name="repay_step1"> الخطوة الأولى: </string>
+
+    <string name="repay_step1_content"> استخدم 7-Eleven Cliqq kios. </string>
+
+    <string name="repay_step2"> الخطوة الثانية: </string>
+
+    <string name="repay_step2_content"> دفع الفواتير> المزيد من الفواتير> القروض> قروض DRAGON> أدخل التفاصيل المطلوبة التالية. </string>
+
+    <string name="repay_step3"> الخطوة الثالثة: </string>
+
+    <string name="repay_step3_content"> اذهب إلى أمين الصندوق مع قسيمة الدفع واحتفظ بالإيصال. </string>
+
+    <string name="repay3"> الدفع عن طريق Bayad Center أو LBC أو Cebuana Lhuillier أو SM Payment Counter أو Robinson’s Payment Center. </string>
+
+    <string name="repay_step1_content2"> احصل على نموذج دفع واكتب DRAGONPAY كاسم المستلم / المفوتر. </string>
+
+    <string name="repay_step2_content2"> املأ النموذج المقدم من مراكز الدفع بما في ذلك الرقم المرجعي (معرف مدى الحياة) والمبلغ. </string>
+
+    <string name="repay_step3_content2"> انتقل إلى أمين الصندوق للدفع واحتفظ بالإيصال. </string>
+
+    <string name="repay4"> تسوية حسابك في أو قبل 7 مساءً من DUE DATE ، بعد السداد ، ستتم ترقية سجل السداد الخاص بك في غضون يوم إلى يومين عمل. </string>
+
+    <string name="repay_other_help"> تعليمات أخرى </string>
+
+    <!--reloan information-->
+
+
+    <string name="Emergency_contact_title"> جهة اتصال الطوارئ </string>
+
+    <string name="Emergency_contact_name"> الاسم الكامل لجهة اتصال الطوارئ </string>
+
+    <string name="Emergency_contact_phone"> رقم الهاتف المحمول لجهة اتصال الطوارئ </string>
+
+    <string name="contract_no_title"> رقم العقد: </string>
+
+    <string name="contract_amount_title"> مبلغ القرض: </string>
+
+    <string name="apply_date_title"> تاريخ التطبيق: </string>
+
+    <string name="loan_term_title"> مدة القرض: </string>
+
+    <string name="order_status_title"> حالة التطبيق: </string>
+
+    <!--reloan information-->
+
+
+    <!--    <string name="about_us_content">Need cash？ Find your online mobile wallet GoCash to get worriless loan. GoCash is a fast and convenient mobile loan tool, which only requires ID and installation of the app, then you can enjoy fast approved loan, provided by Fin-tech, repeatedly just at home, to satisfy the consuming needs whenever and wherever you want and to improve the life quality.</string>
+
+        <string name="contact_us">contact us</string>
+
+        <string name="contact_us_content">If you have any concern during your usage, please contact our customer service.\nCS email：cs@GoCash.ph</string>-->
+
+    <!--关于我们-->
+    <string name="about_us_content"> Gocash هو منتج عبر الإنترنت يقدم قروضًا صغيرة بدون قروض عقارية. يركز على مساعدة الشباب من ذوي الياقات البيضاء والعمال ذوي الياقات الزرقاء لتلبية احتياجاتهم الملحة في حياتهم اليومية من خلال تقديم قرض صغير من 1000 جنيه إلى 20000 جنيه.
+
+Gocash هو تطبيق معالج عبر الإنترنت ، يلغي التطبيقات والعمليات اليدوية المملة للخدمات المالية التقليدية. وتأمل في توفير طريقة استعارة جديدة تكون أكثر ملاءمة ومرونة وأبسط وأسرع. </string>
+    <string name="contact_us"> اتصل بنا </string>
+    <string name="contact_us_content"> نريد أن نستوعب باستمرار
+كل هموم ، حسن الثناء \ n
+والاستفسارات ، يرجى مراسلتنا عبر البريد الإلكتروني على: hr@gocashleg.com </string>
+
+    <string name="Join_us"> انضم إلينا </string>
+
+    <string name="Join_us_content"> إذا كنت ترغب في الانضمام إلينا ، فالرجاء إرسال سيرتك الذاتية وسنقوم بالاتصال بك في أسرع وقت ممكن. \ n البريد الإلكتروني للتوظيف ： hr@GoCash.ph </string>
+
+    <!--homepage explanation-->
+
+    <string name="get_loan_title"> إجراء بسيط للحصول على القرض وسداده </string>
+
+    <string name="get_loan_step1_content1"> عملية مريحة </string>
+
+    <string name="get_loan_step1_content2"> إدخال المعلومات في غضون 5 دقائق </string>
+
+    <string name="get_loan_step2_content1"> الموافقة السريعة </string>
+
+    <string name="get_loan_step2_content2"> تمت الموافقة في غضون ساعتين </string>
+
+    <string name="get_loan_step3_content1"> احصل على النقود </string>
+
+    <string name="get_loan_step3_content2"> الصرف في غضون 24 ساعة </string>
+
+    <string name="get_loan_step4_content1"> سداد القرض </string>
+
+    <string name="get_loan_step4_content2"> السداد من خلال شركاء الدفع في تاريخ الاستحقاق </string>
+
+    <string name="get_loan_title2"> حالة القرض </string>
+
+    <string name="age"> العمر </string>
+
+    <string name="age_condition"> من 22 إلى 60 عامًا </string>
+
+    <string name="profession_condition"> أصحاب الدخل الثابت </string>
+
+    <string name="id_card"> مستند الهوية </string>
+
+    <string name="id_card_condition"> معرف صالح </string>
+
+    <string name="bank_card"> حساب مصرفي </string>
+
+    <string name="bank_card_condition"> حساب مصرفي محلي صالح </string>
+
+    <string name="loantop_title"> تطبيق على مدار الساعة طوال أيام الأسبوع للحصول على \ n صرف سريع </string>
+
+    <string name="loantop_amount"> مبلغ القرض </string>
+
+    <string name="loantop_term"> المصطلح </string>
+
+    <string name="hint_name1"> أدخل اسمك الكامل (كما يظهر في المعرف الخاص بك) </string>
+
+    <string name="hint_name2"> الاسم الأوسط القانوني (اختياري ، إذا كان مدرجًا في المعرف) </string>
+
+    <string name="hint_name3"> اسم العائلة القانوني (كما يظهر في المعرف الخاص بك) </string>
+
+    <string name="apply_contact_name_hint1"> أدخل الاسم الأول </string>
+
+    <string name="apply_contact_name_hint3"> أدخل اسم العائلة </string>
+
+    <string name="white_list_title"> كم يمكنني إقراضه </string>
+
+    <string name="white_list_et_text"> إدخال رقم الجوال </string>
+
+    <string name="white_list_btn_text"> اكتشف الآن </string>
+
+
+    <string name="copy"> Copy </string>
+
+
+    <string name="three_step"> احصل على مكافأة بثلاث خطوات بسيطة </string>
+
+    <string name="activity_time"> وقت النشاط </string>
+
+    <string name="activity_rules"> قواعد النشاط </string>
+
+
+    <string name="friend_loan_success"> تم تسجيل الصديق بنجاح </string>
+
+    <string name="receive_cash_voucher"> احصل على قسيمة نقدية </string>
+
+    <string name="activity_times"> 18 كانون الثاني (يناير) 2019 - 31 كانون الأول (ديسمبر) 2021 </string>
+
+    <string name="copy_success"> نسخة ناجحة </string>
+
+    <string name="qrcode"> رمز الاستجابة السريعة </string>
+
+    <string name="qrcode_hint1"> قسيمة نقدية </string>
+
+    <string name="qrcode_hint2"> تتوفر المكافأة بعد الدعوة </string>
+
+    <string name="qrcode_text"> بمجرد دعوة مستخدم صالح ، يمكن أن يحصل الداعي على 100 قسيمة نقدية EGP بعد الصرف الناجح ، (مستخدم صالح ： مستخدم حقيقي موجود لم يسجل من قبل) </string>
+
+    <string name="invite_friend"> دعوة الأصدقاء الآن </string>
+
+    <string name="no_promotion"> صديق لم تتم دعوته بعد </string>
+
+    <string name="new_user_time"> حان الوقت لتصبح مستخدمًا جديدًا: </string>
+
+    <string name="interest_wait_exchange"> معلق للاسترداد </string>
+
+    <string name="interest_already_exchange"> انتهى الاسترداد </string>
+
+    <string name="interest_expired"> منتهية الصلاحية </string>
+
+    <string name="interest_validity_period"> تظل صالحة حتى </string>
+
+    <string name="interest_validity_period_hint"> مكافأة لدعوة مستخدم جديد </string>
+
+    <string name="exchange"> التحويل الآن </string>
+
+    <string name="exchange_dialog_text"> هل تريد تأكيد تحويل القسيمة الآن؟ </string>
+    <string name="invite_url"> عنوان الدعوة الحصري </string>
+    <string name="invite_qr_icon"> رمز الاستجابة السريعة للدعوة الحصرية </string>
+    <string name="invite_friend_register"> دعوة الأصدقاء للتسجيل </string>
+    <string name="exchange_dialog_confirm"> تأكيد الاستلام </string>
+
+    <string name="mine_help"> مساعدة </string>
+
+    <string name="mine_invite"> دعوة الأصدقاء </string>
+
+    <string name="mine_offer"> قسيمة </string>
+
+    <string name="mine_promotion"> ترويجي </string>
+
+    <string name="no_redeemed_coupon"> لا توجد قسيمة مستردة </string>
+
+    <string name="no_expired_coupon"> لا توجد قسيمة منتهية الصلاحية </string>
+
+    <!--预览页面-->
+
+
+    <string name="preview_title"> يمكنك استعارة </string>
+
+    <string name="preview_amount"> 2000 - 12000 ₱ </string>
+
+    <string name="preview_btn_text"> تحقق من المبلغ الآن </string>
+
+    <string name="white_list_hint"> وفقًا للتقييم ، أنت عميل جيد ، يتوفر لك مبلغ أكبر. </string>
+
+    <string name="white_list_confirm"> حدد مبلغًا أكبر </string>
+
+    <string name="white_list_next"> متابعة </string>
+
+    <!-- AccountKit-->
+
+
+    <string name="account_kit_success"> تم التحقق بنجاح </string>
+
+    <string name="account_kit_failed"> فشل التحقق نظرًا لاختلاف رقم الهاتف المحمول الذي تم التحقق منه عن رقم الهاتف المحمول المسجل. الرجاء التحقق مرة أخرى! </string>
+
+    <string name="account_kit_cancel"> فشل التحقق ، الرجاء التحقق مرة أخرى! </string>
+
+    <string name="loan_activity_hint1"> أخبار سارة! يتوفر خصم 10٪ للعميل الذي لديه قرض معنا أكثر من مرتين! </string>
+
+    <string name="loan_activity_hint2"> تقدم بطلب للحصول على قرض الآن للتمتع بخصم يصل إلى 5٪ حتى 10٪ على الفور! </string>
+
+    <string name="loan_activity_hint3"> قدم طلبًا للحصول على قرض مرة أخرى للتمتع بخصم 5٪ أعلى من 10٪ مرة أخرى! </string>
+
+    <string name="loan_activity_hint4"> قم بتسوية وإعادة الإعارة مرة أخرى للتمتع بخصم يصل إلى 5٪ حتى 10٪ على الفور! اذهب وتقدم الآن! </string>
+
+    <string name="loan_first_due_date"> تاريخ الاستحقاق الأول </string>
+
+    <string name="loan_first_due_amount"> أول مبلغ مستحق </string>
+
+    <string name="loan_second_due_date"> تاريخ الاستحقاق الثاني </string>
+
+    <string name="loan_second_due_amount"> المبلغ الثاني المستحق </string>
+    <string name="upload_back_front"> قم بتحميل صورة على ظهر بطاقة الهوية الخاصة بك </string>
+
+    <string name="a1"> الاسم الذي تدخله مختلف عن التطبيق السابق </string>
+    <string name="a2"> الرجاء تحديد </string>
+    <string name="a3"> _Enter </string>
+    <string name="a4"> _ اترك </string>
+    <string name="a5"> _C_Back </string>
+    <string name="a6"> male </string>
+    <string name="a7"> Female </string>
+    <string name="a8"> الرجاء تحديد الحساب المصرفي! </string>
+    <string name="a9"> يرجى أخذ معرف الشركة </string>
+    <string name="a10"> الرجاء إدخال رقم الهاتف </string>
+    <string name="a11"> تنسيق رقم الهاتف غير صحيح </string>
+    <string name="a12"> لم يبدأ النشاط </string>
+    <string name="a13"> إضافة جهة اتصال </string>
+    <string name="a14"> إعادة تعيين كلمة المرور </string>
+    <string name="a15"> تأكيد رقم الهاتف </string>
+    <string name="a16"> رقم المعرف الحكومي. خطأ </string>
+    <string name="a17"> إشعار </string>
+    <string name="a18"> أنت لم تصل إلى مرحلة السداد! </string>
+    <string name="a19"> الخطوة النهائية </string>
+    <string name="a20"> إستراتيجية الترقية </string>
+    <string name="a21"> السحب المحظوظ </string>
+    <string name="a22"> خطأ في تنزيل الملف </string>
+    <string name="a23"> يسار </string>
+    <string name="a24"> تدور </string>
+    <string name="a25"> يرجى التحقق من ذلك </string>
+    <string name="a26"> فشل التحقق من شهادة SSL </string>
+    <string name="a27"> أنت لم تصل إلى مرحلة السداد! </string>
+    <string name="a28"> تهانينا! \ n لقد فزت بالسحب! </string>
+    <string name="a29"> شكرًا لمشاركتك </string>
+    <string name="a30"> ليس لديك فرصة للتعادل ، يرجى انتظار الحدث التالي </string>
+    <string name="a31"> تهانينا للحصول على المبلغ / عرض التاريخ ، يمكنك تحديد مبلغ أكبر الآن! </string>
+    <string name="a32"> في ضوء درجة الائتمان الخاصة بك ، يرجى إعادة تحديد المبلغ. </string>
+    <string name="a33"> تحصل على قسيمة ، استخدمها الآن! </string>
+    <string name="a34"> نسخ إلى الحافظة </string>
+    <string name="a35"> * جهة اتصال الطوارئ </string>
+    <string name="a36"> * جهة الاتصال العامة </string>
+    <string name="a37"> يجب توفير معلومات اتصال واحدة على الأقل لكل جهة اتصال </string>
+    <string name="a38"> لمعالجة طلب القرض الخاص بك ، يرجى تقديم الأذونات المطلوبة </string>
+    <string name="a39"> يُرجى الرجوع والموافقة على تقديم الأذونات كما هو مطلوب بعد النقر فوق "أوافق". </string>
+    <string name="a40"> W إذا رفضت أيًا من الأذونات واخترت "عدم السؤال مرة أخرى" ، فستحتاج إلى الانتقال إلى إعدادات الهاتف لتوفير الأذونات. </string>
+    <string name="a41"> للخلف </string>
+    <string name="a42"> في ضوء درجة الائتمان الخاصة بك ، يرجى إعادة تحديد المبلغ. </string>
+    <string name="a43"> مبلغ القرض </string>
+    <string name="a44"> ستدفع على قسطين ، يرجى تأكيد فترة السداد الأولى </string>
+    <string name="a45"> Dalily Cost </string>
+    <string name="a46"> رسوم الخدمة </string>
+    <string name="a47"> رسوم خدمة السحب </string>
+    <string name="a48"> مبلغ الصرف </string>
+    <string name="a49"> استخدم الكوبون </string>
+    <string name="a50"> المبلغ الأولي المستحق </string>
+    <string name="a51"> مبلغ الخصم </string>
+    <string name="a52"> المبلغ الفعلي القابل للسداد </string>
+    <string name="a53"> أول مبلغ مستحق </string>
+    <string name="a54"> تاريخ الاستحقاق الأول </string>
+    <string name="a55"> المبلغ الثاني المستحق </string>
+    <string name="a56"> تاريخ الاستحقاق الثاني </string>
+    <string name="a57"> أدخل رمز التأكيد </string>
+    <string name="a58"> * الاسم </string>
+    <string name="a59"> الاسم الكامل </string>
+    <string name="a60"> الاسم الأوسط </string>
+    <string name="a61"> اسم العائلة </string>
+    <string name="a62"> ملكية / تشغيل / استخدام GoCash لشركة GoCash.PH LENDING CORPORATION. </string>
+    <string name="a63"> رقم تسجيل الشركة: CS201814908 رقم شهادة التفويض 2718 </string>
+    <string name="a64"> مثال </string>
+    <string name="a65"> تحديد الوجه المباشر </string>
+    <string name="a66"> ملكية / تشغيل / استخدام GoCash لشركة GoCash.PH LENDING CORPORATION. </string>
+    <string name="a67"> رقم تسجيل الشركة: CS201814908 رقم شهادة المرجع 2718 </string>
+    <string name="a68"> اكتملت الخطوة </string>
+    <string name="a69"> مبالغ القسيمة </string>
+    <string name="a70"> تسجيل </string>
+    <string name="a71"> تطبيق قرض </string>
+    <string name="a72"> الصرف </string>
+    <string name="a73"> السداد في الوقت المحدد </string>
+    <string name="a74"> جهة الاتصال النسبية 1 </string>
+    <string name="a75"> جهة الاتصال النسبية 2 </string>
+    <string name="a76"> جهة الاتصال النسبية 3 </string>
+    <string name="a77"> ملكية / تشغيل / استخدام GoCash لشركة GoCash.PH LENDING CORPORATION. </string>
+    <string name="a78"> رقم تسجيل الشركة: CS201814908 رقم شهادة التفويض 2718 </string>
+    <string name="a79"> رابط Facebook </string>
+    <string name="a80"> https://www.facebook.com/ </string>
+    <string name="a81"> حصلت على حساب Facebook الخاص بك </string>
+    <string name="a82"> دوران لليسار 0 </string>
+    <string name="a83"> 1. يمكن لكل من العملاء العاديين والجدد الاستمتاع بهذا الحدث. \ n \ n
+2. المكافأة محدودة ، من يأتي أولاً ، يتم المطالبة بها أولاً. \ n \ n
+3. أكمل التسجيل للحصول على فرصة دوران واحدة ، وليس تسوية متأخرة للحصول على فرصة دوران واحدة. \ n \ n
+4. جميع حقوق تفسير نتائج القرعة تنعكس على GoCash. </string>
+    <string name="a84"> صورة رقم تعريف الشركة </string>
+    <string name="a85"> مثال </string>
+    <string name="a86"> طلب إذن </string>
+    <string name="a87"> أثناء استخدام ميزات معينة في GoCash ، يلزمك تمكين الأذونات التالية: </string>
+    <string name="a88"> غير موافق </string>
+    <string name="a89"> أوافق </string>
+    <string name="a90"> دعوة الأصدقاء \ n احصل على كوبونات </string>
+    <string name="a91"> أدخل كود الدعوة </string>
+    <string name="a92"> مع رمز الدعوة؟ </string>
+    <string name="a93"> الرجاء تعيين كلمة مرور القرض لتأمين قرضك </string>
+    <string name="a94"> تأكيد </string>
+    <string name="a95"> المستويات </string>
+    <string name="a96"> برونزية </string>
+    <string name="a97"> 1000-4000 جنيه مصري </string>
+    <string name="a98"> فضي </string>
+    <string name="a99"> 4001-6000 جنيه مصري </string>
+    <string name="a100"> GOLD </string>
+    <string name="a101"> 6001-12000 جنيه مصري </string>
+    <string name="a102"> DIAMOND </string>
+    <string name="a103"> 12001 جنيه مصري+ </string>
+    <string name="a104"> مستوى بروز </string>
+    <string name="a105"> المستوى الفضي </string>
+    <string name="a106"> المستوى الذهبي </string>
+    <string name="a107"> المستوى الماسي </string>
+    <string name="a108"> لا يوجد خصم </string>
+    <string name="a109"> خصم 3٪ على رسوم الخدمة </string>
+    <string name="a110"> خصم 6٪ على رسوم الخدمة </string>
+    <string name="a111"> خصم 8٪ -10٪ على رسوم الخدمة </string>
+    <string name="a112"> كيفية التقدم </string>
+    <string name="a113"> تحتفظ GoCash بحق التفسير النهائي. </string>
+    <string name="a114"> مبلغ القرض </string>
+    <string name="a115"> تاريخ الدفع </string>
+    <string name="a116"> مبلغ الدفعة </string>
+    <string name="a117"> إرجاع </string>
+    <string name="a118"> TitleBar </string>
+    <string name="a119"> حق </string>
+    <string name="a120"> تهانينا </string>
+    <string name="a121"> تحصل على قسيمة رسوم الفائدة ، فاستخدمها الآن! </string>
+    <string name="a122"> جهة اتصال الطوارئ </string>
+    <string name="a123"> تأكيد </string>
+    <string name="a124"> تهانينا! </string>
+    <string name="a125"> انتقل للتقييم </string>
+    <string name="a126"> الحد الأدنى لسداد التمديد ： </string>
+    <string name="a127"> 100 جنيه مصري </string>
+    <string name="a128"> السداد </string>
+    <string name="a129"> لديك قسيمة لاستخدامها في السداد ، هل أنت متأكد أنك لا تريد استخدامها؟ </string>
+    <string name="a130"> إلغاء </string>
+    <string name="a131"> تأكيد </string>
+    <string name="a132"> مثال </string>
+    <string name="a133"> اتفاقية القرض </string>
+    <string name="a134"> غير موافق </string>
+    <string name="a135"> تهانينا! \ n لقد فزت بالسحب! </string>
+    <string name="a136"> موافق </string>
+    <string name="a137"> في ضوء درجة الائتمان الخاصة بك ، يرجى إعادة تحديد المبلغ. </string>
+    <string name="a138"> مدة القرض </string>
+    <string name="a139"> تاريخ تقديم الطلب </string>
+    <string name="a140"> مبلغ القرض </string>
+    <string name="a141"> تاريخ السداد الأول </string>
+    <string name="a142"> أول دفعة </string>
+    <string name="a143"> تاريخ السداد الثاني </string>
+    <string name="a144"> السداد الثاني </string>
+    <string name="a145"> لقد قرأت ووافقت على </string>
+    <string name="a146"> لا ، شكرًا </string>
+    <string name="a147"> الرجاء إدخال مبلغ السداد </string>
+    <string name="a148"> EGP </string>
+    <string name="a149"> الحد الأدنى من EGP 100 </string>
+    <string name="a150"> الحد الأدنى للمبلغ هو 50 روبية </string>
+    <string name="a151"> * يجب أن يكون مبلغ السداد أكثر من EGP100 </string>
+    <string name="a152"> موافق عليه </string>
+    <string name="a153"> غير موافق </string>
+    <string name="a154"> تحديث الإصدار الجديد </string>
+    <string name="a155"> يجب أن يكون مبلغ السداد أكثر من 100 </string>
+    <string name="a156"> يفتح المتصفح </string>
+    <string name="a157"> 1. انسخ ارتباط تنزيل GP \n 2. افتح المستعرض والصق عنوان الارتباط وأدخل صفحة تنزيل GP \n 3. انقر فوق تحديث </string>
+    <string name="a158"> يجب أن يكون مبلغ السداد أكثر من 100 جنيه مصري </string>
+    <string name="a159"> نسخ </string>
+    <string name="a160"> إلغاء </string>
+    <string name="a161"> نعم </string>
+    <string name="a162"> لم يتبق سوى 3 خطوات للحصول على رصيد! يرجى النظر في الاستمرار أو المغادرة </string>
+    <string name="a163"> لتقديم خدمة أفضل ، هل لدينا ملاحظاتك حول سبب مغادرتك؟ </string>
+    <string name="a164"> مغادرة </string>
+    <string name="a165"> متابعة التطبيق </string>
+    <string name="a166"> إشعار </string>
+    <string name="a167"> تأكد من أن اسم الشركة واسمك وصورتك كلها في منطقة التقاط الكاميرا ، شكرًا لك! </string>
+    <string name="a168"> يمكنك استعارة </string>
+    <string name="a169"> 2000 جنيه مصري </string>
+    <string name="a170"> 50000 جنيه مصري </string>
+    <string name="a171"> الحد الأقصى \ n المبلغ القابل للقرض </string>
+    <string name="a172"> 50000 جنيه مصري </string>
+    <string name="a173"> السداد \ n المدة </string>
+    <string name="a174"> حتى 120 يومًا </string>
+    <string name="a175"> مثال: </string>
+    <string name="a176"> مبلغ القرض: </string>
+    <string name="a177"> 2000 جنيه مصري </string>
+    <string name="a178"> معدل الفائدة: </string>
+    <string name="a179"> في اليوم </string>
+    <string name="a180"> رسوم الخدمة: </string>
+    <string name="a181"> 200 جنيه مصري </string>
+    <string name="a182"> الفائدة: </string>
+    <string name="a183"> 0 جنيه مصري </string>
+    <string name="a184"> مبلغ الدفع: </string>
+    <string name="a185"> 2000 جنيه مصري </string>
+    <string name="a186"> تذكير: السداد المحسوب أعلاه هو للإشارة فقط. </string>
+    <string name="a187"> تاريخ تقديم الطلب </string>
+    <string name="a188"> مبلغ القرض </string>
+    <string name="a189"> تاريخ السداد الأول </string>
+    <string name="a190"> أول دفعة </string>
+    <string name="a191"> تاريخ السداد الثاني </string>
+    <string name="a192"> السداد الثاني </string>
+    <string name="a193"> رقم السحب </string>
+    <string name="a194"> تفاصيل ورسوم التمديد كما يلي: </string>
+    <string name="a195"> مبلغ القرض </string>
+    <string name="a196"> فترة التمديد </string>
+    <string name="a197"> الفائدة </string>
+    <string name="a198"> إجمالي مبلغ السداد </string>
+    <string name="a199"> وقت بدء التمديد </string>
+    <string name="a200"> وقت انتهاء التمديد </string>
+    <string name="a201"> الحد الأدنى لسداد التمديد </string>
+    <string name="a202"> 100 جنيه مصري </string>
+    <string name="a203"> * ملاحظة: إذا لم يكن لديك أي اعتراض على الحد الأدنى لمبلغ السداد للتمديد وتأكد من تمديده ، فالرجاء النقر على زر إرسال الامتداد لتأكيد طلب التمديد الخاص بك. </string>
+    <string name="a204"> إرسال الامتداد </string>
+    <string name="a205"> إذا كان التمديد ضروريًا للطوارئ المالية ، فيرجى التحقق من تفاصيل الحساب أدناه مع الشروط </string>
+    <string name="a206"> احسب الآن </string>
+    <string name="a207"> تاريخ تقديم الطلب </string>
+    <string name="a208"> مبلغ القرض </string>
+    <string name="a209"> تاريخ السداد الأول </string>
+    <string name="a210"> أول دفعة </string>
+    <string name="a211"> تاريخ السداد الثاني </string>
+    <string name="a212"> السداد الثاني </string>
+    <string name="a213"> ملكية / تشغيل / استخدام GoCash لشركة GoCash.PH LENDING CORPORATION. </string>
+    <string name="a214"> رقم تسجيل الشركة: CS201814908 رقم شهادة المرجع 2718 </string>
+    <string name="a215"> إستراتيجية الترقية </string>
+    <string name="a216"> إضافة جهة اتصال </string>
+    <string name="a217"> مثال </string>
+    <string name="a218"> معرف متعدد الأغراض موحد </string>
+    <string name="a219"> نظام الضمان الاجتماعي </string>
+    <string name="a220"> رخصة القيادة </string>
+    <string name="a221"> جواز السفر </string>
+    <string name="a222"> Jack Co </string>
+    <string name="a223"> 9123 1234 123 </string>
+    <string name="a224"> الأب </string>
+    <string name="a225"> 500 جنيه مصري </string>
+    <string name="a226"> 02-12-2020 14:55 </string>
+    <string name="a227"> إشعار حول تحسين النظام </string>
+    <string name="a228"> عزيزي العميل: مرحبًا! من أجل زيادة تعزيز تجربة عملك وتعزيز أمان النظام ، ستقوم شركتنا بإجراء ترقيات للنظام من الساعة 22:00 يوم 26 فبراير (الثلاثاء) إلى 9:00 يوم 27 فبراير (الأربعاء) ، 2019. في ذلك الوقت ، لن يقوم النظام أن تكون قادرًا على تقديم الخدمات ، وسيعود النظام إلى طبيعته بعد اكتمال ترقية النظام. شكرا لك على دعمك المتواصل لنا. نحن نعتذر عن أي إزعاج سببه لك. شكرا لك! </string>
+    <string name="a229"> تتكشف </string>
+    <string name="a230"> اسم البنك: </string>
+    <string name="a231"> اسم فرع البنك: </string>
+    <string name="a232"> أرقام بطاقات الائتمان: </string>
+    <string name="a233"> * ملاحظة: يرجى السداد إلى الحسابات المصرفية أعلاه </string>
+    <string name="a234"> الحد الأدنى للدفع: </string>
+    <string name="a235"> امتداد التطبيق هذا (أيام) </string>
+    <string name="a236"> لا أريد المال </string>
+    <string name="a237"> رقم المرجع: </string>
+    <string name="a238"> PH000035 </string>
+    <string name="a239"> طريقة الدفع </string>
+    <string name="a240"> 7-Eleven </string>
+    <string name="a241"> (باستخدام Dragonloans) </string>
+    <string name="a242"> Robinsons </string>
+    <string name="a243"> متجر متعدد الأقسام وسوبر ماركت </string>
+    <string name="a244"> مركز البياض </string>
+    <string name="a245"> سيبوانا لولييه </string>
+    <string name="a246"> عدادات الدفع SM </string>
+    <string name="a247"> متجر متعدد الأقسام ، سوبر ماركت ، Savemore ، هايبر ماركت </string>
+    <string name="a248"> LBC </string>
+    <string name="a249"> دليل دفع DRAGONPAY </string>
+    <string name="a250"> CEBUANA LHUILLIER </string>
+    <string name="a251"> MLHUILLIER </string>
+    <string name="a252"> RD PAWNSHOP </string>
+    <string name="a253"> 7/11 ClIQQ / KIOSK / ECPAY </string>
+    <string name="a254"> SM PAYMENT COUNTERS (SM Department Store و SM Supermarket و SM Hypermarket و Savemore وغيرها الكثير) </string>
+    <string name="a255"> متاجر إدارة روبنسون </string>
+    <string name="a256"> PAYMAYA </string>
+    <string name="a257"> TRUEMONEY </string>
+    <string name="a258"> المدفوعات المصرفية عبر الإنترنت </string>
+    <string name="a259"> قائمة التسهيلات المصرفية عبر الإنترنت </string>
+    <string name="a260"> إذا أكملت السداد من خلال حساب الشركة ، فيرجى تحميل شهادة السداد الخاصة بك ؛ وإذا قمت بسداد القرض عبر DragonPay ، فلن تحتاج إلى تحميل أي شيء. </string>
+    <string name="a261"> GoCash.PH LENDING CORPORATION COMPANY رقم تسجيل الشركة \ nCS201814908  و amp؛ شهادة التفويض رقم 2718 الممنوحة من قبل الأوراق المالية والصرف </string>
+    <string name="a262"> تاريخ تقديم الطلب </string>
+    <string name="a263"> مبلغ القرض </string>
+    <string name="a264"> تاريخ أول سداد </string>
+    <string name="a265"> أول دفعة </string>
+    <string name="a266"> تاريخ السداد الثاني </string>
+    <string name="a267"> السداد الثاني </string>
+    <string name="a268"> احتمال حصولك على قرض </string>
+    <string name="a269"> تهانينا على حصولك على </string>
+    <string name="a270"> قرعة الحظ ، </string>
+    <string name="a271"> احصل على المكافآت الآن </string>
+    <string name="a272"> رقم المرجع (معرف مدى الحياة) </string>
+    <string name="a273"> 7-Eleven Barcode </string>
+    <string name="a274"> الحصول على الرمز الشريطي </string>
+    <string name="a275"> 7/11 دفع الرمز الشريطي </string>
+    <string name="a276"> 7/11 دفع تطبيق CLIQQ </string>
+    <string name="a277"> M Lhuillier Payment </string>
+    <string name="a278"> RD PAWNSHOP Payment </string>
+    <string name="a279"> دفع GCash </string>
+    <string name="a280"> PayMaya Payment </string>
+    <string name="a281"> Truemoney Payment </string>
+    <string name="a282"> الاسم الكامل </string>
+    <string name="a283"> سداد البطاقة المصرفية </string>
+    <string name="a284"> رقم البطاقة </string>
+    <string name="a285"> إسم صاحب البطاقة </string>
+    <string name="a286"> شهر انتهاء الصلاحية </string>
+    <string name="a287"> تاريخ انتهاء الصلاحية </string>
+    <string name="a288"> CVV </string>
+    <string name="a289"> لا يمكن أن يكون المحتوى فارغًا </string>
+    <string name="a290">  </string>
+    <string name="a291">  </string>
+    <string name="a292">  </string>
+    <string name="a293">  </string>
+    <string name="a294">  </string>
+    <string name="a295">  </string>
+    <string name="a296">  </string>
+    <string name="a297">  </string>
+    <string name="a298">  </string>
+    <string name="a299">  </string>
+    <string name="a300">  </string>
+
+    <string name="phone_info_title"> الجهاز </string>
+    <string name="phone_info_content"> قم بالوصول إلى إذن معلومات جهازك للحصول على معلومات شبكة الجوال ومساعدتنا في منع الاحتيال. </string>
+    <string name="contacts_info_title"> جهات الاتصال </string>
+    <string name="contacts_info_content"> يريد GoCash الوصول إلى دفتر هاتفك وبيانات جهات الاتصال لاستبدال إدخالك وتسريع تطبيقك. سيتم تشفير البيانات وتحميلها على خادمنا. سنحافظ على سرية بياناتك تمامًا ، ولن نستخدمها إلا لمساعدتنا في منع الاحتيال وتحديد أهليتك للحصول على الائتمان. سنتصل فقط بشخص الاتصال الذي اخترته لتأكيد معلوماتك عند الضرورة. </string>
+    <string name="camera_info_title"> الكاميرا </string>
+    <string name="camera_info_content"> قم بالوصول إلى الأجهزة المستخدمة لالتقاط الصور وتسجيل مقاطع الفيديو. </string>
+    <string name="location_info_title"> الموقع </string>
+    <string name="location_info_content"> نستخدم بيانات موقعك وجهازك واستخدامك لأغراض البحث ولمساعدتنا في منع الاحتيال </string>
+    <string name="phone_number_info_title"> رقم الهاتف </string>
+    <string name="phone_number_info_content"> يُرجى السماح لـ GoCash بتخزين رقم هاتفك ومعلومات التطبيق المثبتة على خوادمنا لمنع الاحتيال والتحقق من الغرض من هويتك. ستتم حماية أمان معلوماتك الخاصة بشكل صارم ولن يتم الكشف عنها لأي طرف ثالث </string>
+    <string name="checking_payment_status">التحقق من حالة الدفع >></string>
+    <!--    <string name="policy_text"> سيتم تحميل المعلومات التي نجمعها إلى الخادم واستخدامها لمراجعة القرض ، يرجى تقديم معلومات حقيقية. بمنح الأذونات ، فإنك تقر بأنك قد قرأت ووافقت على سياسة الخصوصية و amp ؛ شروط الخدمات </string>-->
+    <!--    <string name="contacts_info_content"> ترغب GoCash في الوصول إلى دفتر هاتفك وبيانات جهات الاتصال لاستبدال إدخالك وتسريع تطبيقك. سيتم تشفير البيانات وتحميلها على خادمنا. سنحافظ على سرية بياناتك بشكل صارم ، ولن نستخدمها إلا لمساعدتنا في منع الاحتيال وتحديد أهليتك للحصول على الائتمان. نحن نتصل فقط بشخص الاتصال الذي اخترته لتأكيد معلوماتك عند الضرورة. </string>-->
+
+    <string name="dialog_tv28">الرجاء إدخال مبلغ السداد</string>
+    <string name="dialog_tv29">جنيه مصري</string>
+    <string name="dialog_tv30">يجب أن يكون مبلغ السداد أكثر من 100 جنيه مصري</string>
+    <string name="dialog_tv31">الدفع باستخدام البطاقة المصرفية      >></string>
+    <string name="dialog_tv32">الدفع باستخدام المحفظة الإلكترونية       >></string>
+    <string name="dialog_tv33">الدفع بالرقم المرجعي         >></string>
+
+    <string name="item_tv7">رقم المرجع:</string>
+    <string name="item_tv8">تاريخ الانتهاء:</string>
+    <string name="item_tv9">* ملاحظة: يرجى استكمال السداد قبل تاريخ انتهاء الصلاحية</string>
+    <string name="item_tv10">المحفظة الإلكترونية</string>
+    <string name="item_tv11">رقم المرجع</string>
+    <string name="payment_date">تاريخ الدفع:</string>
+    <string name="reference_number">رقم المرجع:</string>
+    <string name="amount">مقدار:</string>
+    <string name="refresh">ينعش</string>
+    <string name="repayment">يدفع</string>
+    <string name="pleaserepaymentpage">لا يمكن أن يكون المبلغ الذي تم إدخاله فارغًا</string>
+    <string name="addbankcard">أضف بطاقة مصرفية</string>
+
+</resources>

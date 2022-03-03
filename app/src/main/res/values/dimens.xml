@@ -1,0 +1,29 @@
+<resources>
+
+    <!-- 标题栏高度 -->
+    <dimen name="titlebar_height">56dp</dimen>
+    <dimen name="titlebar_btn_height">40dp</dimen>
+    <dimen name="titlebar_btn_width">40dp</dimen>
+
+    <!-- 全局标题栏文字大小 -->
+    <dimen name="titlebar_txt_size">20sp</dimen>
+    <!-- 全局底部栏按钮高度 -->
+    <dimen name="bottom_tabbar_txt_size">12sp</dimen>
+    <!-- 全局底部栏按钮高度 -->
+    <dimen name="btn_bonttom_height">60dp</dimen>
+    <dimen name="textSize30">30sp</dimen>
+    <dimen name="textSize22">22sp</dimen>
+    <dimen name="textSize20">20sp</dimen>
+    <dimen name="textSize19">19sp</dimen>
+    <dimen name="textSize18">18sp</dimen>
+    <dimen name="textSize17">17sp</dimen>
+    <dimen name="textSize16">16sp</dimen>
+    <dimen name="textSize15">15sp</dimen>
+    <dimen name="textSize14">14sp</dimen>
+    <dimen name="textSize13">13sp</dimen>
+    <dimen name="textSize12">12sp</dimen>
+    <dimen name="textSize11">11sp</dimen>
+    <dimen name="textSize10">10sp</dimen>
+    <dimen name="textSize9">9sp</dimen>
+
+</resources>

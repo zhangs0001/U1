@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "385551098160",
+    "firebase_url": "https://u-peso.firebaseio.com",
+    "project_id": "u-peso",
+    "storage_bucket": "u-peso.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:385551098160:android:57d04e3fedda49e1",
+        "android_client_info": {
+          "package_name": "com.u1.gocashm"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "385551098160-1tojgkohq74osb4l8l2dfoib6f7bpfqp.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.lanhai.upesocash",
+            "certificate_hash": "4984efe64627276278ec7008c0174968da989df1"
+          }
+        },
+        {
+          "client_id": "385551098160-ga83ill038r1u9a52vn4q88uqa5k1t7l.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCDi8GM-NbXAZ7uaJ-yBzuzSLwUoPBfAJs"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "385551098160-ga83ill038r1u9a52vn4q88uqa5k1t7l.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

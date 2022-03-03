@@ -1,0 +1,86 @@
+apply plugin: 'com.android.library'
+
+android {
+    compileSdkVersion 30
+
+    defaultConfig {
+        minSdkVersion 15
+        targetSdkVersion 30
+        versionCode 1
+        versionName "1.0"
+
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+
+
+//            测试环境
+//            http://120.78.230.66:8086
+//            APP61E52625035EA167
+//            buildConfigField "String", "END_POINT", '"http://120.78.230.66:8086"'
+//            buildConfigField "String", "APP_KEY", '"APP61E52625035EA167"'
+
+
+//            正式环境
+//            https://saas.gocashleg.com
+//            APP61E73E9E135E3AEQ
+            buildConfigField "String", "END_POINT", '"https://saas.gocashleg.com"'
+            buildConfigField "String", "APP_KEY", '"APP61E73E9E135E3AEQ"'
+
+
+            buildConfigField "String", "JPUSH_URL", '"https://api.sms.szbhtech.top/ap-web/jpush/"'
+            buildConfigField "String", "DDI_URL", '"https://ddi.shuzilm.cn/"'
+            buildConfigField "String", "CLIENT_ID", '"000d5db9068d5f1e"'
+        }
+
+        debug {
+            debuggable false
+            minifyEnabled true
+            buildConfigField "boolean", "LEO_DEBUG", "true"
+            buildConfigField "Boolean", "ENABLE_MOCK", "false"
+
+
+//        测试环境
+//        String BASE_URL = "http://120.78.230.66:8086";
+//        String APP_KEY = "APP61E52625035EA167";
+//            buildConfigField "String", "END_POINT", '"http://120.78.230.66:8086"'
+//            buildConfigField "String", "APP_KEY", '"APP61E52625035EA167"'
+
+
+//        正式环境
+//        https://saas.gocashleg.com
+//        APP61E73E9E135E3AEQ
+            buildConfigField "String", "END_POINT", '"https://saas.gocashleg.com"'
+            buildConfigField "String", "APP_KEY", '"APP61E73E9E135E3AEQ"'
+
+
+            buildConfigField "String", "JPUSH_URL", '"http://106.75.186.183:8090/ap-web/jpush/"'
+            buildConfigField "String", "DDI_URL", '"https://ddi.shuzilm.cn/"'
+            buildConfigField "String", "DEFAULT_CHANNEL_CODE", '"DEFAULT_CHANNEL_CODE"'
+            buildConfigField "String", "CLIENT_ID", '"000d5db9068d5f1e"'
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+
+}
+
+dependencies {
+    implementation fileTree(dir: 'libs', include: ['*.jar'])
+
+    implementation 'androidx.appcompat:appcompat:1.1.0'
+    implementation 'androidx.exifinterface:exifinterface:1.3.2'
+    testImplementation 'junit:junit:4.12'
+    api 'com.squareup.okhttp3:okhttp:3.12.0'
+    api 'com.squareup.okio:okio:2.1.0'
+    api 'com.squareup.retrofit2:retrofit:2.5.0'
+    api 'com.squareup.retrofit2:converter-gson:2.5.0'
+    api 'com.squareup.retrofit2:adapter-rxjava:2.5.0'
+    api 'io.reactivex:rxjava:1.3.8'
+    api 'io.reactivex:rxandroid:1.2.1'
+    api 'com.squareup.okhttp3:logging-interceptor:3.12.0'
+    api 'com.blankj:utilcode:1.22.10'
+    api 'com.jakewharton.timber:timber:4.7.1'
+}

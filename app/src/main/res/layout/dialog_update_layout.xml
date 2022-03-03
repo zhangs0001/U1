@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_marginTop="75dp"
+        android:layout_width="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_height="wrap_content"
+        android:background="@drawable/bg_upgrade_round_white"
+        android:orientation="vertical">
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="80dp"
+            android:text="@string/a154"
+            android:textSize="20sp"
+            android:textColor="@color/blue"
+            android:textStyle="bold"
+            android:layout_gravity="center_horizontal"/>
+
+        <TextView
+            android:id="@+id/tv_upgrade_content"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="12sp"
+            android:textColor="#111111"
+            android:layout_marginTop="18dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            android:textStyle="bold"
+            android:text="@string/a155"
+            android:layout_gravity="center_horizontal"/>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_marginTop="30dp"
+            android:layout_height="wrap_content"
+            android:paddingLeft="20dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            android:paddingRight="20dp"
+            android:background="@drawable/bg_round_f0f7ff"
+            android:orientation="vertical"
+            android:paddingStart="20dp"
+            android:paddingEnd="20dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="23dp"
+                android:text="@string/a156"
+                android:textSize="20sp"
+                android:textColor="@color/blue"
+                android:textStyle="bold"
+                android:layout_gravity="center_horizontal"/>
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="12sp"
+                android:textColor="#111111"
+                android:layout_marginTop="18dp"
+                android:text="@string/a157"
+                android:textStyle="bold"
+                android:layout_gravity="center_horizontal"/>
+
+
+            <TextView
+                android:id="@+id/tv_amount_error"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="10dp"
+                android:textColor="#cb1b1b"
+                android:layout_marginTop="7dp"
+                android:visibility="invisible"
+                android:text="@string/a158"
+                android:layout_gravity="center_horizontal"/>
+
+
+            <TextView
+                android:id="@+id/tv_copy"
+                android:layout_width="64dp"
+                android:layout_height="28dp"
+                android:layout_centerHorizontal="true"
+                android:layout_gravity="center_horizontal"
+                android:includeFontPadding="false"
+                android:background="@drawable/bg_button_296db8"
+                android:gravity="center"
+                android:layout_marginBottom="20dp"
+                android:text="@string/a159"
+                android:textColor="#ffffff"
+                android:textSize="14sp" />
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_marginTop="35dp"
+            android:layout_width="match_parent"
+            android:layout_height="52dp"
+            android:orientation="horizontal">
+            <TextView
+                android:id="@+id/cancel"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="match_parent"
+                android:background="@drawable/bg_btn_leftbottom_round"
+                android:gravity="center"
+                android:text="@string/a160"
+                android:textStyle="bold"
+                android:textColor="@color/blue"
+                android:textSize="13dp" />
+            <TextView
+                android:id="@+id/yes"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="match_parent"
+                android:background="@drawable/bg_btn_rightbottom_round"
+                android:gravity="center"
+                android:text="@string/a161"
+                android:textStyle="bold"
+                android:textColor="@color/color_ffffff"
+                android:textSize="13dp" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:src="@drawable/icon_app_update"/>
+</FrameLayout>
