@@ -7,6 +7,12 @@
         <item name="android:button">@drawable/checkbox_style2</item>
     </style>
 
+    <!--名字自定义-->
+    <style name="CheckBoxTheme">
+        <item name="colorAccent">@color/blue</item><!--选中颜色-->
+        <item name="colorControlNormal">@color/black_1</item><!--未选中颜色-->
+    </style>
+
 
     <style name="MyEditText">
         <item name="colorControlNormal">@android:color/darker_gray</item>

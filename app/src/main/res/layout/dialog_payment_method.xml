@@ -1,0 +1,254 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <!--    <TextView-->
+    <!--        android:layout_width="wrap_content"-->
+    <!--        android:layout_height="wrap_content"-->
+    <!--        android:layout_gravity="center"-->
+    <!--        android:layout_marginTop="10dp"-->
+    <!--        android:gravity="center"-->
+    <!--        android:text="@string/a299"-->
+    <!--        android:textColor="@color/color_1d1d1d"-->
+    <!--        android:textSize="17sp"-->
+    <!--        android:textStyle="bold" />-->
+
+<!--    <ScrollView-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_marginLeft="15dp"-->
+<!--        android:layout_marginTop="50dp"-->
+<!--        android:layout_marginRight="15dp"-->
+<!--        android:layout_marginBottom="30dp">-->
+
+        <LinearLayout
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp"
+                android:text="@string/a298"
+                android:textColor="@color/black_1"
+                android:textSize="17sp" />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="30dp"
+                android:orientation="horizontal">
+
+                <CheckBox
+                    android:id="@+id/cx_no"
+                    style="@style/Widget.AppCompat.CompoundButton.RadioButton"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="30dp"
+                    android:text="@string/a297"
+                    android:theme="@style/CheckBoxTheme" />
+
+                <CheckBox
+                    android:id="@+id/cx_yes"
+                    style="@style/Widget.AppCompat.CompoundButton.RadioButton"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="30dp"
+                    android:text="@string/a296"
+                    android:theme="@style/CheckBoxTheme" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/lin_InputType"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:visibility="gone">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="30dp"
+                    android:layout_marginRight="20dp"
+                    android:orientation="horizontal">
+
+                    <CheckBox
+                        android:id="@+id/cx_VF"
+                        style="@style/CustomCheckBoxTheme"
+                        android:layout_width="120dp"
+                        android:layout_height="42dp"
+                        android:paddingLeft="5dp"
+                        android:paddingRight="20dp"
+                        android:text="@string/a302" />
+
+                    <EditText
+                        android:id="@+id/et_number1"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginLeft="10dp"
+                        android:gravity="center"
+                        android:hint="@string/a293"
+                        android:inputType="number"
+                        android:maxLength="11"
+                        android:textColor="@color/color_1d1d1d"
+                        android:textColorHint="@color/black"
+                        android:textSize="14sp" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginRight="20dp"
+                    android:orientation="horizontal">
+
+                    <CheckBox
+                        android:id="@+id/cx_OG"
+                        style="@style/CustomCheckBoxTheme"
+                        android:layout_width="120dp"
+                        android:layout_height="42dp"
+                        android:paddingLeft="5dp"
+                        android:paddingRight="20dp"
+                        android:text="@string/a303" />
+
+                    <EditText
+                        android:id="@+id/et_number2"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginLeft="10dp"
+                        android:gravity="center"
+                        android:hint="@string/a293"
+                        android:inputType="number"
+                        android:maxLength="11"
+                        android:textColor="@color/color_1d1d1d"
+                        android:textColorHint="@color/black"
+                        android:textSize="14sp" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginRight="20dp"
+                    android:orientation="horizontal">
+
+                    <CheckBox
+                        android:id="@+id/cx_FW"
+                        style="@style/CustomCheckBoxTheme"
+                        android:layout_width="120dp"
+                        android:layout_height="42dp"
+                        android:paddingLeft="5dp"
+                        android:paddingRight="20dp"
+                        android:text="@string/a304" />
+
+                    <EditText
+                        android:id="@+id/et_number3"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginLeft="10dp"
+                        android:gravity="center"
+                        android:hint="@string/a293"
+                        android:inputType="number"
+                        android:maxLength="11"
+                        android:textColor="@color/color_1d1d1d"
+                        android:textColorHint="@color/black"
+                        android:textSize="14sp" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginRight="20dp"
+                    android:orientation="horizontal">
+
+                    <CheckBox
+                        android:id="@+id/cx_BW"
+                        style="@style/CustomCheckBoxTheme"
+                        android:layout_width="120dp"
+                        android:layout_height="42dp"
+                        android:paddingLeft="5dp"
+                        android:paddingRight="20dp"
+                        android:text="@string/a305" />
+
+                    <EditText
+                        android:id="@+id/et_number4"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginLeft="10dp"
+                        android:gravity="center"
+                        android:hint="@string/a293"
+                        android:inputType="number"
+                        android:maxLength="11"
+                        android:textColor="@color/color_1d1d1d"
+                        android:textColorHint="@color/black"
+                        android:textSize="14sp" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginRight="20dp"
+                    android:orientation="horizontal">
+
+                    <CheckBox
+                        android:id="@+id/cx_OTHER"
+                        style="@style/CustomCheckBoxTheme"
+                        android:layout_width="120dp"
+                        android:layout_height="42dp"
+                        android:paddingLeft="5dp"
+                        android:paddingRight="20dp"
+                        android:text="@string/a306" />
+
+                    <EditText
+                        android:id="@+id/et_number5"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginLeft="10dp"
+                        android:gravity="center"
+                        android:hint="@string/a293"
+                        android:textColor="@color/color_1d1d1d"
+                        android:textColorHint="@color/black"
+                        android:textSize="14sp" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <Button
+                android:id="@+id/bt_submit"
+                android:layout_width="170dp"
+                android:layout_height="45dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="30dp"
+                android:background="@drawable/shape_blue2"
+                android:text="@string/a295"
+                android:textColor="@color/white"
+                android:textSize="16sp"
+                android:visibility="gone" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="35dp"
+                android:layout_marginTop="32dp"
+                android:layout_marginRight="35dp"
+                android:layout_marginBottom="30dp"
+                android:text="@string/a294"
+                android:textColor="@color/black"
+                android:textSize="13sp" />
+        </LinearLayout>
+<!--    </ScrollView>-->
+
+</LinearLayout>

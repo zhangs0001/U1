@@ -199,12 +199,15 @@ public class RepayFragment extends BasePhFragment {
                     String msg = data.getMsg();
                     String walletQr = data.getWalletQr();
                     showPop(method, requestNo, msg, walletQr);
+                } else {
+                    ToastUtils.showLong(fawryBean.getMsg());
                 }
             }
 
             @Override
             public void onError(Throwable e) {
                 super.onError(e);
+                ToastUtils.showLong(R.string.error_request_fail);
                 closeLoadingDialog();
             }
         });

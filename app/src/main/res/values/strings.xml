@@ -1,7 +1,7 @@
 <resources xmlns:tools="http://schemas.android.com/tools" tools:ignore="MissingTranslation,StringEscaping">
-    <string name="facebook_app_id">167199308469032</string>
+    <string name="facebook_app_id">905281856809639</string>
     <string name="fb_login_protocol_scheme">fb167199308469032</string>
-    <string name="app_name">GoCash</string>
+    <string name="app_name">EGPCash</string>
     <string name="main">首页</string>
     <string name="mine">我的</string>
     <string name="loan">借款</string>
@@ -107,7 +107,7 @@
     <string name="branch_name">分行</string>
     <string name="branch_name_hint">请选择分行</string>
     <string name="bank_num">银行卡号</string>
-    <string name="register_title">注册GoCash账号</string>
+    <string name="register_title">注册EGPCash账号</string>
     <string name="your_phone_num_hint">您的手机号码</string>
     <string name="btn_submit_apply">提交申请</string>
     <string name="verify_bankname">银行名称是必填字段</string>
@@ -124,7 +124,7 @@
     <string name="pay_agency_name">机构名称</string>
     <string name="pay_agency_fee">Disbursement Handling Fee</string>
     <string name="pay_agency_hint">Choose offline cash pickup,handling fee will be deducted from your disbursement amount!</string>
-    <string name="verify_bankcardnum_china_bank">China Bank Saving is not supported, pls select another bank or offline cash pickup.</string>
+    <string name="verify_bankcardnum_china_bank">China Bank Saving is not supported, pls select an bank or offline cash pickup.</string>
     <string name="job_info_title">工作信息</string>
     <string name="loan_intent">贷款目的</string>
     <string name="loan_intent_hint">请选择贷款目的</string>
@@ -153,9 +153,9 @@
     <string name="relative_phone_hint">请选择亲属手机号</string>
     <string name="relationship">关系</string>
     <string name="relationship_hint">请选择关系</string>
-    <string name="permission_hint1">您好！GoCash需要安全地处理您的数据，以帮助您获得贷款资格。 请允许每个权限以便继续您的贷款申请。</string>
+    <string name="permission_hint1">您好！EGPCash需要安全地处理您的数据，以帮助您获得贷款资格。 请允许每个权限以便继续您的贷款申请。</string>
     <string name="permission_title_dialog">温馨提示</string>
-    <string name="permission_hint2">GoCash需要访问您的联系人和短信。我们的系统会通过处理这些信息，来了解您的财务历史记录并建立您的网络。未经您的许可，我们绝不会致电或发送短信给您的联系人。</string>
+    <string name="permission_hint2">EGPCash需要访问您的联系人和短信。我们的系统会通过处理这些信息，来了解您的财务历史记录并建立您的网络。未经您的许可，我们绝不会致电或发送短信给您的联系人。</string>
     <string name="verify_intent">贷款目的是必填字段</string>
     <string name="verify_profession">职业是必填字段</string>
     <string name="verify_workindustry">行业是必填字段</string>
@@ -181,7 +181,7 @@
     <string name="missing_border">边框缺失</string>
     <string name="focus_blur">对焦模糊</string>
     <string name="copy_photo">复印件拍照</string>
-    <string name="id_card_attention">GoCash视用户信息安全与隐私保护为自己的"生命线",我们会严格遵守用户隐私政策,确保用户信息安全</string>
+    <string name="id_card_attention">EGPCash视用户信息安全与隐私保护为自己的"生命线",我们会严格遵守用户隐私政策,确保用户信息安全</string>
     <string name="id_card_type_title">Document type</string>
     <string name="id_card_title2">Take a selfie while holding your ID</string>
     <string name="ump_title">Unified Multi-Purpose ID</string>
@@ -330,7 +330,7 @@
     <string name="apply_date_title">申请日期:</string>
     <string name="loan_term_title">借款期限:</string>
     <string name="order_status_title">申请状态:</string>
-    <string name="about_us_content">Gocash is an online product providing petty loans without mortgages. It focuses on helping young white-collar and blue-collar workers to meet their urgent needs in their daily life by providing a small loan of 1000 EGP to 20,000 EGP.Gocash is an online processed app, which eliminates the tedious manual applications and processes of traditional financial services. It hopes to provide a new mode of borrowing which is more convenient, flexible, simpler and faster.</string>
+    <string name="about_us_content">EGPCash is an online product providing petty loans without mortgages. It focuses on helping young white-collar and blue-collar workers to meet their urgent needs in their daily life by providing a small loan of 1000 EGP to 20,000 EGP.EGPCash is an online processed app, which eliminates the tedious manual applications and processes of traditional financial services. It hopes to provide a new mode of borrowing which is more convenient, flexible, simpler and faster.</string>
     <string name="contact_us">联系我们</string>
     <string name="contact_us_content">We want to continuously accomodateevery concerns , good commendation \nand inquiries, kindly emails us at : hr@gocashleg.com</string>
     <string name="join_us">加入我们</string>
@@ -417,15 +417,15 @@
     <string name="location_info_title">Location</string>
     <string name="phone_number_info_title">Phone number</string>
     <string name="location_info_content">We use your location, device and usage data for research purposes and to help us prevent fraud</string>
-    <string name="phone_number_info_content">Please allow GoCash to store your Phone number and installed application information on our servers for prevent fraud and verify your identity purpose. The security of your private information will be strictly protected and will not be disclosed to any third party</string>
+    <string name="phone_number_info_content">Please allow EGPCash to store your Phone number and installed application information on our servers for prevent fraud and verify your identity purpose. The security of your private information will be strictly protected and will not be disclosed to any third party</string>
     <string name="location_info_hint">Please accept our permissions to help us protect your information safely and securely. We will not sell your information.</string>
     <string name="contacts_info_title">Contacts</string>
-    <string name="contacts_info_content">GoCash would like to access your phone book and contact data to replace your input and speed up your application. The data will be encrypted and upload on our server. We will strictly keep your data confidential, and only use them to help us prevent fraud and determine your eligibility for credit . We only contact your chosen contact person to confirm your information when necessary.</string>
+    <string name="contacts_info_content">EGPCash would like to access your phone book and contact data to replace your input and speed up your application. The data will be encrypted and upload on our server. We will strictly keep your data confidential, and only use them to help us prevent fraud and determine your eligibility for credit . We only contact your chosen contact person to confirm your information when necessary.</string>
     <string name="contacts_info_hint">If you choose not to use this feature, you can disable our perimissions in your settings application. Please note this may result in us being unable to process your application.</string>
     <string name="camera_info_title">Camera</string>
     <string name="camera_info_content">Access devices used to take pictures and record videos.</string>
     <string name="camera_info_hint">If you choose not to use this feature, you can disable our perimissions in your settings application. Please note this may result in us being unable to process your application.</string>
-    <string name="policy_text">The information we collect will be uploaded to the server and used for loan review,please provide real information.By granting permissions you acknowledge that you have read and agreed on Privacy Policy &amp; Terms of Services</string>
+    <string name="policy_text">The information we collect will be uploaded to the server and used for loan review,please provide real information.By granting permissions you acknowledge that you have read and agreed on Privacy Policy ; Terms of Services</string>
     <string name="policy_agree">Terms of Services</string>
     <string name="policy_privacy">Privacy Policy</string>
     <string name="loan_activity_hint1">好消息，针对贷款两次以及以上用户，贷款最高10%的折扣；</string>
@@ -450,21 +450,21 @@
     <string name="work_card_hint">Note: Your information will be under strict protection, you might not be able to get the loan if you can‘t provide the authentic information.</string>
     <string name="virus_hint">Dear clients, in view of the COVID-19 situation, and in compliance with the government directives on Enhanced Community Quarantine, we will stop processing loan applications and suggest you re-apply after this outbreak of CPVID-19. Thanks for your understanding and wish you and your family stay safe and healthy.</string>
     <string name="login_facebook_hint">Unabled to link with Facebook. Please try again.</string>
-    <string name="repay_hint1">Repaying with GoCash has never been this easy! Choose among thousands of our partners such as 7Eleven, MLhuillier, True Money ,G-Cash, PayMaya and more! You may settle your loan with the following payment partners:</string>
+    <string name="repay_hint1">Repaying with EGPCash has never been this easy! Choose among thousands of our partners such as 7Eleven, MLhuillier, True Money ,G-Cash, PayMaya and more! You may settle your loan with the following payment partners:</string>
     <string name="repay_hint2">- Simple payment method! \n \n - Click get barcode button in our APP. Then, enter the amount you want to pay. \n \n - Go to the nearest 7/11 outlet.\n \n - Go to checkout counter and show cashier the barcode to process the payment.\n \n - Pay the amount and keep the official receipt for reference.</string>
-    <string name="repay_hint3" formatted="false">- Please have your Reference NO. And the amount to be settle ready. \n \n - Go to the nearest 7/11 outlet.\n \n- In the kiosk Machine, click the "Bills Payment" \n \n - Type Biller name:"SKYPAY" or "FASTPAY"; \n \n - Type in the needed details: *Contract Number (Reference NO.) *Mobile Number/Contact Number (Phone no. registered at GoCash) *Amount\n \n - Present the printed out payment details into the counter.\n \n - Pay the amount and keep the official receipt for reference.</string>
-    <string name="repay_hint4" formatted="false">- Open your CLIQQ app and check your balance. \n \n - Select "Loans”. Under "Loans", click "SKYPAY" or "FASTPAY".\n\n - Youll need to provide this details: *Contract Number ( Reference NO. ) *Mobile Number/Contact Number (Phone no. registered at GoCash) *Amount \n \n - Click "Confirm"</string>
-    <string name="repay_hint5" formatted="false">- Please have your Reference NO. and the amount to be settled ready. \n \n - Go to the nearest M Lhuillier stores.\n \n - Get a payment form and provide the needed details: *Compant name ：SKYPAY-API *Account Name (Your name) *Account number (Reference NO. ) *Call / Mobile No (Phone no. registered at GoCash) *Amount EGP\n \n - Present it to the counter. \n \n - Pay the amount and keep the official receipt for reference.</string>
-    <string name="repay_hint6" formatted="false">- Please have your Reference NO. and the amount to be settled ready. \n \n - Go to the nearest RD PAWNSHOP stores.\n \n - Get a payment form and provide the needed details: *Biller / Compant name ：SKYPAY-API *Customer Account NO. (Reference NO. ) *Amount EGP *Date *Customer Name &amp; Mobile No (Name &amp; Phone no. registered at GoCash)\n \n- Present it to the counter. \n \n - Pay the amount and keep the official receipt for reference.</string>
-    <string name="repay_hint7" formatted="false">- Open your GCash app and check your balance and make it enough for payment.\n \n - Select "Pay Bills">"Loans">"SKYPAY".\n \n - You\ll need to provide this details: *Contract Number ( Reference NO. ) *Mobile Number (Phone no. registered at GoCash) *Amount *Email\n \n- Submit the payment \n \n - Check your SMS to confirm payment is successful</string>
-    <string name="repay_hint8" formatted="false">- Open your PayMaya app and check your balance and make it enough for payment.\n \n - Select "Bills">"Loans">"SKYPAY".\n \n - You\ll need to provide this details: *Contract Number / Account Number ( Reference NO. ) *Amount *Mobile Number (Phone no. registered at GoCash)\n \n - Submit the payment - Check your balance or "View all" Recent Activities in the app to confirm payment is successful</string>
-    <string name="repay_hint9" formatted="false">- Please have your Reference NO. And the amount to be settled ready. \n \n - Go to the nearest true money center and tell cashier you will pay bills.\n \n - Tell cashier choose "Mag-Billspay">"Loans">"SKYPAY" on the transaction machine \n \n- Provide the needed details to cashier for type-in and check if all correct: *Contract Number ( Reference NO. ) *Custr\s Mobile no. (Phone no. registered at GoCash) *Amount\n \n - Get the printed out official receipt.\n \n - Pay the amount and keep the official receipt for reference.</string>
+    <string name="repay_hint3" formatted="false">- Please have your Reference NO. And the amount to be settle ready. \n \n - Go to the nearest 7/11 outlet.\n \n- In the kiosk Machine, click the "Bills Payment" \n \n - Type Biller name:"SKYPAY" or "FASTPAY"; \n \n - Type in the needed details: *Contract Number (Reference NO.) *Mobile Number/Contact Number (Phone no. registered at EGPCash) *Amount\n \n - Present the printed out payment details into the counter.\n \n - Pay the amount and keep the official receipt for reference.</string>
+    <string name="repay_hint4" formatted="false">- Open your CLIQQ app and check your balance. \n \n - Select "Loans”. Under "Loans", click "SKYPAY" or "FASTPAY".\n\n - Youll need to provide this details: *Contract Number ( Reference NO. ) *Mobile Number/Contact Number (Phone no. registered at EGPCash) *Amount \n \n - Click "Confirm"</string>
+    <string name="repay_hint5" formatted="false">- Please have your Reference NO. and the amount to be settled ready. \n \n - Go to the nearest M Lhuillier stores.\n \n - Get a payment form and provide the needed details: *Compant name ：SKYPAY-API *Account Name (Your name) *Account number (Reference NO. ) *Call / Mobile No (Phone no. registered at EGPCash) *Amount EGP\n \n - Present it to the counter. \n \n - Pay the amount and keep the official receipt for reference.</string>
+    <string name="repay_hint6" formatted="false">- Please have your Reference NO. and the amount to be settled ready. \n \n - Go to the nearest RD PAWNSHOP stores.\n \n - Get a payment form and provide the needed details: *Biller / Compant name ：SKYPAY-API *Customer Account NO. (Reference NO. ) *Amount EGP *Date *Customer Name ; Mobile No (Name ; Phone no. registered at EGPCash)\n \n- Present it to the counter. \n \n - Pay the amount and keep the official receipt for reference.</string>
+    <string name="repay_hint7" formatted="false">- Open your GCash app and check your balance and make it enough for payment.\n \n - Select "Pay Bills">"Loans">"SKYPAY".\n \n - You\ll need to provide this details: *Contract Number ( Reference NO. ) *Mobile Number (Phone no. registered at EGPCash) *Amount *Email\n \n- Submit the payment \n \n - Check your SMS to confirm payment is successful</string>
+    <string name="repay_hint8" formatted="false">- Open your PayMaya app and check your balance and make it enough for payment.\n \n - Select "Bills">"Loans">"SKYPAY".\n \n - You\ll need to provide this details: *Contract Number / Account Number ( Reference NO. ) *Amount *Mobile Number (Phone no. registered at EGPCash)\n \n - Submit the payment - Check your balance or "View all" Recent Activities in the app to confirm payment is successful</string>
+    <string name="repay_hint9" formatted="false">- Please have your Reference NO. And the amount to be settled ready. \n \n - Go to the nearest true money center and tell cashier you will pay bills.\n \n - Tell cashier choose "Mag-Billspay">"Loans">"SKYPAY" on the transaction machine \n \n- Provide the needed details to cashier for type-in and check if all correct: *Contract Number ( Reference NO. ) *Custr\s Mobile no. (Phone no. registered at EGPCash) *Amount\n \n - Get the printed out official receipt.\n \n - Pay the amount and keep the official receipt for reference.</string>
     <string name="repay_min_amount_hint">The minimal amount is EGP %s</string>
     <string name="repay_dragon_tip">You can settle the loan in any branches of the following DragonPay Payment Partners:</string>
-    <string name="repay_dragon_desc_1">Repaying with GoCash has never been this easy! Choose among thousands of our partners such as Skypay, 7Eleven, GCash, M Lhuillier, and more! You may settle your loan with the following payment partners: Please make sure to use the correct repayment code to avoid any discrepancies and keep your receipts for reference.</string>
+    <string name="repay_dragon_desc_1">Repaying with EGPCash has never been this easy! Choose among thousands of our partners such as Skypay, 7Eleven, GCash, M Lhuillier, and more! You may settle your loan with the following payment partners: Please make sure to use the correct repayment code to avoid any discrepancies and keep your receipts for reference.</string>
     <string name="repay_dragon_desc_2">Go to any Bayad Center Branch and tell the staff that you will be making a Bills Payment. You will be given a Transaction Form Slip to fill-up.\nProvide the needed details:\n•	Account name (Your Name):\n•	Present Address:\n•	Contact Number (Mobile Number):\n•	Biller: DRAGONPAY\n•	Date:\n•	Account Number (Repayment Code):\n•	Amount:</string>
     <string name="repay_dragon_desc_3">Go to any Cebuana Lhuillier Branch and tell the staff that you will be making a Bills Payment. You will be given a Transaction Form Slip to fill-up. \nProvide the needed details: \n• Sender (Your Name) \n• Receiver: DRAGONPAY \n• Control Number (Repayment Code): \n• Amount:</string>
-    <string name="repay_dragon_desc_4">Go to any MLhuillier Branch and tell the staff that you will be making a Bills Payment (not remittance). You will be given a Transaction Form Slip to fill-up. \nProvide the details needed: \n• Date: \n• Payment to: DRAGONPAY \n• Account Name (Your Name): \n• Account Number (Repayment Code) \n• Payors Name: GOCASH \n• Address: \n• Contact Number (Mobile Number):</string>
+    <string name="repay_dragon_desc_4">Go to any MLhuillier Branch and tell the staff that you will be making a Bills Payment (not remittance). You will be given a Transaction Form Slip to fill-up. \nProvide the details needed: \n• Date: \n• Payment to: DRAGONPAY \n• Account Name (Your Name): \n• Account Number (Repayment Code) \n• Payors Name: EGPCash \n• Address: \n• Contact Number (Mobile Number):</string>
     <string name="repay_dragon_desc_5">Go to any RD Pawnshop Branch and tell the staff that you will be making a Bills Payment (not remittance). You will be given a Transaction Form Slip to fill-up. \nProvide the needed details: \n• Company name: DRAGONPAY \n• Account Name (Your Name): \n• Account Number (Repayment Code): \n• Contact number (Mobile Number): \n• Amount:</string>
     <string name="repay_dragon_desc_6">Go to any 7/11 Branch or use the Cliqq App and choose the Bills Payment. \nProvide the needed details: \n• Reference Number (Repayment Code): \n• Contact Number (Mobile Number) \n• Amount</string>
     <string name="repay_dragon_desc_7">Use the GCASH App and choose Bills Payment under Dragon loans. \nProvide the needed details: \n• Reference Number (Repayment Code): \n• Contact Number (Mobile Number): \n• Amount: \n• Email:</string>
@@ -576,11 +576,11 @@
     <string name="a59"> Full Name </string>
     <string name="a60"> Middle Name </string>
     <string name="a61"> Last Name </string>
-    <string name="a62"> GoCash is owned/operated/utilized by GoCash.PH LENDING CORPORATION. </string>
+    <string name="a62"> EGPCash is owned/operated/utilized by EGPCash.PH LENDING CORPORATION. </string>
     <string name="a63"> Company Registration No.:CS201814908 Certificate of Authority No.2718 </string>
     <string name="a64"> Example </string>
     <string name="a65"> Live Face Identification </string>
-    <string name="a66"> GoCash is owned/operated/utilized by GoCash.PH LENDING CORPORATION. </string>
+    <string name="a66"> EGPCash is owned/operated/utilized by EGPCash.PH LENDING CORPORATION. </string>
     <string name="a67"> Company Registration No.:CS201814908 Certificate of Authority No.2718 </string>
     <string name="a68"> Step complete </string>
     <string name="a69"> Coupon amounts </string>
@@ -591,17 +591,17 @@
     <string name="a74"> Relative Contact Person 1 </string>
     <string name="a75"> Relative Contact Person 2 </string>
     <string name="a76"> Relative Contact Person 3 </string>
-    <string name="a77"> GoCash is owned/operated/utilized by GoCash.PH LENDING CORPORATION. </string>
+    <string name="a77"> EGPCash is owned/operated/utilized by EGPCash.PH LENDING CORPORATION. </string>
     <string name="a78"> Company Registration No.:CS201814908 Certificate of Authority No.2718 </string>
     <string name="a79"> Facebook link </string>
     <string name="a80"> https://www.facebook.com/ </string>
     <string name="a81"> Obtained your Facebook Account </string>
     <string name="a82"> Left 0 spin </string>
-    <string name="a83"> 1.Both regular and new customers can enjoy this event.\n\n2. Bonus is limited, first come, first claimed.\n\n3.Complete registration to get 1 spin chance, not late settlement to get 1 spin chance.\n\n4.All interpretation rights of the draw results reverse to GoCash. </string>
+    <string name="a83"> 1.Both regular and new customers can enjoy this event.\n\n2. Bonus is limited, first come, first claimed.\n\n3.Complete registration to get 1 spin chance, not late settlement to get 1 spin chance.\n\n4.All interpretation rights of the draw results reverse to EGPCash. </string>
     <string name="a84"> Image of company ID </string>
     <string name="a85"> Example </string>
     <string name="a86"> Request For Permission </string>
-    <string name="a87"> While using certain features in GoCash, you are required to enable the following permissions: </string>
+    <string name="a87"> While using certain features in EGPCash, you are required to enable the following permissions: </string>
     <string name="a88"> Disagree </string>
     <string name="a89"> Agree </string>
     <string name="a90"> Invite Friends\nGet Coupons </string>
@@ -627,7 +627,7 @@
     <string name="a110"> 6% discount on service fee </string>
     <string name="a111"> 8%-10% discount on service fee </string>
     <string name="a112"> How to advance </string>
-    <string name="a113"> GoCash reserves the right of final interpretation. </string>
+    <string name="a113"> EGPCash reserves the right of final interpretation. </string>
     <string name="a114"> Loan amount </string>
     <string name="a115"> Payment date </string>
     <string name="a116"> Payment amount </string>
@@ -727,7 +727,7 @@
     <string name="a210"> First Repayment </string>
     <string name="a211"> Second Repayment Date </string>
     <string name="a212"> Second Repayment </string>
-    <string name="a213"> GoCash is owned/operated/utilized by GoCash.PH LENDING CORPORATION. </string>
+    <string name="a213"> EGPCash is owned/operated/utilized by EGPCash.PH LENDING CORPORATION. </string>
     <string name="a214"> Company Registration No.:CS201814908 Certificate of Authority No.2718 </string>
     <string name="a215"> Upgrade Strategy </string>
     <string name="a216"> Add Contact </string>
@@ -775,7 +775,7 @@
     <string name="a258"> ONLINE BANKING PAYMENTS </string>
     <string name="a259"> LIST OF ONLINE BANKING FACILITIES </string>
     <string name="a260"> If you complete the repayment through the business account, please upload your repayment certificate; if you repay the loan via DragonPay, you dont need to upload anything. </string>
-    <string name="a261"> GoCash.PH LENDING CORPORATION COMPANY REGISTRATION NO. \nCS201814908 &amp; Certificate of Authority No.2718 GRANTED BY THE SECURITIES AND EXCHANGE </string>
+    <string name="a261"> EGPCash.PH LENDING CORPORATION COMPANY REGISTRATION NO. \nCS201814908 ; Certificate of Authority No.2718 GRANTED BY THE SECURITIES AND EXCHANGE </string>
     <string name="a262"> Date of Application </string>
     <string name="a263"> Loan Amount </string>
     <string name="a264"> First Repayment Date </string>
@@ -807,14 +807,26 @@
     <string name="a290"> the content can not be blank </string>
     <string name="a291">  </string>
     <string name="a292">  </string>
-    <string name="a293">  </string>
-    <string name="a294">  </string>
-    <string name="a295">  </string>
-    <string name="a296">  </string>
-    <string name="a297">  </string>
-    <string name="a298">  </string>
-    <string name="a299">  </string>
-    <string name="a300">  </string>
+
+
+    <string name="a293"> Phone number </string>
+    <string name="a294"> The more payment methods you submit, the higher loan amount you will get,and the higher the loan approval rate </string>
+    <string name="a295"> submit </string>
+    <string name="a296"> Yes </string>
+    <string name="a297"> No </string>
+    <string name="a298"> Do you have other payment methods? </string>
+    <string name="a299"> Payment Method </string>
+    <string name="a301"> Input your method </string>
+    <string name="a302">Vodafone</string>
+    <string name="a303">Orange</string>
+    <string name="a304">myFawry</string>
+    <string name="a305">Bank wallet</string>
+    <string name="a306">Other</string>
+    <string name="a307"> Please select at least one </string>
+    <string name="a308"> Please enter at least one item </string>
+
+
+    <string name="a300"> 1.Open your myFawry app .If you donot have this app, please download and finish register firstly. \n 2.Throw fawry pay tab on myFawry app. Enter the reference code,you can pay throw your myFawry wallet. </string>
 
     <string name="dialog_tv28">Please enter repayment amount</string>
     <string name="dialog_tv29">EGP</string>
@@ -825,7 +837,7 @@
 
     <string name="item_tv7">Reference Number：</string>
     <string name="item_tv8">Expiry date：</string>
-    <string name="item_tv9">*Note:Please complete your repayment before the expiry date</string>
+    <string name="item_tv9">*Note:Please complete your repayment before the expiry dateYou can pay at any FawryPay POS retail store</string>
     <string name="item_tv10">eWallet</string>
     <string name="item_tv11">Reference Number</string>
 

@@ -17,6 +17,7 @@ import androidx.core.widget.NestedScrollView;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
+import com.blankj.utilcode.util.ToastUtils;
 import com.chad.library.adapter.base.BaseQuickAdapter;
 import com.u1.gocashm.R;
 import com.u1.gocashm.adapter.BankCardListAdapter;
@@ -111,13 +112,18 @@ public class BankCardRepaymentActivity extends AppCompatActivity implements Base
                         @Override
                         public void onNext(AddBankCardModel addBankCardModel) {
                             super.onNext(addBankCardModel);
+                            if (!addBankCardModel.getCode().equals(CODE_SUCCESS)) {
+                                ToastUtils.showLong(addBankCardModel.getMsg());
+                                return;
+                            }
                             Log.e("zhangs", "onNext: 保存成功");
-                            initRepayMent(addBankCardModel.getId());
+                            initRepayMent(addBankCardModel.getData().getId());
                         }
 
                         @Override
                         public void onError(Throwable e) {
                             super.onError(e);
+                            ToastUtils.showLong(R.string.error_request_fail);
                         }
                     });
                 } else {
@@ -129,7 +135,7 @@ public class BankCardRepaymentActivity extends AppCompatActivity implements Base
         ivCancel.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                if (iconic == 2){
+                if (iconic == 2) {
                     iconic = 1;
                     btPAY.setText(R.string.addbankcard);
                     linInputBank.setVisibility(View.GONE);
@@ -174,6 +180,9 @@ public class BankCardRepaymentActivity extends AppCompatActivity implements Base
                         scrollBankList.setVisibility(View.GONE);
                     }
                     iconic = 3;
+                } else {
+                    ToastUtils.showLong(bankCardListModel.getMsg());
+                    return;
                 }
             }
 
@@ -181,6 +190,7 @@ public class BankCardRepaymentActivity extends AppCompatActivity implements Base
             public void onError(Throwable e) {
                 super.onError(e);
 //                closeLoadingDialog();
+                ToastUtils.showLong(R.string.error_request_fail);
             }
         });
     }
@@ -199,12 +209,17 @@ public class BankCardRepaymentActivity extends AppCompatActivity implements Base
 //                closeLoadingDialog();
                 Log.e("zhangs", "onNext: 还款成功");
                 finish();
+                if (!basePhModel.getCode().equals(CODE_SUCCESS)) {
+                    ToastUtils.showLong(basePhModel.getMsg());
+                    return;
+                }
             }
 
             @Override
             public void onError(Throwable e) {
                 super.onError(e);
 //                closeLoadingDialog();
+                ToastUtils.showLong(R.string.error_request_fail);
             }
         });
     }
@@ -231,8 +246,12 @@ public class BankCardRepaymentActivity extends AppCompatActivity implements Base
             @Override
             public void onNext(BasePhModel basePhModel) {
                 super.onNext(basePhModel);
+                if (!basePhModel.getCode().equals(CODE_SUCCESS)) {
+                    ToastUtils.showLong(basePhModel.getMsg());
+                    return;
+                }
                 initData();
-                if (iconic == 2){
+                if (iconic == 2) {
                     btPAY.setText(getString(R.string.a289) + amount + getString(R.string.dialog_tv29));
                     iconic = 3;
                 }
@@ -241,6 +260,7 @@ public class BankCardRepaymentActivity extends AppCompatActivity implements Base
             @Override
             public void onError(Throwable e) {
                 super.onError(e);
+                ToastUtils.showLong(R.string.error_request_fail);
             }
         });
     }

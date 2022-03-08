@@ -1139,5 +1139,17 @@ public class NetworkPhRequest {
                 .subscribe(subscriber);
     }
 
-
+    /**
+     * 绑定银行卡
+     * <p>
+     * //     * @param token
+     *
+     * @param subscriber
+     */
+    public static void BindingPayMent(ApplyReqPhModel applyReqPhModel, Subscriber<BasePhModel> subscriber) {
+        NetworkPh.getHttpServer().BindingPayMent(applyReqPhModel)
+                .subscribeOn(Schedulers.io())
+                .observeOn(AndroidSchedulers.mainThread())
+                .subscribe(subscriber);
+    }
 }

@@ -1,6 +1,7 @@
 package com.u1.gocashm.activity.loan;
 
 
+import android.app.Dialog;
 import android.content.Intent;
 import android.content.pm.PackageManager;
 import android.graphics.Bitmap;
@@ -19,8 +20,14 @@ import android.text.TextWatcher;
 import android.text.method.LinkMovementMethod;
 import android.text.style.ClickableSpan;
 import android.text.style.ForegroundColorSpan;
+import android.view.Gravity;
+import android.view.LayoutInflater;
 import android.view.MotionEvent;
 import android.view.View;
+import android.view.Window;
+import android.view.WindowManager;
+import android.widget.Button;
+import android.widget.CheckBox;
 import android.widget.EditText;
 import android.widget.ImageView;
 import android.widget.LinearLayout;
@@ -40,6 +47,8 @@ import com.bumptech.glide.Glide;
 import com.chad.library.adapter.base.BaseQuickAdapter;
 import com.facebook.appevents.AppEventsConstants;
 import com.facebook.appevents.AppEventsLogger;
+import com.google.gson.Gson;
+import com.u1.gocashm.model.request.ApplyReqPayMentTypeBody;
 import com.u1.uclibrary.idcardcamera.camera.PhCameraActivity;
 import com.u1.gocashm.R;
 import com.u1.gocashm.model.request.AppInfoReqModel;
@@ -153,8 +162,8 @@ public class PayInfoPhActivity extends IdentityInfoActivity {
     InputView inputAgencyFee;
     @BindView(R.id.user_agency_info_layout)
     LinearLayout userAgencyInfoLayout;
-/*    @BindView(R.id.rb_cash)
-    RadioButton rbCash;*/
+    /*    @BindView(R.id.rb_cash)
+        RadioButton rbCash;*/
     @BindView(R.id.rg_select_pay)
     RadioGroup rgSelectPay;
     @BindView(R.id.tv_agreement_hint)
@@ -236,6 +245,34 @@ public class PayInfoPhActivity extends IdentityInfoActivity {
         initBehavior();
     }
 
+    @Override
+    protected void onDestroy() {
+        MyManage.unregisterListener(sensorListener);
+        inputPhBankNum.inputClearFocus();
+        inputPhPassword.inputClearFocus();
+        inputClearFocus(etPhSmsCode);
+        BehaviorPhUtils.setDestroyModify(bfModel, "P06_C99");
+        inputChannelPhone.getBehaviorRecord().setNewValue(inputChannelPhone.getText());
+        uploadBehaviorRecords(inputPhBankName,
+                inputPhPassword,
+                inputAgencyName,
+                inputAgencyFee,
+                inputChannel,
+                inputChannelName,
+                inputChannelEmail,
+                selectFlag == TYPE_BANK ? inputPhBankNum : inputChannelPhone
+        );
+        savePayInfo();
+        if (null != timer) {
+            timer.cancel();
+        }
+        if (disposable != null && disposable.isDisposed()) {
+            disposable.dispose();
+        }
+
+        super.onDestroy();
+    }
+
     private void initData() {
         initAmount = LoanInfoPhUtils.getAmount();
         initTerm = LoanInfoPhUtils.getApplyTerm();
@@ -279,7 +316,8 @@ public class PayInfoPhActivity extends IdentityInfoActivity {
                     tvPhUserName.setText(userName);
                     //如果是首贷，则取手机号然后在前面增加0，显示给用户，如果是复贷，则按接口返回的显示
                     if (!TextUtils.isEmpty(userPhone)) {
-                        inputChannelPhone.setText(user.isReload() ? userPhone : "0" + userPhone);
+//                        inputChannelPhone.setText(user.isReload() ? userPhone : "0" + userPhone);
+                        inputChannelPhone.setText(userPhone);
                     }
                     inputChannelName.setText(userName);
                     inputChannelEmail.setText(email);
@@ -356,14 +394,14 @@ public class PayInfoPhActivity extends IdentityInfoActivity {
 //                    userBankInfoLayout.setVisibility(View.GONE);
 //                    channelInfoLayout.setVisibility(View.GONE);
 //                    selectFlag = TYPE_CASH;
-//                } else if (i == R.id.rb_other) {
-//                    payMethodBehavior.setNewValue("Other");
-//                    userAgencyInfoLayout.setVisibility(View.GONE);
-//                    userBankInfoLayout.setVisibility(View.GONE);
-//                    channelInfoLayout.setVisibility(View.VISIBLE);
-//                    userNameLayout.setVisibility(View.GONE);
-//                    selectFlag = TYPE_CHANNEL;
-//                }
+                else if (i == R.id.rb_other) {
+                    payMethodBehavior.setNewValue("Other");
+                    userAgencyInfoLayout.setVisibility(View.GONE);
+                    userBankInfoLayout.setVisibility(View.GONE);
+                    channelInfoLayout.setVisibility(View.VISIBLE);
+                    userNameLayout.setVisibility(View.GONE);
+                    selectFlag = TYPE_CHANNEL;
+                }
             }
         });
         rbBank.setChecked(true);
@@ -385,7 +423,7 @@ public class PayInfoPhActivity extends IdentityInfoActivity {
             @Override
             public void afterTextChanged(Editable s) {
                 if (!TextUtils.isEmpty(s) && !s.toString().startsWith("0")) {
-                    inputChannelPhone.setText("0" + s);
+                    inputChannelPhone.setText("" + s);
                     inputChannelPhone.getEt_content().setSelection(inputChannelPhone.getText().length());
                 }
             }
@@ -621,7 +659,10 @@ public class PayInfoPhActivity extends IdentityInfoActivity {
                 getCode();
                 break;
             case R.id.tv_submit:
-                submit();
+//                原始提交
+//                submit();
+//                提交延后
+                PaymentMethod();
                 break;
             case R.id.tv_example:
                 toWorkCardExample();
@@ -636,6 +677,256 @@ public class PayInfoPhActivity extends IdentityInfoActivity {
         inputPhBankNum.inputClearFocus();
         inputPhPassword.inputClearFocus();
         inputClearFocus(etPhSmsCode);
+    }
+
+    private void PaymentMethod() {
+        Dialog dialog = new Dialog(PayInfoPhActivity.this);
+        //填充对话框的布局
+        View inflate = LayoutInflater.from(PayInfoPhActivity.this).inflate(R.layout.dialog_payment_method, null);
+        //初始化控件
+        CheckBox cx_no = inflate.findViewById(R.id.cx_no);
+        CheckBox cx_yes = inflate.findViewById(R.id.cx_yes);
+        CheckBox cx_VF = inflate.findViewById(R.id.cx_VF);
+        CheckBox cx_OG = inflate.findViewById(R.id.cx_OG);
+        CheckBox cx_FW = inflate.findViewById(R.id.cx_FW);
+        CheckBox cx_BW = inflate.findViewById(R.id.cx_BW);
+        CheckBox cx_OTHER = inflate.findViewById(R.id.cx_OTHER);
+        EditText number1 = inflate.findViewById(R.id.et_number1);
+        EditText number2 = inflate.findViewById(R.id.et_number2);
+        EditText number3 = inflate.findViewById(R.id.et_number3);
+        EditText number4 = inflate.findViewById(R.id.et_number4);
+        EditText number5 = inflate.findViewById(R.id.et_number5);
+        Button bt_Submit = inflate.findViewById(R.id.bt_submit);
+        LinearLayout inputtype = inflate.findViewById(R.id.lin_InputType);
+
+        cx_no.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                cx_no.setChecked(true);
+                cx_yes.setChecked(false);
+                inputtype.setVisibility(View.GONE);
+                bt_Submit.setVisibility(View.VISIBLE);
+            }
+        });
+        cx_yes.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                cx_yes.setChecked(true);
+                cx_no.setChecked(false);
+                inputtype.setVisibility(View.VISIBLE);
+                bt_Submit.setVisibility(View.VISIBLE);
+            }
+        });
+        bt_Submit.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                String phone1 = number1.getText().toString();
+                String phone2 = number2.getText().toString();
+                String phone3 = number3.getText().toString();
+                String phone4 = number4.getText().toString();
+                String phone5 = number5.getText().toString();
+                if (cx_no.isChecked()) {
+                    submit();
+                } else {
+                    if (cx_VF.isChecked() || cx_OG.isChecked() || cx_FW.isChecked() || cx_BW.isChecked() || cx_OTHER.isChecked()) {
+                        if (!phone1.isEmpty() | !phone2.isEmpty() | !phone3.isEmpty() | !phone4.isEmpty() | !phone5.isEmpty()) {
+                            NewSubmit(phone1, phone2, phone3, phone4, phone5);
+                        } else {
+                            ToastUtils.showLong(getString(R.string.a308));
+                        }
+                    } else {
+                        ToastUtils.showLong(getString(R.string.a307));
+                    }
+                }
+            }
+        });
+        //将布局设置给Dialog
+        dialog.setContentView(inflate);
+        //获取当前Activity所在的窗体
+        Window dialogWindow = dialog.getWindow();
+        //设置Dialog从窗体底部弹出
+        dialogWindow.setGravity(Gravity.CENTER);
+        //设置Dialog宽高
+        dialogWindow.setLayout(WindowManager.LayoutParams.MATCH_PARENT, WindowManager.LayoutParams.WRAP_CONTENT);
+        //获得窗体的属性
+        WindowManager.LayoutParams lp = dialogWindow.getAttributes();
+        lp.y = 0;//设置Dialog距离底部的距离
+        //将属性设置给窗体
+        dialogWindow.setAttributes(lp);
+        dialog.show();//显示对话框
+    }
+
+    private void NewSubmit(String phone1, String phone2, String phone3, String phone4, String phone5) {
+        //点击按钮
+        BehaviorPhUtils.setClickModify(bfModel, "P06_C07_B_NEXT");
+//        String password = inputPhPassword.getText();
+        bankNamePh = inputPhBankName.getText();
+        String bankCardNum = inputPhBankNum.getText();
+//        String smsCode = etPhSmsCode.getText().toString();
+
+        if (selectFlag == TYPE_CASH) {
+            if (TextUtils.isEmpty(workCardPath)) {
+                showToast(getString(R.string.a9));
+                return;
+            }
+            if (TextUtils.isEmpty(agencyName)) {
+                inputAgencyName.setVerify(R.string.please_select);
+                return;
+            } else {
+                inputAgencyName.setVerify("");
+            }
+        } else if (selectFlag == TYPE_BANK) {
+            if (TextUtils.isEmpty(bankNamePh)) {
+                inputPhBankName.setVerify(R.string.verify_bankname);
+                return;
+            } else {
+                inputPhBankName.setVerify("");
+            }
+            if (TextUtils.isEmpty(bankCardNum)) {
+                inputPhBankNum.setVerify(R.string.verify_bankcardnum);
+                return;
+            } else {
+                inputPhBankNum.setVerify("");
+            }
+            if (checkBankCardNum(bankNamePh, bankCardNum)) {
+                return;
+            } else {
+                inputPhBankNum.setVerify("");
+            }
+        } else {
+            if (TextUtils.isEmpty(channelName)) {
+                inputChannel.setVerify(R.string.please_select);
+                return;
+            } else {
+                inputChannel.setVerify("");
+            }
+
+            if (TextUtils.isEmpty(inputChannelPhone.getText())) {
+                inputChannelPhone.setVerify(getString(R.string.a10));
+                return;
+            } else if (inputChannelPhone.getText().length() < 11) {
+                inputChannelPhone.setVerify(getString(R.string.a11));
+                return;
+            } else {
+                inputChannelPhone.setVerify("");
+            }
+        }
+//        if (!TokenUtils.TokenCheck(activity)) {
+//            if (!VerifyUtil.isValidPassword(password)) {
+//                inputPhPassword.setVerify(R.string.verify_password);
+//                return;
+//            } else {
+//                inputPhPassword.setVerify("");
+//            }
+//        }
+
+//        if (!checkboxAgreement.isChecked()) {
+//            tvAgreementHint.setVisibility(View.VISIBLE);
+//            return;
+//        }
+        BehaviorPhUtils.setSensorValue(bfModel, "P06_C20_SENSOR", sensorListener.getAnglex(), sensorListener.getAngley(), sensorListener.getAnglez());
+        final ApplyReqPhModel applyPh = new ApplyReqPhModel();
+//        applyPh.setApplyId(LoanInfoPhUtils.getApplyId());
+//        List<Integer> imageList = new ArrayList<>();
+        if (selectFlag == TYPE_CASH) {
+            applyPh.setInstitution_name(agencyName);
+            applyPh.setType("cash");
+//            applyPh.setOnlinePay("N");
+//            imageList.add(workCardImageId);
+//            applyPh.setImages(imageList);
+        } else if (selectFlag == TYPE_BANK) {
+            applyPh.setBank_code(bankCodePh);
+            applyPh.setBank_no(bankCardNum);
+            applyPh.setType("bank");
+        } else {
+            applyPh.setType("other");
+            String phone = inputChannelPhone.getText();
+            /*if (!phone.startsWith("0") && phone.length() == 10) {
+                phone = "0" + phone;
+            }*/
+            applyPh.setBank_code(phone);
+            applyPh.setChannel_name(channelName);
+        }
+//        applyPh.setPassword(password);
+//        applyPh.setTelephone(userPhone);
+//        applyPh.setCaptcha(smsCode);
+        applyPh.setToken(TokenUtils.getToken(activity));
+        applyPh.setStep_name("payInfo");
+        ApplyReqPayMentTypeBody applyReqPayMentTypeBody = new ApplyReqPayMentTypeBody();
+        if (!phone1.isEmpty()) {
+            applyReqPayMentTypeBody.setVodafone(phone1);
+        } else {
+            applyReqPayMentTypeBody.setVodafone("");
+        }
+        if (!phone2.isEmpty()) {
+            applyReqPayMentTypeBody.setOrange(phone2);
+        } else {
+            applyReqPayMentTypeBody.setOrange("");
+        }
+        if (!phone3.isEmpty()) {
+            applyReqPayMentTypeBody.setMyFawry(phone3);
+        } else {
+            applyReqPayMentTypeBody.setMyFawry("");
+        }
+        if (!phone4.isEmpty()) {
+            applyReqPayMentTypeBody.setBankWallet(phone4);
+        } else {
+            applyReqPayMentTypeBody.setBankWallet("");
+        }
+        if (!phone5.isEmpty()) {
+            applyReqPayMentTypeBody.setOther(phone5);
+        } else {
+            applyReqPayMentTypeBody.setOther("");
+        }
+        applyPh.setOther_payment(jsonbody(applyReqPayMentTypeBody));
+//        commit(applyPh);
+        pNextRecord = BehaviorPhUtils.setClickModifyV2(mBehaviorRecord, "P06_C_Submit", true);
+        if ("cash".equals(applyPh.getType())) {
+            commitCash(applyPh);
+            return;
+        }
+        NetworkPhRequest.BindingPayMent(applyPh, new PhSubscriber<BasePhModel>() {
+
+            @Override
+            public void onStart() {
+                super.onStart();
+                showLoadingDialog();
+            }
+
+            @Override
+            public void onNext(BasePhModel applyModel) {
+                super.onNext(applyModel);
+                closeLoadingDialog();
+                String code = applyModel.getCode();
+                pNextRecord.setEndTime();
+                if (CODE_SUCCESS.equals(code)) {
+//                    ApplyModel.ApplyBean body = applyModel.getData();
+                    Intent intent = new Intent(activity, ConfirmLoanActivity.class);
+//                    intent.putExtra(PhConstants.PRODUCT, body.getProduct());
+//                    intent.putExtra(PhConstants.APPLY_INFO, applyPh);
+                    NetworkPhRequest.getUserStep(applyPh, new PhSubscriber<>());
+                    AFEventUtil.afEvent(PhConstants.FaceBookEvent.EVENT_PAY_INFO_SIGN, activity, TokenUtils.getOrderId(activity));
+                    startActivity(intent);
+                    //BehaviorPhUtils.saveBehaviorReqModel(bfModel);
+                    finish();
+                }
+
+//                } else if (status != null && "128".equals(status.getCode())) {
+//                    ApplyModel.ApplyBean body = applyModel.getBody();
+//                    showModifyAmountDialog(body, true, applyPh);
+//                }
+                else {
+                    showToast(applyModel.getMsg());
+                }
+            }
+
+            @Override
+            public void onError(Throwable e) {
+                super.onError(e);
+                closeLoadingDialog();
+                showToast(R.string.error_request_fail);
+            }
+        });
     }
 
     private void selectChannel() {
@@ -1354,34 +1645,6 @@ public class PayInfoPhActivity extends IdentityInfoActivity {
     }
 
     @Override
-    protected void onDestroy() {
-        MyManage.unregisterListener(sensorListener);
-        inputPhBankNum.inputClearFocus();
-        inputPhPassword.inputClearFocus();
-        inputClearFocus(etPhSmsCode);
-        BehaviorPhUtils.setDestroyModify(bfModel, "P06_C99");
-        inputChannelPhone.getBehaviorRecord().setNewValue(inputChannelPhone.getText());
-        uploadBehaviorRecords(inputPhBankName,
-                inputPhPassword,
-                inputAgencyName,
-                inputAgencyFee,
-                inputChannel,
-                inputChannelName,
-                inputChannelEmail,
-                selectFlag == TYPE_BANK ? inputPhBankNum : inputChannelPhone
-        );
-        savePayInfo();
-        if (null != timer) {
-            timer.cancel();
-        }
-        if (disposable != null && disposable.isDisposed()) {
-            disposable.dispose();
-        }
-
-        super.onDestroy();
-    }
-
-    @Override
     public void onBackPressed() {
         showSurveyDialog();
     }
@@ -1425,4 +1688,12 @@ public class PayInfoPhActivity extends IdentityInfoActivity {
         });
         dialog.show(getSupportFragmentManager(), "1");
     }
+
+    /*
+     * 实体类转换JSON
+     * */
+    public String jsonbody(Object object) {
+        return new Gson().toJson(object, Object.class);
+    }
+
 }

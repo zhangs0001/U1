@@ -83,5 +83,20 @@ public class VersionPhModel extends AbstractBaseRespBean<Status, VersionPhModel.
         public void setHotUpdateable(boolean hotUpdateable) {
             this.hotUpdateable = hotUpdateable;
         }
+
+        @Override
+        public String toString() {
+            return "Version{" +
+                    "version='" + version + '\'' +
+                    ", updateable=" + updateable +
+                    ", forcible=" + forcible +
+                    ", title='" + title + '\'' +
+                    ", content='" + content + '\'' +
+                    ", hotRelativeVersion='" + hotRelativeVersion + '\'' +
+                    ", url='" + url + '\'' +
+                    ", hotUpdateable=" + hotUpdateable +
+                    '}';
+        }
     }
+
 }

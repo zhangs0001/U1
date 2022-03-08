@@ -27,7 +27,9 @@ android {
 //            正式环境
 //            https://saas.gocashleg.com
 //            APP61E73E9E135E3AEQ
-            buildConfigField "String", "END_POINT", '"https://saas.gocashleg.com"'
+//            buildConfigField "String", "END_POINT", '"https://saas.gocashleg.com"'
+//            buildConfigField "String", "END_POINT", '"https://api.egpcash.com"'
+            buildConfigField "String", "END_POINT", '"https://fin.egpcash.com"'
             buildConfigField "String", "APP_KEY", '"APP61E73E9E135E3AEQ"'
 
 
@@ -53,7 +55,9 @@ android {
 //        正式环境
 //        https://saas.gocashleg.com
 //        APP61E73E9E135E3AEQ
-            buildConfigField "String", "END_POINT", '"https://saas.gocashleg.com"'
+//            buildConfigField "String", "END_POINT", '"https://saas.gocashleg.com"'
+//            buildConfigField "String", "END_POINT", '"https://api.egpcash.com"'
+            buildConfigField "String", "END_POINT", '"https://fin.egpcash.com"'
             buildConfigField "String", "APP_KEY", '"APP61E73E9E135E3AEQ"'
 
 

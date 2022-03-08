@@ -1,10 +1,10 @@
 <resources xmlns:tools="http://schemas.android.com/tools" tools:ignore="MissingTranslation,StringEscaping,ExtraTranslation">
 
-    <string name="facebook_app_id">167199308469032</string>
+    <string name="facebook_app_id">905281856809639</string>
 
     <string name="fb_login_protocol_scheme">fb167199308469032</string>
 
-    <string name="app_name">GoCash</string>
+    <string name="app_name">EGPCash</string>
 
     <string name="main">Homepage</string>
 
@@ -137,7 +137,7 @@
 
     <string name="loan_success_hint">*Your loan application is approved, will be disbursed with 1–2 banking days</string>
 
-    <string name="loan_success_hint2">*If you have any concern, please give feedback through email: cs@upeso.ph or Facebook: Upeso Philippines.</string>
+    <string name="loan_success_hint2">*If you have any concern, please give feedback through email: cs@upeso.ph or Facebook: EGPCash Philippines.</string>
 
     <string name="loan_failed_hint">Your loan application is failed, please apply after %s days!</string>
 
@@ -167,7 +167,7 @@
 
     <string name="repay">Repayment</string>
 
-    <string name="loan_how_long">%1$dday</string>
+    <string name="loan_how_long">day</string>
 
     <string name="loan_how_much">EGP </string>
 
@@ -216,7 +216,7 @@
 
     <string name="bank_num">Bank Account No.</string>
 
-    <string name="register_title">Register Upeso Account</string>
+    <string name="register_title">Register EGPCash Account</string>
 
     <string name="your_phone_num_hint">Your mobile number</string>
 
@@ -311,12 +311,12 @@
 
     <string name="relationship_hint">Please select relationship</string>
 
-    <string name="permission_hint1">Hello！Upeso needs to safely process your data so that you are qualified for loan.
+    <string name="permission_hint1">Hello！EGPCash needs to safely process your data so that you are qualified for loan.
         please authorize for every step to continue your loan application.</string>
 
     <string name="permission_title_dialog">REMINDING</string>
 
-    <string name="permission_hint2">Upeso should be authorized for contact person and text message.
+    <string name="permission_hint2">EGPCash should be authorized for contact person and text message.
         We will process information for build your network with your financial record.
         Without your permission, we won\t reach any of your contact.</string>
 
@@ -359,7 +359,7 @@
 
     <string name="id_card_hint">Please take a clear, colored photo.</string>
 
-    <string name="id_card_attention">Upeso treat user information and privacy to great importance, we still strictly follow the privacy protection policy to make sure your information is safe</string>
+    <string name="id_card_attention">EGPCash treat user information and privacy to great importance, we still strictly follow the privacy protection policy to make sure your information is safe</string>
 
     <string name="id_card_type_title">Document Type</string>
 
@@ -697,7 +697,7 @@
         <string name="contact_us_content">If you have any concern during your usage, please contact our customer service.\nCS email：cs@upeso.ph</string>-->
 
     <!--关于我们-->
-    <string name="about_us_content">Gocash is an online product providing petty loans without mortgages. It focuses on helping young white-collar and blue-collar workers to meet their urgent needs in their daily life by providing a small loan of 1000 EGP to 20,000 EGP.Gocash is an online processed app, which eliminates the tedious manual applications and processes of traditional financial services. It hopes to provide a new mode of borrowing which is more convenient, flexible, simpler and faster.</string>
+    <string name="about_us_content">EGPCash is an online product providing petty loans without mortgages. It focuses on helping young white-collar and blue-collar workers to meet their urgent needs in their daily life by providing a small loan of 1000 EGP to 20,000 EGP.EGPCash is an online processed app, which eliminates the tedious manual applications and processes of traditional financial services. It hopes to provide a new mode of borrowing which is more convenient, flexible, simpler and faster.</string>
     <string name="contact_us">contact_us</string>
     <string name="contact_us_content">We want to continuously accomodateevery concerns , good commendation \nand inquiries, kindly emails us at : hr@gocashleg.com</string>
     <string name="join_us">Join Us</string>
@@ -925,11 +925,11 @@
     <string name="a59"> First Name </string>
     <string name="a60"> Middle Name </string>
     <string name="a61"> Last Name </string>
-    <string name="a62"> GoCash is owned/operated/utilized by GoCash.PH LENDING CORPORATION. </string>
+    <string name="a62"> EGPCash is owned/operated/utilized by EGPCash.PH LENDING CORPORATION. </string>
     <string name="a63"> Company Registration No.:CS201814908 Certificate of Authority No.2718 </string>
     <string name="a64"> Example </string>
     <string name="a65"> Live Face Identification </string>
-    <string name="a66"> GoCash is owned/operated/utilized by GoCash.PH LENDING CORPORATION. </string>
+    <string name="a66"> EGPCash is owned/operated/utilized by EGPCash.PH LENDING CORPORATION. </string>
     <string name="a67"> Company Registration No.:CS201814908 Certificate of Authority No.2718 </string>
     <string name="a68"> Step complete </string>
     <string name="a69"> Coupon amounts </string>
@@ -940,17 +940,17 @@
     <string name="a74"> Relative Contact Person 1 </string>
     <string name="a75"> Relative Contact Person 2 </string>
     <string name="a76"> Relative Contact Person 3 </string>
-    <string name="a77"> GoCash is owned/operated/utilized by GoCash.PH LENDING CORPORATION. </string>
+    <string name="a77"> EGPCash is owned/operated/utilized by EGPCash.PH LENDING CORPORATION. </string>
     <string name="a78"> Company Registration No.:CS201814908 Certificate of Authority No.2718 </string>
     <string name="a79"> Facebook link </string>
     <string name="a80"> https://www.facebook.com/ </string>
     <string name="a81"> Obtained your Facebook Account </string>
     <string name="a82"> Left 0 spin </string>
-    <string name="a83"> 1.Both regular and new customers can enjoy this event.\n\n2. Bonus is limited, first come, first claimed.\n\n3.Complete registration to get 1 spin chance, not late settlement to get 1 spin chance.\n\n4.All interpretation rights of the draw results reverse to GoCash. </string>
+    <string name="a83"> 1.Both regular and new customers can enjoy this event.\n\n2. Bonus is limited, first come, first claimed.\n\n3.Complete registration to get 1 spin chance, not late settlement to get 1 spin chance.\n\n4.All interpretation rights of the draw results reverse to EGPCash. </string>
     <string name="a84"> Image of company ID </string>
     <string name="a85"> Example </string>
     <string name="a86"> Request For Permission </string>
-    <string name="a87"> While using certain features in GoCash, you are required to enable the following permissions: </string>
+    <string name="a87"> While using certain features in EGPCash, you are required to enable the following permissions: </string>
     <string name="a88"> Disagree </string>
     <string name="a89"> Agree </string>
     <string name="a90"> Invite Friends\nGet Coupons </string>
@@ -976,7 +976,7 @@
     <string name="a110"> 6% discount on service fee </string>
     <string name="a111"> 8%-10% discount on service fee </string>
     <string name="a112"> How to advance </string>
-    <string name="a113"> GoCash reserves the right of final interpretation. </string>
+    <string name="a113"> EGPCash reserves the right of final interpretation. </string>
     <string name="a114"> Loan amount </string>
     <string name="a115"> Payment date </string>
     <string name="a116"> Payment amount </string>
@@ -1076,7 +1076,7 @@
     <string name="a210"> First Repayment </string>
     <string name="a211"> Second Repayment Date </string>
     <string name="a212"> Second Repayment </string>
-    <string name="a213"> GoCash is owned/operated/utilized by GoCash.PH LENDING CORPORATION. </string>
+    <string name="a213"> EGPCash is owned/operated/utilized by EGPCash.PH LENDING CORPORATION. </string>
     <string name="a214"> Company Registration No.:CS201814908 Certificate of Authority No.2718 </string>
     <string name="a215"> Upgrade Strategy </string>
     <string name="a216"> Add Contact </string>
@@ -1124,7 +1124,7 @@
     <string name="a258"> ONLINE BANKING PAYMENTS </string>
     <string name="a259"> LIST OF ONLINE BANKING FACILITIES </string>
     <string name="a260"> If you complete the repayment through the business account, please upload your repayment certificate; if you repay the loan via DragonPay, you dont need to upload anything. </string>
-    <string name="a261"> GoCash.PH LENDING CORPORATION COMPANY REGISTRATION NO. \nCS201814908 &amp; Certificate of Authority No.2718 GRANTED BY THE SECURITIES AND EXCHANGE </string>
+    <string name="a261"> EGPCash.PH LENDING CORPORATION COMPANY REGISTRATION NO. \nCS201814908 ; Certificate of Authority No.2718 GRANTED BY THE SECURITIES AND EXCHANGE </string>
     <string name="a262"> Date of Application </string>
     <string name="a263"> Loan Amount </string>
     <string name="a264"> First Repayment Date </string>
@@ -1156,26 +1156,36 @@
     <string name="a290"> يدفع </string>
     <string name="a291"> the content can not be blank </string>
     <string name="a292">  </string>
-    <string name="a293">  </string>
-    <string name="a294">  </string>
-    <string name="a295">  </string>
-    <string name="a296">  </string>
-    <string name="a297">  </string>
-    <string name="a298">  </string>
-    <string name="a299">  </string>
-    <string name="a300">  </string>
+
+
+    <string name="a293"> Phone number </string>
+    <string name="a294"> The more payment methods you submit, the higher loan amount you will get,and the higher the loan approval rate </string>
+    <string name="a295"> Submit </string>
+    <string name="a296"> Yes </string>
+    <string name="a297"> No </string>
+    <string name="a298"> Do you have other payment methods? </string>
+    <string name="a299"> Payment Method </string>
+    <string name="a301"> Input your method </string>
+    <string name="a302"> Vodafone </string>
+    <string name="a303"> Orange </string>
+    <string name="a304"> myFawry </string>
+    <string name="a305"> Bank wallet </string>
+    <string name="a306"> Other </string>
+    <string name="a307"> Please select at least one </string>
+    <string name="a308"> Please enter at least one item </string>
+    <string name="a300"> 1.Open your myFawry app .If you donot have this app, please download and finish register firstly. \n 2.Throw fawry pay tab on myFawry app. Enter the reference code,you can pay throw your myFawry wallet. </string>
 
     <string name="phone_info_title">Device</string>
     <string name="phone_info_content">Access your device information permission to get mobile network information and help us prevent fraud. </string>
     <string name="contacts_info_title">Contacts</string>
-    <string name="contacts_info_content"> GoCash wants to access your phone book and contacts data to replace your input and speed up your app. The data will be encrypted and uploaded to our server. We will keep your data strictly confidential, and will only use it to help us prevent fraud and determine your eligibility for credit. We will only contact your chosen contact person to confirm your information when necessary. </string>
+    <string name="contacts_info_content"> EGPCash wants to access your phone book and contacts data to replace your input and speed up your app. The data will be encrypted and uploaded to our server. We will keep your data strictly confidential, and will only use it to help us prevent fraud and determine your eligibility for credit. We will only contact your chosen contact person to confirm your information when necessary. </string>
     <string name="camera_info_title">Camera</string>
     <string name="camera_info_content"> Access devices used to take photos and record videos. </string>
     <string name="location_info_title">Location</string>
     <string name="location_info_content"> We use your location, device, and usage data for research purposes and to help us prevent fraud </string>
     <string name="phone_number_info_title"> phone number</string>
-    <string name="phone_number_info_content"> Please allow GoCash to store your phone number and installed app information on our servers to prevent fraud and verify the purpose of your identity. The security of your private information will be strictly protected and will not be disclosed to any third party </string>
-    <string name="policy_text"> The information we collect will be uploaded to the server and used for loan review, please provide real information. By granting the permissions, you acknowledge that you have read and agree to the Privacy Policy and amp; Terms of Services</string>
+    <string name="phone_number_info_content"> Please allow EGPCash to store your phone number and installed app information on our servers to prevent fraud and verify the purpose of your identity. The security of your private information will be strictly protected and will not be disclosed to any third party </string>
+    <string name="policy_text"> The information we collect will be uploaded to the server and used for loan review, please provide real information. By granting the permissions, you acknowledge that you have read and agree to the Privacy Policy and ; Terms of Services</string>
     <string name="checking_payment_status">Checking Payment Status >></string>
 
     <string name="dialog_tv28">Please enter repayment amount</string>
@@ -1187,7 +1197,7 @@
 
     <string name="item_tv7">Reference Number：</string>
     <string name="item_tv8">Expiry date：</string>
-    <string name="item_tv9">*Note:Please complete your repayment before the expiry date</string>
+    <string name="item_tv9">*Note:Please complete your repayment before the expiry dateYou can pay at any FawryPay POS retail store</string>
     <string name="item_tv10">eWallet</string>
     <string name="item_tv11">Reference Number</string>
 

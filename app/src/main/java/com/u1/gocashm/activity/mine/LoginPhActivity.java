@@ -3,6 +3,7 @@ package com.u1.gocashm.activity.mine;
 import android.Manifest;
 import android.annotation.SuppressLint;
 import android.app.Activity;
+import android.app.Dialog;
 import android.content.Intent;
 import android.content.pm.PackageManager;
 import android.net.Uri;
@@ -10,7 +11,13 @@ import android.os.Build;
 import android.os.Bundle;
 import android.text.TextUtils;
 import android.util.Log;
+import android.view.Gravity;
+import android.view.LayoutInflater;
 import android.view.View;
+import android.view.Window;
+import android.view.WindowManager;
+import android.widget.LinearLayout;
+import android.widget.TextView;
 
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
@@ -22,6 +29,7 @@ import com.blankj.utilcode.util.ToastUtils;
 import com.u1.gocashm.R;
 import com.u1.gocashm.activity.MainPhActivity;
 import com.u1.gocashm.activity.base.BasePhTitleBarActivity;
+import com.u1.gocashm.activity.loan.PayInfoPhActivity;
 import com.u1.gocashm.model.request.BehaviorRecord;
 import com.u1.gocashm.model.request.JpushReqModel;
 import com.u1.gocashm.model.request.LoginPhReqModel;
@@ -70,6 +78,14 @@ public class LoginPhActivity extends BasePhTitleBarActivity {
     InputView inputPhUserPhone;
     @BindView(R.id.input_password)
     InputView inputPhPassword;
+    @BindView(R.id.tv_forget_password)
+    TextView tvForgetPassword;
+    @BindView(R.id.tv_login)
+    TextView tvLogin;
+    @BindView(R.id.tv_to_main)
+    TextView tvToMain;
+    @BindView(R.id.lin)
+    LinearLayout lin;
 
     private Activity activity;
     private SharedPreferencesPhUtil preferencesPhUtil;
@@ -423,7 +439,8 @@ public class LoginPhActivity extends BasePhTitleBarActivity {
         }
     }
 
-    private boolean enable =true;
+    private boolean enable = true;
+
     @Override
     protected void onDestroy() {
         enable = false;
@@ -449,4 +466,7 @@ public class LoginPhActivity extends BasePhTitleBarActivity {
     protected String getRecordLeaveKey() {
         return "P00_Leave";
     }
+
+
+
 }

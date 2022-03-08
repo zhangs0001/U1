@@ -9,7 +9,8 @@ public class PhConstants {
    // public static final String HELP_URL = "https://u-peso.com/u-peso/help_ph_1.html";
     public static final String HELP_URL = "https://www.gocashleg.com/help.html";
 //    public static final String URL_POLICY = "https://u-peso.com/u-peso/privacypolicy.html";
-    public static final String URL_POLICY = "https://www.gocashleg.com/PrivacyPolicy.html";
+//    public static final String URL_POLICY = "https://www.gocashleg.com/PrivacyPolicy.html";
+    public static final String URL_POLICY = "https://www.egpcash.com/PrivacyPolicy.html";
     public static final String URL_CONSENT_FORM = "https://upeso.ph/Consent_form.html";
     public static final String URL_OFFICIAL = "https://upeso.ph/";
 
@@ -27,10 +28,8 @@ public class PhConstants {
     public static final String SOURCE_FIND = "SOURCE_FIND";
     public static final String SOURCE_MODIFY = "SOURCE_MODIFY";
 
-
     public static final String WEB_TITLE = "WEB_TITLE";
     public static final String WEB_URL = "WEB_URL";
-
 
     public final static String LOANINFOVIEW_AMOUNT = "loaninfoview_amount";
     public final static String LOANINFOVIEW_DATE = "loaninfoview_date";

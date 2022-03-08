@@ -501,4 +501,6 @@ public interface HttpServer {
     @POST(NetApi.URI_USE_BANKCARD_REPAYMENT)
     Observable<BasePhModel> useBankCardRepayMent(@Query("token") String token, @Query("id") int id, @Query("amount") String amount);
 
+    @POST(NetApi.URI_BINDING_PAYMENT)
+    Observable<BasePhModel> BindingPayMent(@Body ApplyReqPhModel applyReqPhModel);
 }

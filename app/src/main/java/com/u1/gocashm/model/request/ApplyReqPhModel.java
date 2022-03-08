@@ -104,6 +104,7 @@ public class ApplyReqPhModel implements Serializable {
     private String position;
     private String client_id;
     private String idCardImagePath;
+    private String other_payment;
 
     public String getBackPhotoImagePath() {
         return backPhotoImagePath;
@@ -127,6 +128,13 @@ public class ApplyReqPhModel implements Serializable {
     private String facebook_messager;
     private int it_service_need;
 
+    public String getOther_payment() {
+        return other_payment;
+    }
+
+    public void setOther_payment(String other_payment) {
+        this.other_payment = other_payment;
+    }
 
     public int getIt_service_need() {
         return it_service_need;

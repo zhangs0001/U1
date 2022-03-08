@@ -76,17 +76,17 @@
 <!--                        android:textColor="@color/black_1"-->
 <!--                        android:textSize="@dimen/textSize16" />-->
 
-<!--                    <RadioButton-->
-<!--                        android:id="@+id/rb_other"-->
-<!--                        android:layout_width="0dp"-->
-<!--                        android:layout_height="wrap_content"-->
-<!--                        android:layout_weight="1"-->
-<!--                        android:button="@null"-->
-<!--                        android:drawableLeft="@drawable/selector_pay"-->
-<!--                        android:drawablePadding="10dp"-->
-<!--                        android:text="Other"-->
-<!--                        android:textColor="@color/black_1"-->
-<!--                        android:textSize="@dimen/textSize16" />-->
+                    <RadioButton
+                        android:id="@+id/rb_other"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:button="@null"
+                        android:drawableLeft="@drawable/selector_pay"
+                        android:drawablePadding="10dp"
+                        android:text="Other"
+                        android:textColor="@color/black_1"
+                        android:textSize="@dimen/textSize16" />
                 </RadioGroup>
 
                 <LinearLayout

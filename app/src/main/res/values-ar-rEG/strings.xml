@@ -1,10 +1,10 @@
 <resources xmlns:tools="http://schemas.android.com/tools" tools:ignore="ExtraTranslation,DuplicateDefinition">
 
-    <string name="facebook_app_id"> 167199308469032 </string>
+    <string name="facebook_app_id">905281856809639</string>
 
     <string name="fb_login_protocol_scheme"> fb167199308469032 </string>
 
-    <string name="app_name"> GoCash </string>
+    <string name="app_name">EGPCash</string>
 
     <string name="main"> الصفحة الرئيسية </string>
 
@@ -135,7 +135,7 @@
 
     <string name="loan_success_hint"> * تمت الموافقة على طلب القرض الخاص بك ، وسيتم الصرف في غضون يوم إلى يومين من أيام البنوك </string>
 
-    <string name="loan_success_hint2"> * إذا كانت لديك أية مخاوف ، فيرجى تقديم ملاحظاتك عبر البريد الإلكتروني: cs@gocash.ph أو Facebook: GoCash Philippines. </string>
+    <string name="loan_success_hint2"> * إذا كانت لديك أية مخاوف ، فيرجى تقديم ملاحظاتك عبر البريد الإلكتروني: cs@gocash.ph أو Facebook: EGPCash Philippines. </string>
 
     <string name="loan_failed_hint"> فشل طلب القرض الخاص بك ، يرجى التقديم بعد٪ s يوم! </string>
 
@@ -214,7 +214,7 @@
 
     <string name="bank_num"> رقم الحساب المصرفي </string>
 
-    <string name="register_title"> تسجيل حساب GoCash </string>
+    <string name="register_title"> تسجيل حساب EGPCash </string>
 
     <string name="your_phone_num_hint"> رقم هاتفك المحمول </string>
 
@@ -308,11 +308,11 @@
 
     <string name="relationship_hint"> يرجى تحديد العلاقة </string>
 
-    <string name="allow_hint1"> مرحبًا！ تحتاج GoCash إلى معالجة بياناتك بأمان حتى تكون مؤهلاً للحصول على قرض. يرجى السماح لكل خطوة لمتابعة طلب القرض الخاص بك. </string>
+    <string name="allow_hint1"> مرحبًا！ تحتاج EGPCash إلى معالجة بياناتك بأمان حتى تكون مؤهلاً للحصول على قرض. يرجى السماح لكل خطوة لمتابعة طلب القرض الخاص بك. </string>
 
     <string name="allow_title_dialog"> تذكير </string>
 
-    <string name="allow_hint2"> يجب تفويض GoCash لشخص الاتصال والرسالة النصية. سنقوم بمعالجة المعلومات لبناء شبكتك مع سجلك المالي. بدون إذنك ، لن نصل إلى أي من جهات الاتصال الخاصة بك. </string>
+    <string name="allow_hint2"> يجب تفويض EGPCash لشخص الاتصال والرسالة النصية. سنقوم بمعالجة المعلومات لبناء شبكتك مع سجلك المالي. بدون إذنك ، لن نصل إلى أي من جهات الاتصال الخاصة بك. </string>
 
     <string name="verify_intent"> يجب إدخال غرض القرض </string>
 
@@ -353,7 +353,7 @@
 
     <string name="id_card_hint"> يرجى التقاط صورة ملونة واضحة. </string>
 
-    <string name="id_card_attention"> تعامل GoCash معلومات المستخدم والخصوصية بأهمية كبيرة ، وما زلنا نتبع سياسة حماية الخصوصية بدقة للتأكد من أن معلوماتك آمنة </string>
+    <string name="id_card_attention"> تعامل EGPCash معلومات المستخدم والخصوصية بأهمية كبيرة ، وما زلنا نتبع سياسة حماية الخصوصية بدقة للتأكد من أن معلوماتك آمنة </string>
 
     <string name="id_card_type_title"> نوع المستند </string>
 
@@ -682,16 +682,16 @@
     <!--reloan information-->
 
 
-    <!--    <string name="about_us_content">Need cash？ Find your online mobile wallet GoCash to get worriless loan. GoCash is a fast and convenient mobile loan tool, which only requires ID and installation of the app, then you can enjoy fast approved loan, provided by Fin-tech, repeatedly just at home, to satisfy the consuming needs whenever and wherever you want and to improve the life quality.</string>
+    <!--    <string name="about_us_content">Need cash？ Find your online mobile wallet EGPCash to get worriless loan. EGPCash is a fast and convenient mobile loan tool, which only requires ID and installation of the app, then you can enjoy fast approved loan, provided by Fin-tech, repeatedly just at home, to satisfy the consuming needs whenever and wherever you want and to improve the life quality.</string>
 
         <string name="contact_us">contact us</string>
 
-        <string name="contact_us_content">If you have any concern during your usage, please contact our customer service.\nCS email：cs@GoCash.ph</string>-->
+        <string name="contact_us_content">If you have any concern during your usage, please contact our customer service.\nCS email：cs@EGPCash.ph</string>-->
 
     <!--关于我们-->
-    <string name="about_us_content"> Gocash هو منتج عبر الإنترنت يقدم قروضًا صغيرة بدون قروض عقارية. يركز على مساعدة الشباب من ذوي الياقات البيضاء والعمال ذوي الياقات الزرقاء لتلبية احتياجاتهم الملحة في حياتهم اليومية من خلال تقديم قرض صغير من 1000 جنيه إلى 20000 جنيه.
+    <string name="about_us_content"> EGPCash هو منتج عبر الإنترنت يقدم قروضًا صغيرة بدون قروض عقارية. يركز على مساعدة الشباب من ذوي الياقات البيضاء والعمال ذوي الياقات الزرقاء لتلبية احتياجاتهم الملحة في حياتهم اليومية من خلال تقديم قرض صغير من 1000 جنيه إلى 20000 جنيه.
 
-Gocash هو تطبيق معالج عبر الإنترنت ، يلغي التطبيقات والعمليات اليدوية المملة للخدمات المالية التقليدية. وتأمل في توفير طريقة استعارة جديدة تكون أكثر ملاءمة ومرونة وأبسط وأسرع. </string>
+EGPCash هو تطبيق معالج عبر الإنترنت ، يلغي التطبيقات والعمليات اليدوية المملة للخدمات المالية التقليدية. وتأمل في توفير طريقة استعارة جديدة تكون أكثر ملاءمة ومرونة وأبسط وأسرع. </string>
     <string name="contact_us"> اتصل بنا </string>
     <string name="contact_us_content"> نريد أن نستوعب باستمرار
 كل هموم ، حسن الثناء \ n
@@ -924,11 +924,11 @@ Gocash هو تطبيق معالج عبر الإنترنت ، يلغي التطب
     <string name="a59"> الاسم الكامل </string>
     <string name="a60"> الاسم الأوسط </string>
     <string name="a61"> اسم العائلة </string>
-    <string name="a62"> ملكية / تشغيل / استخدام GoCash لشركة GoCash.PH LENDING CORPORATION. </string>
+    <string name="a62"> ملكية / تشغيل / استخدام EGPCash لشركة EGPCash.PH LENDING CORPORATION. </string>
     <string name="a63"> رقم تسجيل الشركة: CS201814908 رقم شهادة التفويض 2718 </string>
     <string name="a64"> مثال </string>
     <string name="a65"> تحديد الوجه المباشر </string>
-    <string name="a66"> ملكية / تشغيل / استخدام GoCash لشركة GoCash.PH LENDING CORPORATION. </string>
+    <string name="a66"> ملكية / تشغيل / استخدام EGPCash لشركة EGPCash.PH LENDING CORPORATION. </string>
     <string name="a67"> رقم تسجيل الشركة: CS201814908 رقم شهادة المرجع 2718 </string>
     <string name="a68"> اكتملت الخطوة </string>
     <string name="a69"> مبالغ القسيمة </string>
@@ -939,7 +939,7 @@ Gocash هو تطبيق معالج عبر الإنترنت ، يلغي التطب
     <string name="a74"> جهة الاتصال النسبية 1 </string>
     <string name="a75"> جهة الاتصال النسبية 2 </string>
     <string name="a76"> جهة الاتصال النسبية 3 </string>
-    <string name="a77"> ملكية / تشغيل / استخدام GoCash لشركة GoCash.PH LENDING CORPORATION. </string>
+    <string name="a77"> ملكية / تشغيل / استخدام EGPCash لشركة EGPCash.PH LENDING CORPORATION. </string>
     <string name="a78"> رقم تسجيل الشركة: CS201814908 رقم شهادة التفويض 2718 </string>
     <string name="a79"> رابط Facebook </string>
     <string name="a80"> https://www.facebook.com/ </string>
@@ -948,11 +948,11 @@ Gocash هو تطبيق معالج عبر الإنترنت ، يلغي التطب
     <string name="a83"> 1. يمكن لكل من العملاء العاديين والجدد الاستمتاع بهذا الحدث. \ n \ n
 2. المكافأة محدودة ، من يأتي أولاً ، يتم المطالبة بها أولاً. \ n \ n
 3. أكمل التسجيل للحصول على فرصة دوران واحدة ، وليس تسوية متأخرة للحصول على فرصة دوران واحدة. \ n \ n
-4. جميع حقوق تفسير نتائج القرعة تنعكس على GoCash. </string>
+4. جميع حقوق تفسير نتائج القرعة تنعكس على EGPCash. </string>
     <string name="a84"> صورة رقم تعريف الشركة </string>
     <string name="a85"> مثال </string>
     <string name="a86"> طلب إذن </string>
-    <string name="a87"> أثناء استخدام ميزات معينة في GoCash ، يلزمك تمكين الأذونات التالية: </string>
+    <string name="a87"> أثناء استخدام ميزات معينة في EGPCash ، يلزمك تمكين الأذونات التالية: </string>
     <string name="a88"> غير موافق </string>
     <string name="a89"> أوافق </string>
     <string name="a90"> دعوة الأصدقاء \ n احصل على كوبونات </string>
@@ -978,7 +978,7 @@ Gocash هو تطبيق معالج عبر الإنترنت ، يلغي التطب
     <string name="a110"> خصم 6٪ على رسوم الخدمة </string>
     <string name="a111"> خصم 8٪ -10٪ على رسوم الخدمة </string>
     <string name="a112"> كيفية التقدم </string>
-    <string name="a113"> تحتفظ GoCash بحق التفسير النهائي. </string>
+    <string name="a113"> تحتفظ EGPCash بحق التفسير النهائي. </string>
     <string name="a114"> مبلغ القرض </string>
     <string name="a115"> تاريخ الدفع </string>
     <string name="a116"> مبلغ الدفعة </string>
@@ -1036,9 +1036,9 @@ Gocash هو تطبيق معالج عبر الإنترنت ، يلغي التطب
     <string name="a168"> يمكنك استعارة </string>
     <string name="a169"> 2000 جنيه مصري </string>
     <string name="a170"> 50000 جنيه مصري </string>
-    <string name="a171"> الحد الأقصى \ n المبلغ القابل للقرض </string>
+    <string name="a171"> الحد الأقصى \n المبلغ القابل للقرض </string>
     <string name="a172"> 50000 جنيه مصري </string>
-    <string name="a173"> السداد \ n المدة </string>
+    <string name="a173"> السداد \n المدة </string>
     <string name="a174"> حتى 120 يومًا </string>
     <string name="a175"> مثال: </string>
     <string name="a176"> مبلغ القرض: </string>
@@ -1078,7 +1078,7 @@ Gocash هو تطبيق معالج عبر الإنترنت ، يلغي التطب
     <string name="a210"> أول دفعة </string>
     <string name="a211"> تاريخ السداد الثاني </string>
     <string name="a212"> السداد الثاني </string>
-    <string name="a213"> ملكية / تشغيل / استخدام GoCash لشركة GoCash.PH LENDING CORPORATION. </string>
+    <string name="a213"> ملكية / تشغيل / استخدام EGPCash لشركة EGPCash.PH LENDING CORPORATION. </string>
     <string name="a214"> رقم تسجيل الشركة: CS201814908 رقم شهادة المرجع 2718 </string>
     <string name="a215"> إستراتيجية الترقية </string>
     <string name="a216"> إضافة جهة اتصال </string>
@@ -1126,7 +1126,7 @@ Gocash هو تطبيق معالج عبر الإنترنت ، يلغي التطب
     <string name="a258"> المدفوعات المصرفية عبر الإنترنت </string>
     <string name="a259"> قائمة التسهيلات المصرفية عبر الإنترنت </string>
     <string name="a260"> إذا أكملت السداد من خلال حساب الشركة ، فيرجى تحميل شهادة السداد الخاصة بك ؛ وإذا قمت بسداد القرض عبر DragonPay ، فلن تحتاج إلى تحميل أي شيء. </string>
-    <string name="a261"> GoCash.PH LENDING CORPORATION COMPANY رقم تسجيل الشركة \ nCS201814908  و amp؛ شهادة التفويض رقم 2718 الممنوحة من قبل الأوراق المالية والصرف </string>
+    <string name="a261"> EGPCash.PH LENDING CORPORATION COMPANY رقم تسجيل الشركة \ nCS201814908  و ؛ شهادة التفويض رقم 2718 الممنوحة من قبل الأوراق المالية والصرف </string>
     <string name="a262"> تاريخ تقديم الطلب </string>
     <string name="a263"> مبلغ القرض </string>
     <string name="a264"> تاريخ أول سداد </string>
@@ -1158,28 +1158,36 @@ Gocash هو تطبيق معالج عبر الإنترنت ، يلغي التطب
     <string name="a290">  </string>
     <string name="a291">  </string>
     <string name="a292">  </string>
-    <string name="a293">  </string>
-    <string name="a294">  </string>
-    <string name="a295">  </string>
-    <string name="a296">  </string>
-    <string name="a297">  </string>
-    <string name="a298">  </string>
-    <string name="a299">  </string>
-    <string name="a300">  </string>
+    <string name="a293"> رقم الهاتف </string>
+    <string name="a294"> كلما زاد عدد طرق الدفع التي ترسلها ، زاد مبلغ القرض الذي ستحصل عليه ، وزاد معدل الموافقة على القرض </string>
+    <string name="a295"> إرسال </string>
+    <string name="a296"> نعم </string>
+    <string name="a297"> لا </string>
+    <string name="a298"> هل لديك طرق دفع أخرى؟ </string>
+    <string name="a299"> طريقة الدفع </string>
+    <string name="a301"> أدخل طريقتك </string>
+    <string name="a302"> Vodafone </string>
+    <string name="a303"> Orange </string>
+    <string name="a304"> myFawry </string>
+    <string name="a305"> Bank wallet </string>
+    <string name="a306"> Other </string>
+    <string name="a307"> الرجاء تحديد واحد على الأقل </string>
+    <string name="a308"> الرجاء إدخال عنصر واحد على الأقل </string>
+    <string name="a300"> 1- افتح تطبيق myFawry الخاص بك ، إذا لم يكن لديك هذا التطبيق ، فيرجى تنزيله وإنهاء التسجيل أولاً. \ n 2. طرح علامة تبويب fawry pay في تطبيق myFawry. أدخل الرمز المرجعي ، يمكنك الدفع عبر محفظة myFawry الخاصة بك. </string>
 
     <string name="phone_info_title"> الجهاز </string>
     <string name="phone_info_content"> قم بالوصول إلى إذن معلومات جهازك للحصول على معلومات شبكة الجوال ومساعدتنا في منع الاحتيال. </string>
     <string name="contacts_info_title"> جهات الاتصال </string>
-    <string name="contacts_info_content"> يريد GoCash الوصول إلى دفتر هاتفك وبيانات جهات الاتصال لاستبدال إدخالك وتسريع تطبيقك. سيتم تشفير البيانات وتحميلها على خادمنا. سنحافظ على سرية بياناتك تمامًا ، ولن نستخدمها إلا لمساعدتنا في منع الاحتيال وتحديد أهليتك للحصول على الائتمان. سنتصل فقط بشخص الاتصال الذي اخترته لتأكيد معلوماتك عند الضرورة. </string>
+    <string name="contacts_info_content"> يريد EGPCash الوصول إلى دفتر هاتفك وبيانات جهات الاتصال لاستبدال إدخالك وتسريع تطبيقك. سيتم تشفير البيانات وتحميلها على خادمنا. سنحافظ على سرية بياناتك تمامًا ، ولن نستخدمها إلا لمساعدتنا في منع الاحتيال وتحديد أهليتك للحصول على الائتمان. سنتصل فقط بشخص الاتصال الذي اخترته لتأكيد معلوماتك عند الضرورة. </string>
     <string name="camera_info_title"> الكاميرا </string>
     <string name="camera_info_content"> قم بالوصول إلى الأجهزة المستخدمة لالتقاط الصور وتسجيل مقاطع الفيديو. </string>
     <string name="location_info_title"> الموقع </string>
     <string name="location_info_content"> نستخدم بيانات موقعك وجهازك واستخدامك لأغراض البحث ولمساعدتنا في منع الاحتيال </string>
     <string name="phone_number_info_title"> رقم الهاتف </string>
-    <string name="phone_number_info_content"> يُرجى السماح لـ GoCash بتخزين رقم هاتفك ومعلومات التطبيق المثبتة على خوادمنا لمنع الاحتيال والتحقق من الغرض من هويتك. ستتم حماية أمان معلوماتك الخاصة بشكل صارم ولن يتم الكشف عنها لأي طرف ثالث </string>
+    <string name="phone_number_info_content"> يُرجى السماح لـ EGPCash بتخزين رقم هاتفك ومعلومات التطبيق المثبتة على خوادمنا لمنع الاحتيال والتحقق من الغرض من هويتك. ستتم حماية أمان معلوماتك الخاصة بشكل صارم ولن يتم الكشف عنها لأي طرف ثالث </string>
     <string name="checking_payment_status">التحقق من حالة الدفع >></string>
-    <!--    <string name="policy_text"> سيتم تحميل المعلومات التي نجمعها إلى الخادم واستخدامها لمراجعة القرض ، يرجى تقديم معلومات حقيقية. بمنح الأذونات ، فإنك تقر بأنك قد قرأت ووافقت على سياسة الخصوصية و amp ؛ شروط الخدمات </string>-->
-    <!--    <string name="contacts_info_content"> ترغب GoCash في الوصول إلى دفتر هاتفك وبيانات جهات الاتصال لاستبدال إدخالك وتسريع تطبيقك. سيتم تشفير البيانات وتحميلها على خادمنا. سنحافظ على سرية بياناتك بشكل صارم ، ولن نستخدمها إلا لمساعدتنا في منع الاحتيال وتحديد أهليتك للحصول على الائتمان. نحن نتصل فقط بشخص الاتصال الذي اخترته لتأكيد معلوماتك عند الضرورة. </string>-->
+    <!--    <string name="policy_text"> سيتم تحميل المعلومات التي نجمعها إلى الخادم واستخدامها لمراجعة القرض ، يرجى تقديم معلومات حقيقية. بمنح الأذونات ، فإنك تقر بأنك قد قرأت ووافقت على سياسة الخصوصية و  ؛ شروط الخدمات </string>-->
+    <!--    <string name="contacts_info_content"> ترغب EGPCash في الوصول إلى دفتر هاتفك وبيانات جهات الاتصال لاستبدال إدخالك وتسريع تطبيقك. سيتم تشفير البيانات وتحميلها على خادمنا. سنحافظ على سرية بياناتك بشكل صارم ، ولن نستخدمها إلا لمساعدتنا في منع الاحتيال وتحديد أهليتك للحصول على الائتمان. نحن نتصل فقط بشخص الاتصال الذي اخترته لتأكيد معلوماتك عند الضرورة. </string>-->
 
     <string name="dialog_tv28">الرجاء إدخال مبلغ السداد</string>
     <string name="dialog_tv29">جنيه مصري</string>
@@ -1190,7 +1198,7 @@ Gocash هو تطبيق معالج عبر الإنترنت ، يلغي التطب
 
     <string name="item_tv7">رقم المرجع:</string>
     <string name="item_tv8">تاريخ الانتهاء:</string>
-    <string name="item_tv9">* ملاحظة: يرجى استكمال السداد قبل تاريخ انتهاء الصلاحية</string>
+    <string name="item_tv9">* ملاحظة: يرجى إكمال السداد قبل تاريخ انتهاء الصلاحية يمكنك الدفع في أي متجر بيع بالتجزئة FawryPay POS</string>
     <string name="item_tv10">المحفظة الإلكترونية</string>
     <string name="item_tv11">رقم المرجع</string>
     <string name="payment_date">تاريخ الدفع:</string>

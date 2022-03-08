@@ -8,6 +8,7 @@ import android.os.Message;
 
 import androidx.annotation.Nullable;
 import androidx.fragment.app.FragmentActivity;
+
 import cn.jpush.android.api.JPushInterface;
 
 import android.util.Log;
@@ -93,10 +94,12 @@ public class UserGuideActivity extends BasePhActivity {
             public void onNext(VersionPhModel versionPhModel) {
                 super.onNext(versionPhModel);
                 String code = versionPhModel.getCode();
-                if ( CODE_SUCCESS.equals(code)) {
+                if (CODE_SUCCESS.equals(code)) {
                     final VersionPhModel.Version body = versionPhModel.getData();
-                    String versionName = BuildConfig.VERSION_NAME;
-                    if (body != null && !versionName.equals(body.getVersion())) {
+                    Log.e(TAG, "onNext: " + body.toString());
+                    int net_versionName = Integer.parseInt(body.getVersion().replace(".", ""));
+                    int local_versionName = Integer.parseInt(BuildConfig.VERSION_NAME.replace(".", ""));
+                    if (body != null && local_versionName < net_versionName) {
                         if (updateDialog != null) {
                             try {
                                 updateDialog.dismiss();

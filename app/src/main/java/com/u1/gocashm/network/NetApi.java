@@ -308,5 +308,7 @@ public final class NetApi {
     //使用银行卡还款
     public static final String URI_USE_BANKCARD_REPAYMENT = "/app/repay/use-bank";
 
+    //    绑定支付
+    public static final String URI_BINDING_PAYMENT = "/app/payment/create";
 
 }
